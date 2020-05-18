@@ -1,0 +1,47 @@
+{
+    "@context": {
+      "plex": "https://w3id.org/fair/plex",
+      "bpmn": "http://dkm.fbk.eu/index.php/BPMN2_Ontology#",
+      "dc": "http://purl.org/dc/terms/",
+      "dcat":"http://www.w3.org/ns/dcat#",
+      "dul": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+      "edam": "http://edamontology.org/",
+      "fabio":"http://purl.org/spar/fabio/",
+      "mls":"http://www.w3.org/ns/mls#",
+      "opmw":"http://www.opmw.org/ontology/",
+      "owl":"http://www.w3.org/2002/07/owl#",
+      "p-plan": "http://purl.org/net/p-plan#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "pwo": "http://purl.org/spar/pwo#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "reprod": "https://w3id.org/reproduceme#",
+      "schema": "http://schema.org/",
+      "sh": "http://www.w3.org/ns/shacl#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+  "@type":"p-plan:Plan",
+  "@id":"http://plex.org/workflow_recipe_curried_chicken",
+  "dc:description":"Recipe Workflow for Curried Chicken",
+  "pwo:hasFirstStep":{
+  "@type":"bpmn:ManualTask",
+    "@id":"http://plex.org/step_preheat_oven",
+    "dc:description":"Preheat an oven to 350 degrees F (175 degrees C).",
+  	"dul:precedes":{
+  		"@type":"bpmn:ManualTask",
+  		"@id":"http://plex.org/step_arrange_chicken_pieces",
+  		"dc:description":"Arrange the chicken pieces in a single layer in a 9x13-inch baking dish. Season the chicken liberally with salt, pepper, and the paprika; set aside.",
+  		"dul:precedes":{
+  			"@type":"bpmn:ManualTask",
+  			"@id":"http://plex.org/step_melt_butter",
+  			"dc:description":"Melt the butter in a skillet over medium heat. Add the apple and onion to the melted butter, season with the curry powder, and cook and stir until the apple and onion are tender, 7 to 10 minutes. Stir the mushroom soup and half-and-half into the mixture until completely combined; spoon over the chicken pieces.",
+  			"dul:precedes": {
+  				"@type":"bpmn:ManualTask",
+  				"@id":"http://plex.org/step_bake_in_oven",
+  					"dc:description":"Bake in the preheated oven until no longer pink at the bone and the juices run clear, about 75 minutes.  An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 180 degrees F (82 degrees C)."
+  				}
+  			}
+  		}
+  }
+}
