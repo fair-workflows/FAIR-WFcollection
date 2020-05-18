@@ -1,0 +1,232 @@
+{
+    "@context": {
+      "plex": "https://w3id.org/fair/plex",
+      "bpmn": "http://dkm.fbk.eu/index.php/BPMN2_Ontology#",
+      "dc": "http://purl.org/dc/terms/",
+      "dcat":"http://www.w3.org/ns/dcat#",
+      "dul": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+      "edam": "http://edamontology.org/",
+      "fabio":"http://purl.org/spar/fabio/",
+      "mls":"http://www.w3.org/ns/mls#",
+      "opmw":"http://www.opmw.org/ontology/",
+      "owl":"http://www.w3.org/2002/07/owl#",
+      "p-plan": "http://purl.org/net/p-plan#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "pwo": "http://purl.org/spar/pwo#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "reprod":	"https://w3id.org/reproduceme#",
+      "schema":	"http://schema.org/",
+      "sh":	"http://www.w3.org/ns/shacl#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+
+ "@type":"p-plan:Plan",
+        "@id":"https://protocolexchange.researchsquare.com/article/pex-835/v2",
+        "description":"We describe a rapid and sensitive labeling of single-stranded DNA for sequencing (KAS-seq), based on a kethoxal-guanine reaction.",
+
+
+        "p-plan:isStepOfPlan": [
+            {
+            "@type":"p-plan:Step",
+            "@id": "http://plex.org/step_1",
+            "rdf:value": "KAS-seq with mammalian cell cultures"
+            },
+        {
+            "@type":"p-plan:Step",
+            "@id": "http://plex.org/step_2",
+            "rdf:value": "KAS-seq with mouse liver"
+            },
+        {
+            "@type":"p-plan:Step",
+            "@id": "http://plex.org/step_3",
+            "rdf:value": "Low-input KAS-seq"
+            }
+        ],
+        
+        "pwo:hasFirstStep": [
+        {
+            "@type":"bpmn:ManualTask",
+              "@id":"http://plex.org/manualTask1_from_step1",
+              "description":"Prepare 500 mM N3-kethoxal stock solution using DMSO. Then prepare the labeling medium by diluting the N3-kethoxal solution into pre-warmed (37 ˚C) cell culture medium to a final concentration of 5 mM. It is critical to pre-warm the medium to facilitate N3-kethoxal dissolution.",
+                "dul:precedes":{
+                    "@type":"bpmn:ManualTask",
+                    "@id":"http://plex.org/manualTask2_from_step1",
+                    "description":"Incubate 1-5 million cells in the labeling medium for 10 min at 37 ˚C. For adhesive cells, apply the labeling medium to the cell culture directly in dishes and incubate cells for 10 min at 37 ˚C. For suspension cells, suspend cells in the labeling medium and incubate them for 10 min at 37 ˚C.",
+                    "dul:precedes":{
+                        "@type":"bpmn:ManualTask",
+                        "@id":"http://plex.org/manualTask3_from_step1",
+                        "description":"Harvest cells after the incubation. Isolate total DNA from cells by using PureLink genomic DNA mini kit (Thermo K182001). Elute DNA by using 50 µL 25 mM K3BO3 (pH 7.0).",
+                        "dul:precedes":{
+                            "@type":"bpmn:ManualTask",
+                            "@id":"http://plex.org/manualTask4_from_step1",
+                            "description":"Prepare the click reaction mixture as the follows: 2 µg total DNA diluted in 85µL of 25 mM K3BO3 (pH 7.0), 10 µL 10× PBS, 5 µL 20 mM DBCO-PEG4-biotin (DMSO solution, Sigma 760749). Incubate the mixture at 37 ˚C for 1.5 h with shaking at 500 rpm to facilitate the “click” reaction.",
+                            "dul:precedes":{
+                                "@type":"bpmn:ManualTask",
+                                "@id":"http://plex.org/manualTask5_from_step1",
+                                "description":"Add 5 µL RNase A (Thermo 12091039) to the reaction mixture. Incubate the mixture at 37 ˚C for 15 min with shaking at 500 rpm.",
+                                "dul:precedes":{
+                                    "@type":"bpmn:ManualTask",
+                                    "@id":"http://plex.org/manualTask6_from_step1",
+                                    "description":"Purify DNA from the reaction mixture by DNA Clean & Concentrator kit (Zymo D4013). Elute DNA by using 50 µL 25 mM K3BO3 (pH 7.0).",
+                                    "dul:precedes":{
+                                        "@type":"bpmn:ManualTask",
+                                        "@id":"http://plex.org/manualTask7_from_step1",
+                                        "description":"Dilute 1 µg biotinylated DNA in 100 µL 25 mM K3BO3 (pH 7.0). Fragment the DNA by sonication using Bioruptor Pico under 30s-on /30s-off setting for 30 cycles. The size of fragmented DNA ranges from 150-350 bp.",
+                                        "dul:precedes":{
+                                            "@type":"bpmn:ManualTask",
+                                            "@id":"http://plex.org/manualTask8_from_step1",
+                                            "description":"Save 5 µL of the fragmented DNA as input. Use the remaining 95 µL for enrichment.",
+                                            "dul:precedes":{
+                                                "@type":"bpmn:ManualTask",
+                                                "@id":"http://plex.org/manualTask9_from_step1",
+                                                "description":"Wash 10 µL Dynabeads Myone Streptavidin C1 (Thermo 65001) 3 times with 50 µL 1× binding and wash buffer (5 mM Tris-HCl pH 7.4, 0.5 mM EDTA, 1 M NaCl, 0.05% Tween-20). Re-suspend pre-washed beads in 95 µL 2× binding and wash buffer (10 mM Tris-HCl pH 7.4, 1 mM EDTA, 2 M NaCl, 0.1% Tween-20).",
+                                                "dul:precedes":{
+                                                    "@type":"bpmn:ManualTask",
+                                                    "@id":"http://plex.org/manualTask10_from_step1",
+                                                    "description":"Mix the beads with 95 µL fragmented DNA from step 8. Incubate the mixture at room temperature for 15 min with gentle rotation. After incubation, place the mixture on a magnetic rack to remove the supernatant and wash beads 5 times with 100 µL 1× binding and wash buffer.",
+                                                    "dul:precedes":{
+                                                        "@type":"bpmn:ManualTask",
+                                                        "@id":"http://plex.org/manualTask11_from_step1",
+                                                        "description":"Re-suspend the beads in 15 µL nuclease-free water and heat it at 95 ˚C for 10 min to elute enriched DNA. Then put the mixture on a magnetic rack, and transfer the supernatant to a new labeled tube.",
+                                                        "dul:precedes":{
+                                                            "@type":"bpmn:ManualTask",
+                                                            "@id":"http://plex.org/manualTask12_from_step1",
+                                                            "description":"In parallel with the previous step, heat the saved input at 95 ˚C for 10 min. Then, put both the input and the eluted samples on ice immediately.",
+                                                            "dul:precedes":{
+                                                                "@type":"bpmn:ManualTask",
+                                                                "@id":"http://plex.org/manualTask13_from_step1",
+                                                                "description":"Perform library construction by using the Accel-NGS Methyl-seq DNA library kit (Swift 30024). Perform PCR amplification for 7-8 cycles for the input samples and 12-14 cycles for the enriched samples. The library size should range from 200-500 bp.",
+                                                                "dul:precedes":{
+                                                                    "@type":"bpmn:ManualTask",
+                                                                    "@id":"http://plex.org/manualTask14_from_step1",
+                                                                    "description":"Sequence libraries on Illumina platforms by using single-end mode, aiming to get 30 million reads per sample. DNAs can be stored at -20 ˚C at the noted stop points if needed."
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "@type":"bpmn:ManualTask",
+                "@id":"http://plex.org/manualTask1_from_step2",
+                "description":"Homogenize mouse liver tissue to a cell suspension in ice-cold PBS by using a dounce homogenizer or a pellet pestle.",
+                  "dul:precedes":{
+                      "@type":"bpmn:ManualTask",
+                      "@id":"http://plex.org/manualTask2_from_step2",
+                      "description":"Spin the cell suspension at 100 g for 15 seconds to sediment and remove potential large tissue pieces at the bottom of the tube.",
+                      "dul:precedes":{
+                          "@type":"bpmn:ManualTask",
+                          "@id":"http://plex.org/manualTask3_from_step2",
+                          "description":"Spin the cell suspension at 800 g for 5 min. Remove the supernatant and save the cell pellet at the bottom of the tube for labeling.",
+                          "dul:precedes":{
+                            "@type":"bpmn:ManualTask",
+                            "@id":"http://plex.org/manualTask4_from_step2",
+                            "description":"Suspend 1-5 million cells in the labeling medium for 10 min at 37 ˚C (refer to step 1 in the protocol for mammalian cell cultures for labeling medium preparation).",
+                            "dul:precedes":{
+                                "@type":"bpmn:ManualTask",
+                                "@id":"http://plex.org/manualTask5_from_step2",
+                                "description":"Isolate total DNA from cells by using PureLink genomic DNA mini kit (Thermo K182001). Elute DNA by using 50 µL 25 mM K3BO3 (pH 7.0). Perform Biotinylation and purification, Enrichment of N3-kethoxal-modified DNA, Library preparation and sequencing according to the protocol for mammalian cell cultures."
+                                
+                            }   
+                        }
+                    }
+                }
+            },
+            {
+                "@type":"bpmn:ManualTask",
+                "@id":"http://plex.org/manualTask1_from_step3",
+                "description":"Label 1,000, 5,000, or 10,000 cells according to the protocol for bulk mammalian cell cultures.",
+                  "dul:precedes":{
+                      "@type":"bpmn:ManualTask",
+                      "@id":"http://plex.org/manualTask2_from_step3",
+                      "description":"Isolate DNA from cells by using the Quick-DNA Microprep Plus kit (Zymo D4074). Elute DNA by using 43 µL 25 mM K3BO3 (pH 7.0).",
+                      "dul:precedes":{
+                          "@type":"bpmn:ManualTask",
+                          "@id":"http://plex.org/manualTask3_from_step3",
+                          "description":"Prepare the click reaction mixture as follows: 42.5 µL DNA in 25 mM K3BO3 (pH 7.0), 5 µL 10× PBS, 2.5 µL 20 mM DBCO-PEG4-biotin (DMSO solution, Sigma 760749). Incubate the mixture at 37 ˚C for 1.5 h with shaking at 500 rpm to facilitate the “click” reaction.",
+                          "dul:precedes":{
+                            "@type":"bpmn:ManualTask",
+                            "@id":"http://plex.org/manualTask4_from_step3",
+                            "description":"Add 2.5 µL RNase A (Thermo 12091039) to the reaction mixture. Incubate the mixture at 37 ˚C for 5 min.",
+                            "dul:precedes":{
+                                "@type":"bpmn:ManualTask",
+                                "@id":"http://plex.org/manualTask5_from_step3",
+                                "description":"Purify DNA from the reaction mixture by DNA Clean & Concentrator kit (Zymo D4013). Elute DNA by using 25 µL 25 mM K3BO3 (pH 7.0).",
+                                "dul:precedes":{
+                                    "@type":"bpmn:ManualTask",
+                                    "@id":"http://plex.org/manualTask6_from_step3",
+                                    "description":"Perform tagmentation on biotinylated DNA by using Tagmentation DNA Enzyme (Illumina 15027865). For 1,000 cells, 23.5 µL DNA was mixed with 1.5 µL enzyme and 25 µL Tagmentation DNA Buffer (Illumina 15027866). For 5,000 cells, 23 µL DNA was mixed with 2 µL enzyme and 25 µL Tagmentation DNA Buffer. For 10,000 cells, 20 µL DNA was mixed with 5 µL enzyme and 25 µL Tagmentation DNA Buffer.",
+                                    "dul:precedes":{
+                                        "@type":"bpmn:ManualTask",
+                                        "@id":"http://plex.org/manualTask7_from_step3",
+                                        "description":"Incubate the tagmentation mixture at 37 ˚C for 30 min with shaking at 500 rpm.",
+                                        "dul:precedes":{
+                                            "@type":"bpmn:ManualTask",
+                                            "@id":"http://plex.org/manualTask8_from_step3",
+                                            "description":"Purify DNA from the reaction mixture by DNA Clean & Concentrator kit (Zymo D4013). Elute DNA by using 55 µL 25 mM K3BO3 (pH 7.0).",
+                                            "dul:precedes":{
+                                                "@type":"bpmn:ManualTask",
+                                                "@id":"http://plex.org/manualTask9_from_step3",
+                                                "description":"Save 5 µL of the tagmented DNA as input. Use the remaining 50 µL for enrichment.",
+                                                "dul:precedes":{
+                                                    "@type":"bpmn:ManualTask",
+                                                    "@id":"http://plex.org/manualTask10_from_step3",
+                                                    "description":"Wash 5 µL Dynabeads Myone Streptavidin C1 (Thermo 65001) 3 times with 25 µL 1× binding and wash buffer (5 mM Tris-HCl pH 7.4, 0.5 mM EDTA, 1 M NaCl, 0.05% Tween-20). Re-suspend pre-washed beads in 50 µL 2× binding and wash buffer (10 mM Tris-HCl pH 7.4, 1 mM EDTA, 2 M NaCl, 0.1% Tween-20).",
+                                                    "dul:precedes":{
+                                                        "@type":"bpmn:ManualTask",
+                                                        "@id":"http://plex.org/manualTask11_from_step3",
+                                                        "description":"Mix the beads with 50 µL fragmented DNA from step 9. Incubated the mixture at room temperature for 15 min with gentle rotation. After incubation, place the mixture on a magnetic rack to remove the supernatant and wash beads 5 times with 100 µL 1× binding and wash buffer.",
+                                                        "dul:precedes":{
+                                                            "@type":"bpmn:ManualTask",
+                                                            "@id":"http://plex.org/manualTask12_from_step3",
+                                                            "description":"Adjust the volume of input to 20 µL by adding 15 µL nuclease-free water to the 5 µL input saved in step 9. Re-suspend the washed beads in 20 µL nuclease-free water.",
+                                                            "dul:precedes":{
+                                                                "@type":"bpmn:ManualTask",
+                                                                "@id":"http://plex.org/manualTask13_from_step3",
+                                                                "description":"Prepare the PCR reaction mix as follows: 20 µL input DNA or beads suspension, 2.5 µL i5 index primer (Illumina 20027213), 2.5 µL i7 index primer (Illumina 20027213), 25 µL NEBNext Ultra II Q5 Master Mix (NEB M0544S).",
+                                                                "dul:precedes":{
+                                                                    "@type":"bpmn:ManualTask",
+                                                                    "@id":"http://plex.org/manualTask14_from_step3",
+                                                                    "description":"Perform PCR reaction in a thermocycler as follows: 1 cycle: 5 min 72 ˚C, 10 min  95 ˚C; 15 cycles: 10 sec 98 ˚C, 30 sec 60 ˚C, 1 min 72 ˚C",
+                                                                    "dul:precedes":{
+                                                                        "@type":"bpmn:ManualTask",
+                                                                        "@id":"http://plex.org/manualTask15_from_step3",
+                                                                        "description":"Remove the beads from the enriched samples by using a magnetic rack. Purify the library by using MinElute PCR purification kit (Qiagen 28004). The library size should range from 200-600 bp.",
+                                                                        "dul:precedes":{
+                                                                            "@type":"bpmn:ManualTask",
+                                                                            "@id":"http://plex.org/manualTask16_from_step3",
+                                                                            "description":"Sequence libraries on Illumina platforms by using single-end mode with 30 million reads per sample."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                     }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        } 
+       
+
+        
+        
+        
+        

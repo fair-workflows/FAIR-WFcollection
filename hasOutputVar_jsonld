@@ -1,0 +1,43 @@
+{
+    "@context": {
+      "plex": "https://w3id.org/fair/plex",
+      "bpmn": "http://dkm.fbk.eu/index.php/BPMN2_Ontology#",
+      "dc": "http://purl.org/dc/terms/",
+      "dcat":"http://www.w3.org/ns/dcat#",
+      "dul": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+      "edam": "http://edamontology.org/",
+      "fabio":"http://purl.org/spar/fabio/",
+      "mls":"http://www.w3.org/ns/mls#",
+      "opmw":"http://www.opmw.org/ontology/",
+      "owl":"http://www.w3.org/2002/07/owl#",
+      "p-plan": "http://purl.org/net/p-plan#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "pwo": "http://purl.org/spar/pwo#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "reprod":	"https://w3id.org/reproduceme#",
+      "schema":	"http://schema.org/",
+      "sh":	"http://www.w3.org/ns/shacl#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "Thesaurus": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+
+    },
+
+ "@type":"p-plan:Plan",
+        "@id":"https://protocolexchange.researchsquare.com/article/pex-835/v2",
+        "description":"We describe a rapid and sensitive labeling of single-stranded DNA for sequencing (KAS-seq), based on a kethoxal-guanine reaction.",
+
+
+"p-plan:hasOutputVar": [
+            {
+            "@type": "Variable",
+            "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C111311",
+            "rdf:value": "single-stranded DNA"
+            }
+        ]
+    }
+
+
+
+

@@ -1,0 +1,200 @@
+{
+    "@context": {
+      "plex": "https://w3id.org/fair/plex",
+      "bpmn": "http://dkm.fbk.eu/index.php/BPMN2_Ontology#",
+      "dc": "http://purl.org/dc/terms/",
+      "dcat":"http://www.w3.org/ns/dcat#",
+      "dul": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+      "edam": "http://edamontology.org/",
+      "fabio":"http://purl.org/spar/fabio/",
+      "mls":"http://www.w3.org/ns/mls#",
+      "opmw":"http://www.opmw.org/ontology/",
+      "owl":"http://www.w3.org/2002/07/owl#",
+      "p-plan": "http://purl.org/net/p-plan#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "pwo": "http://purl.org/spar/pwo#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "reprod":	"https://w3id.org/reproduceme#",
+      "schema":	"http://schema.org/",
+      "sh":	"http://www.w3.org/ns/shacl#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "Thesaurus": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#",
+      "sp": "http://purl.org/net/SMARTprotocol#",
+      "bao": "http://www.bioassayontology.org/bao/bao_complete.owl",
+      "iobc": "http://purl.jp/bio/4/ontology/iobc#",
+      "mco": "http://purl.obolibrary.org/obo/mco.owl",
+      "obi": "http://purl.obolibrary.org/obo/OBI_",
+      "cseo": "http://scai.fraunhofer.de/CSEO#",
+      "sct": "http://snomed.info/id/"
+    },
+
+ "@type":"p-plan:Plan",
+        "@id":"https://protocolexchange.researchsquare.com/article/pex-835/v2",
+        "description":"We describe a rapid and sensitive labeling of single-stranded DNA for sequencing (KAS-seq), based on a kethoxal-guanine reaction.",
+
+
+"p-plan:hasInputVar": [
+    {
+    "@type": "p-plan:Variable",
+    "@id": "http://purl.org/net/SMARTprotocol#CulturedMammalianCell",
+    "rdf:value": "mammalian cell cultures"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22515",
+    "rdf:value": "mouse liver"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://www.bioassayontology.org/bao#BAO_0000118",
+    "rdf:value": "DMSO"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_1",
+    "rdf:value": "DBCO-PEG4-biotin"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/21611007",
+    "rdf:value": "Boric acid"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/34763001",
+    "rdf:value": "Potassium hydroxide"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://www.bioassayontology.org/bao#BAO_0001038",
+    "rdf:value": "Tween-20"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://purl.org/net/SMARTprotocol#PhosphateBufferedSaline",
+    "rdf:value": "Phosphate buffered saline"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_2",
+    "rdf:value": "Phosphate buffered saline, 10x"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_3",
+    "rdf:value": "1 M Tris-HCl buffer"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://purl.obolibrary.org/obo/MCO_0000775",
+    "rdf:value": "5 M sodium chloride solution"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_4",
+    "rdf:value": "0.5 M EDTA solution"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://purl.jp/bio/4/id/200906008106327847",
+    "rdf:value": "RNase A"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_5",
+    "rdf:value": "Dynabeads Myone Streptavidin C1"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_6",
+    "rdf:value": "PureLink genomic DNA mini kit"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_7",
+    "rdf:value": "Quick-DNA Microprep Plus kit"
+    },        
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_8",
+    "rdf:value": "MinElute PCR purification kit"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_9",
+    "rdf:value": "DNA Clean & Concentrator kit"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_10",
+    "rdf:value": "Tagmentation DNA Enzyme"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_11",
+    "rdf:value": "Tagmentation DNA Buffer"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_12",
+    "rdf:value": "i5 index primer"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_13",
+    "rdf:value": "i7 index primer"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_14",
+    "rdf:value": "NEBNext Ultra II Q5 Master Mix"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_15",
+    "rdf:value": "Accel-NGS Methyl-seq DNA library kit"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_16",
+    "rdf:value": "1.5 mL tube"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://scai.fraunhofer.de/CSEO#CSEO_00001602",
+    "rdf:value": "Nanodrop"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://purl.obolibrary.org/obo/OBI_0400106",
+    "rdf:value": "Centrifuge" 
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_17",
+    "rdf:value": "Themomixer" 
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://purl.obolibrary.org/obo/OBI_0400116",
+    "rdf:value": "Thermo cycler"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_18",
+    "rdf:value": "DynaMag-PCR Magnet"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_19",
+    "rdf:value": "Bioruptor Pico"
+    },
+{
+    "@type": "p-plan:Variable",
+    "@id": "http://plex.org/var_20",
+    "rdf:value": "0.65 mL Bioruptor Micotubes"
+    }
+]
+}
