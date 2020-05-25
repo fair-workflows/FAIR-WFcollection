@@ -1,0 +1,335 @@
+{
+  "@graph" : [ {
+    "@id" : "https://orcid.org/0000-0001-7769-4272",
+    "@type" : "ns3:Person",
+    "mbox" : "mailto:remzi.celebi@gmail.com",
+    "name" : "Remzi Celebi"
+  }, {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl",
+    "@type" : [ "cwl:Workflow", "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Workflow" ],
+    "creator" : "https://orcid.org/0000-0001-7769-4272",
+    "hasInputVar" : [ "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#api_key", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#drugbank_mapping", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#xml_path", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#coding", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#abs_path" ],
+    "hasOutputVar" : [ "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#cleaned_data", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotated_with_doid", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#labels_withDBID" ],
+    "hasFirstStep" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml",
+    "qualifiedUsage" : [ "https://w3id.org/fair/plex/glob_input__drugbank_mapping#23425", "https://w3id.org/fair/plex/glob_input__abs_path#jupyter", "https://w3id.org/fair/plex/clean_xml__output#123457", "https://w3id.org/fair/plex/extract_xml__output#123456", "https://w3id.org/fair/plex/annotate_druglabels__output#124569", "https://w3id.org/fair/plex/glob_input__coding#34070-334067-9", "https://w3id.org/fair/plex/glob_input__api_key#f374954ee83b", "https://w3id.org/fair/plex/map2drugbank__output__output#123458" ],
+    "steps" : [ "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#clean_text" ],
+    "cwlVersion" : "cwl:v1.0",
+    "rdfs:label" : "optimal-pipeline"
+  }, 
+  {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml",
+    "@type" : "p-plan:Step",
+    "hasInputVar" : [ "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml/xml_path", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml/coding", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml/abs_path" ],
+    "hasOutputVar" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml/output",
+    "precedes" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#clean_text",    
+    "run" : "https://w3id.org/fair/plex/OptimAL/workflow/steps/extract-xml.cwl",
+    "rdfs:label" : "extract-xml"
+  }, {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#clean_text",
+    "@type" : "p-plan:Step",
+    "hasInputVar" : [ "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#clean_text/xml_product", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#clean_text/abs_path" ],
+    "hasOutputVar" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#clean_text/output",
+    "precedes" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank",  
+    "run" : "https://w3id.org/fair/plex/OptimAL/workflow/steps/clean-text.cwl",
+    "rdfs:label" : "clean-text"
+  }, {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank",
+    "@type" : "p-plan:Step",
+    "hasInputVar" : [ "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/xml_product_cleaned", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/drugbank_mapping", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/abs_path" ],
+    "hasOutputVar" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/output",
+    "precedes" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels",
+    "run" : "https://w3id.org/fair/plex/OptimAL/workflow/steps/map2drugbank.cwl",
+    "rdfs:label" : "map2DrugBank"
+  },{
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels",
+    "@type" : "p-plan:Step",
+    "hasInputVar" : [ "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels/xml_product_dbid", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels/api_key", "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels/abs_path" ],
+    "hasOutputVar" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels/output",
+    "run" : "https://w3id.org/fair/plex/OptimAL/workflow/steps/annotate-druglabels.cwl",
+    "rdfs:label" : "annotate-druglabels"
+  },{
+    "@id" : "https://w3id.org/fair/plex/glob_input__xml_path#23425",
+    "@type" : "prov:Usage",
+    "value" : "/",
+    "entity" : [ 
+      {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml/xml_path",
+    "@type" : "p-plan:Variable",
+    "source" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#xml_path"
+    }, {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#xml_path",
+    "@type" : "p-plan:Variable"
+    } ]
+  },
+   {
+    "@id" : "https://w3id.org/fair/plex/annotate_druglabels__output#124569",
+    "@type" : "prov:Usage",
+    "value" : {
+      "@id" : "https://w3id.org/fair/plex/Instances/Optmal#Distribution_release-4-dailymed.nq.gz_local"
+    },
+    "entity" : [ {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels/output",
+    "@type" : "p-plan:Variable",
+    "type" : "cwl:File"
+      }, {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels/xml_product_dbid",
+    "@type" : "p-plan:Variable",
+    "source" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/output",
+    "type" : "cwl:File"
+      } ]
+  }, {
+    "@id" : "https://w3id.org/fair/plex/clean_xml__output#123457",
+    "@type" : "prov:Usage",
+    "value" : {
+      "@id" : "https://w3id.org/fair/plex/Instances/Optmal#Distribution_release-2-dailymed.nq.gz_local"
+    },
+    "entity" : [ {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/xml_product_cleaned",
+    "@type" : "p-plan:Variable",
+    "source" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#clean_text/output",
+    "type" : "cwl:File"
+    },
+    {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#clean_text/output",
+    "@type" : "p-plan:Variable",
+    "type" : "cwl:File"
+    } ]
+  }, {
+    "@id" : "https://w3id.org/fair/plex/extract_xml__output#123456",
+    "@type" : "prov:Usage",
+    "value" : {
+      "@id" : "https://w3id.org/fair/plex/Instances/Optmal#Distribution_release-1-dailymed.nq.gz_local"
+    },
+    "entity" : [  {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#clean_text/xml_product",
+    "@type" : "p-plan:Variable",
+    "type" : "cwl:File"
+    } ,
+     {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/steps/extract-xml.cwl#output",
+    "@type" : "p-plan:Variable",
+    "type" : "cwl:File"
+    } ]
+  }, {
+    "@id" : "https://w3id.org/fair/plex/glob_input__abs_path#jupyter",
+    "@type" : "prov:Usage",
+    "value" : "/jupyter/",
+    "entity" : [ {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels/abs_path",
+    "@type" : "p-plan:Variable",
+    "source" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#abs_path"
+    }, 
+    {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/abs_path",
+    "@type" : "p-plan:Variable",
+    "source" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#abs_path"
+    }, {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml/abs_path",
+    "@type" : "p-plan:Variable",
+    "source" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#abs_path",
+    "type" : "xsd:string"
+    }, {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#abs_path",
+    "@type" : "p-plan:Variable",
+    "type" : "xsd:string"
+    } ]
+  }, {
+    "@id" : "https://w3id.org/fair/plex/glob_input__api_key#f374954ee83b",
+    "@type" : "prov:Usage",
+    "value" : "aaabafffd-fb59-4be3-9d57-f374954eerf3b",
+    "entity" : [ {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels/api_key",
+    "@type" : "p-plan:Variable",
+    "source" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#api_key",
+    "type" : "xsd:string"
+    },
+     {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#api_key",
+    "@type" : "p-plan:Variable",
+    "type" : "xsd:string"
+    } ]
+  }, {
+    "@id" : "https://w3id.org/fair/plex/glob_input__coding#34070-334067-9",
+    "@type" : "prov:Usage",
+    "value" : "['34070-3', '34067-9']",
+    "entity" : [  {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#coding",
+    "@type" : "p-plan:Variable",
+    "type" : "xsd:string"
+    }, {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#extract_xml/coding",
+    "@type" : "p-plan:Variable",
+    "source" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#coding",
+    "type" : [ "xsd:string", "_:b25" ]
+    } ]
+  }, {
+    "@id" : "https://w3id.org/fair/plex/glob_input__drugbank_mapping#23425",
+    "@type" : "prov:Usage",
+    "value" : "/jupyter/data/xml/",
+    "entity" : [ 
+       {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/drugbank_mapping",
+    "@type" : "p-plan:Variable",
+    "source" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#drugbank_mapping",
+    "type" : "xsd:string"
+    },  {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#drugbank_mapping",
+    "@type" : "p-plan:Variable",
+    "type" : "xsd:string"
+    } ]
+  }, {
+    "@id" : "https://w3id.org/fair/plex/map2drugbank__output__output#123458",
+    "@type" : "prov:Usage",
+    "value" : {
+      "@id" : "https://w3id.org/fair/plex/Instances/Optmal#Distribution_release-3-dailymed.nq.gz_local"
+    },
+    "entity" : [  {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/steps/annotate-druglabels.cwl#xml_product_dbid",
+    "@type" : "p-plan:Variable",
+    "type" : "cwl:File"
+   }, {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/output",
+    "@type" : "p-plan:Variable",
+    "type" : "xsd:string"
+    } ]
+  },
+      {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotated_with_doid",
+    "@type" : "p-plan:Variable",
+    "outputSource" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#annotate_druglabels/output",
+    "type" : "cwl:File"
+  },    {
+    "@id" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#labels_withDBID",
+    "@type" : "p-plan:Variable",
+    "outputSource" : "https://w3id.org/fair/plex/OptimAL/workflow/optimal-pipeline-xml.cwl#map2drugbank/output",
+    "type" : "cwl:File"
+  } ],
+  "@context" : {
+    "type" : {
+      "@id" : "https://w3id.org/cwl/salad#type",
+      "@type" : "@id"
+    },
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+    },
+    "source" : {
+      "@id" : "https://w3id.org/cwl/cwl#source",
+      "@type" : "@id"
+    },
+    "items" : {
+      "@id" : "https://w3id.org/cwl/salad#items",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "rdfs:label"
+    },
+    "outputs" : {
+      "@id" : "https://w3id.org/cwl/cwl#outputs",
+      "@type" : "@id"
+    },
+    "inputs" : {
+      "@id" : "https://w3id.org/cwl/cwl#inputs",
+      "@type" : "@id"
+    },
+    "cwlVersion" : {
+      "@id" : "https://w3id.org/cwl/cwl#cwlVersion",
+      "@type" : "@id"
+    },
+    "baseCommand" : {
+      "@id" : "https://w3id.org/cwl/cwl#baseCommand",
+      "@type" : "@id"
+    },
+    "arguments" : {
+      "@id" : "https://w3id.org/cwl/cwl#arguments",
+      "@type" : "@id"
+    },
+    "entity" : {
+      "@id" : "http://www.w3.org/ns/prov#entity",
+      "@type" : "@id"
+    },
+    "value" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+    },
+    "run" : {
+      "@id" : "https://w3id.org/cwl/cwl#run",
+      "@type" : "@id"
+    },
+    "hasOutputVar" : {
+      "@id" : "http://purl.org/net/p-plan#hasOutputVar",
+      "@type" : "@id"
+    },
+    "hasInputVar" : {
+      "@id" : "http://purl.org/net/p-plan#hasInputVar",
+      "@type" : "@id"
+    },
+    "requirements" : {
+      "@id" : "https://w3id.org/cwl/cwl#requirements",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox"
+    },
+    "outputSource" : {
+      "@id" : "https://w3id.org/cwl/cwl#outputSource",
+      "@type" : "@id"
+    },
+    "qualifiedUsage" : {
+      "@id" : "http://www.w3.org/ns/prov#qualifiedUsage",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
+    },
+    "steps" : {
+      "@id" : "https://w3id.org/cwl/cwl#Workflow/steps",
+      "@type" : "@id"
+    },
+    "hasFirstStep" : {
+      "@id" : "http://purl.org/spar/pwo#hasFirstStep",
+      "@type" : "@id"
+    },
+    "LinkMergeMethod" : "https://w3id.org/cwl/cwl#LinkMergeMethod/",
+    "SchemaDefRequirement" : "https://w3id.org/cwl/cwl#SchemaDefRequirement/",
+    "EnumSchema" : "https://w3id.org/cwl/salad#EnumSchema/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "CommandOutputBinding" : "https://w3id.org/cwl/cwl#CommandOutputBinding/",
+    "p-plan" : "http://purl.org/net/p-plan#",
+    "ns1" : "sbg:",
+    "ns3" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/terms/",
+    "ns5" : "http://www.w3.org/2002/07/owl#",
+    "pwo" : "http://purl.org/spar/pwo#",
+    "ArraySchema" : "https://w3id.org/cwl/salad#ArraySchema/",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "xml" : "http://www.w3.org/XML/1998/namespace",
+    "EnvironmentDef" : "https://w3id.org/cwl/cwl#EnvironmentDef/",
+    "Dirent" : "https://w3id.org/cwl/cwl#Dirent/",
+    "RecordSchema" : "https://w3id.org/cwl/salad#RecordSchema/",
+    "CommandLineTool" : "https://w3id.org/cwl/cwl#CommandLineTool/",
+    "Directory" : "https://w3id.org/cwl/cwl#Directory/",
+    "ExpressionTool" : "https://w3id.org/cwl/cwl#ExpressionTool/",
+    "CommandLineBinding" : "https://w3id.org/cwl/cwl#CommandLineBinding/",
+    "EnvVarRequirement" : "https://w3id.org/cwl/cwl#EnvVarRequirement/",
+    "DockerRequirement" : "https://w3id.org/cwl/cwl#DockerRequirement/",
+    "Workflow" : "https://w3id.org/cwl/cwl#Workflow/",
+    "InlineJavascriptRequirement" : "https://w3id.org/cwl/cwl#InlineJavascriptRequirement/",
+    "sld" : "https://w3id.org/cwl/salad#",
+    "SoftwarePackage" : "https://w3id.org/cwl/cwl#SoftwarePackage/",
+    "SoftwareRequirement" : "https://w3id.org/cwl/cwl#SoftwareRequirement/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "ScatterMethod" : "https://w3id.org/cwl/cwl#ScatterMethod/",
+    "Parameter" : "https://w3id.org/cwl/cwl#Parameter/",
+    "cwl" : "https://w3id.org/cwl/cwl#",
+    "ResourceRequirement" : "https://w3id.org/cwl/cwl#ResourceRequirement/",
+    "File" : "https://w3id.org/cwl/cwl#File/"
+  }
+}
