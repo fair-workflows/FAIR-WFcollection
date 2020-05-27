@@ -1,0 +1,35 @@
+@prefix this: <http://purl.org/np/RA66CIuewVWoGtpKOzK_2UuANVPN3AeXpqJGAjU0LOg8I> .
+@prefix sub: <http://purl.org/np/RA66CIuewVWoGtpKOzK_2UuANVPN3AeXpqJGAjU0LOg8I#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubInfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:step dcterms:description "Bake in the preheated oven until no longer pink at the bone and the juices run clear, about 75 minutes.  An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 180 degrees F (82 degrees C).";
+    a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask> .
+}
+
+sub:provenance {
+  sub:assertion prov:generatedAtTime "2020-05-27T12:18:33.052012"^^xsd:dateTime;
+    prov:wasAttributedTo sub:experimentScientist;
+    prov:wasDerivedFrom sub:experiment .
+}
+
+sub:pubInfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
+    npx:hasSignature "RNqQ74JeywaN+9CFY9sxvu2EVX6uTUMmFle/NcEgtgw1AdDI19oj75wTJNN/b9qdIY3/UHDly8vGF+4GkIbv2eL/lkOYfdqzLLH25k8d6fDw5i6oEf7pTiEcZsq4CRnadhGQIpMy9E0IZy4sv/A9ipb5OItkgFDtdcAOkIgA1e0=";
+    npx:hasSignatureTarget this: .
+  
+  this: prov:generatedAtTime "2020-05-27T12:18:33.052012"^^xsd:dateTime;
+    prov:wasAttributedTo <http://purl.org/person#DrBob> .
+}

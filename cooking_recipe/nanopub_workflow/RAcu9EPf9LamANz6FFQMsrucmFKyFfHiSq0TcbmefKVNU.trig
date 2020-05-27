@@ -1,0 +1,45 @@
+@prefix this: <http://purl.org/np/RAcu9EPf9LamANz6FFQMsrucmFKyFfHiSq0TcbmefKVNU> .
+@prefix sub: <http://purl.org/np/RAcu9EPf9LamANz6FFQMsrucmFKyFfHiSq0TcbmefKVNU#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubInfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://purl.org/np/RA-j6zuuv3rHBLDor-G9u9mucL63MMexAIV-EpqtkwjhY> dul:precedes <http://purl.org/np/RA66CIuewVWoGtpKOzK_2UuANVPN3AeXpqJGAjU0LOg8I> .
+  
+  <http://purl.org/np/RA_i8rLKmwK2kCnlJqBmSyDnGxMBFP6Xhr6KNuhWa2rCo> dul:precedes <http://purl.org/np/RA-j6zuuv3rHBLDor-G9u9mucL63MMexAIV-EpqtkwjhY> .
+  
+  sub:workflow dcterms:description "Recipe Workflow for Curried Chicken";
+    pwo:hasFirstStep <http://purl.org/np/RAvdb6P3vy4W3UG9Pc6QsLpmfMNSl7w8Jct44nELT0t6A>;
+    a p-plan:Plan .
+  
+  <http://purl.org/np/RAvdb6P3vy4W3UG9Pc6QsLpmfMNSl7w8Jct44nELT0t6A> dul:precedes <http://purl.org/np/RA_i8rLKmwK2kCnlJqBmSyDnGxMBFP6Xhr6KNuhWa2rCo> .
+}
+
+sub:provenance {
+  sub:assertion prov:generatedAtTime "2020-05-27T12:18:34.213116"^^xsd:dateTime;
+    prov:wasAttributedTo sub:experimentScientist;
+    prov:wasDerivedFrom sub:experiment .
+}
+
+sub:pubInfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
+    npx:hasSignature "bPWGcp2yboWmxTkqPIZE8ai5vTizC+Z6IWftqgAh5Vk1Az8nqnaE9qXl1lxed/ad3cMTNGTxQC6StYujsNrZ1vAHhQ7AiieNNGlMn/jgjspfzoCR0iGD26f4kB9j2BrP16AgITl58Bs92hgrBzvG4JYTWNIynQaT5gC8MAtiGKo=";
+    npx:hasSignatureTarget this: .
+  
+  this: prov:generatedAtTime "2020-05-27T12:18:34.213116"^^xsd:dateTime;
+    prov:wasAttributedTo <http://purl.org/person#DrBob> .
+}
