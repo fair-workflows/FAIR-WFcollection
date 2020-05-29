@@ -1,0 +1,97 @@
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-835/v2#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix bpmn: <http://dkm.fbk.eu/index.php/BPMN2_Ontology#> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix np:  <http://www.nanopub.org/nschema#> .
+@prefix pwo: <http://purl.org/spar/pwo#> .
+@prefix prov: <http://www.w3.org/ns/prov#> . 
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix orcid: <http://orcid.org/> .
+
+:head {
+    :pub1 a np:Nanopublication .
+    :pub1 np:hasAssertion :assertion .
+    :pub1 np:hasProvenance :provenance .
+    :pub1 np:hasPublicationInfo :pubInfo .
+}
+
+:assertion {
+    :plan1 a p-plan:Plan .
+    :plan1 rdf:value "Kethoxal-assisted single-stranded DNA sequencing (KAS-seq) for capturing transcription dynamics and enhancer activity" .
+    :plan1 pwo:hasFirstStep :manualTask1 .
+    :manualTask1 a bpmn:manualTask .
+    :manualTask1 rdf:value "task1_from_step3" .
+    :manualTask1 dc:description "Label 1,000, 5,000, or 10,000 cells according to the protocol for bulk mammalian cell cultures." .
+    :manualTask1 dul:precedes :manualTask2 .
+    :manualTask2 a bpmn:manualTask .
+    :manualTask2 rdf:value "task2_from_step3" .
+    :manualTask2 dc:description "Isolate DNA from cells by using the Quick-DNA Microprep Plus kit (Zymo D4074). Elute DNA by using 43 µL 25 mM K3BO3 (pH 7.0)." .
+    :manualTask2 dul:precedes :manualTask3 .
+    :manualTask3 a bpmn:manualTask .
+    :manualTask3 rdf:value "task3_from_step3" .
+    :manualTask3 dc:description "Prepare the click reaction mixture as follows: 42.5 µL DNA in 25 mM K3BO3 (pH 7.0), 5 µL 10× PBS, 2.5 µL 20 mM DBCO-PEG4-biotin (DMSO solution, Sigma 760749). Incubate the mixture at 37 ˚C for 1.5 h with shaking at 500 rpm to facilitate the “click” reaction." .
+    :manualTask3 dul:precedes :manualTask4 .
+    :manualTask4 a bpmn:manualTask .
+    :manualTask4 rdf:value "task4_from_step3" .
+    :manualTask4 dc:description "Add 2.5 µL RNase A (Thermo 12091039) to the reaction mixture. Incubate the mixture at 37 ˚C for 5 min." .
+    :manualTask4 dul:precedes :manualTask5 .
+    :manualTask5 a bpmn:manualTask .
+    :manualTask5 rdf:value "task5_from_step3" .
+    :manualTask5 dc:description "Purify DNA from the reaction mixture by DNA Clean & Concentrator kit (Zymo D4013). Elute DNA by using 25 µL 25 mM K3BO3 (pH 7.0)." .
+    :manualTask5 dul:precedes :manualTask6 .
+    :manualTask6 a bpmn:manualTask .
+    :manualTask6 rdf:value "task6_from_step3" .
+    :manualTask6 dc:description "Perform tagmentation on biotinylated DNA by using Tagmentation DNA Enzyme (Illumina 15027865). For 1,000 cells, 23.5 µL DNA was mixed with 1.5 µL enzyme and 25 µL Tagmentation DNA Buffer (Illumina 15027866). For 5,000 cells, 23 µL DNA was mixed with 2 µL enzyme and 25 µL Tagmentation DNA Buffer. For 10,000 cells, 20 µL DNA was mixed with 5 µL enzyme and 25 µL Tagmentation DNA Buffer." .
+    :manualTask6 dul:precedes :manualTask7 .
+    :manualTask7 a bpmn:manualTask .
+    :manualTask7 rdf:value "task7_from_step3" .
+    :manualTask7 dc:description "Incubate the tagmentation mixture at 37 ˚C for 30 min with shaking at 500 rpm." .
+    :manualTask7 dul:precedes :manualTask8 .
+    :manualTask8 a bpmn:manualTask .
+    :manualTask8 rdf:value "task8_from_step3" .
+    :manualTask8 dc:description "Purify DNA from the reaction mixture by DNA Clean & Concentrator kit (Zymo D4013). Elute DNA by using 55 µL 25 mM K3BO3 (pH 7.0)." .
+    :manualTask8 dul:precedes :manualTask9 .
+    :manualTask9 a bpmn:manualTask .
+    :manualTask9 rdf:value "task9_from_step3" .
+    :manualTask9 dc:description "Save 5 µL of the tagmented DNA as input. Use the remaining 50 µL for enrichment." .
+    :manualTask9 dul:precedes :manualTask10 .
+    :manualTask10 a bpmn:manualTask .
+    :manualTask10 rdf:value "task10_from_step3" .
+    :manualTask10 dc:description "Wash 5 µL Dynabeads Myone Streptavidin C1 (Thermo 65001) 3 times with 25 µL 1× binding and wash buffer (5 mM Tris-HCl pH 7.4, 0.5 mM EDTA, 1 M NaCl, 0.05% Tween-20). Re-suspend pre-washed beads in 50 µL 2× binding and wash buffer (10 mM Tris-HCl pH 7.4, 1 mM EDTA, 2 M NaCl, 0.1% Tween-20)." .
+    :manualTask10 dul:precedes :manualTask11 .
+    :manualTask11 a bpmn:manualTask .
+    :manualTask11 rdf:value "task11_from_step3" .
+    :manualTask11 dc:description "Mix the beads with 50 µL fragmented DNA from step 9. Incubated the mixture at room temperature for 15 min with gentle rotation. After incubation, place the mixture on a magnetic rack to remove the supernatant and wash beads 5 times with 100 µL 1× binding and wash buffer." .
+    :manualTask11 dul:precedes :manualTask12 .
+    :manualTask12 a bpmn:manualTask .
+    :manualTask12 rdf:value "task12_from_step3" .
+    :manualTask12 dc:description "Adjust the volume of input to 20 µL by adding 15 µL nuclease-free water to the 5 µL input saved in step 9. Re-suspend the washed beads in 20 µL nuclease-free water." .
+    :manualTask12 dul:precedes :manualTask13 .
+    :manualTask13 a bpmn:manualTask .
+    :manualTask13 rdf:value "task13_from_step3" .
+    :manualTask13 dc:description "Prepare the PCR reaction mix as follows: 20 µL input DNA or beads suspension, 2.5 µL i5 index primer (Illumina 20027213), 2.5 µL i7 index primer (Illumina 20027213), 25 µL NEBNext Ultra II Q5 Master Mix (NEB M0544S)." .
+    :manualTask13 dul:precedes :manualTask14 .
+    :manualTask14 a bpmn:manualTask .
+    :manualTask14 rdf:value "task14_from_step3" .
+    :manualTask14 dc:description "Perform PCR reaction in a thermocycler as follows: 1 cycle: 5 min 72 ˚C, 10 min  95 ˚C; 15 cycles: 10 sec 98 ˚C, 30 sec 60 ˚C, 1 min 72 ˚C" .
+    :manualTask14 dul:precedes :manualTask15 .
+    :manualTask15 a bpmn:manualTask .
+    :manualTask15 rdf:value "task15_from_step3" .
+    :manualTask15 dc:description "Remove the beads from the enriched samples by using a magnetic rack. Purify the library by using MinElute PCR purification kit (Qiagen 28004). The library size should range from 200-600 bp." .
+    :manualTask15 dul:precedes :manualTask16 .
+    :manualTask16 a bpmn:manualTask .
+    :manualTask16 rdf:value "task16_from_step3" .
+    :manualTask16 dc:description "Sequence libraries on Illumina platforms by using single-end mode with 30 million reads per sample." .
+}
+
+:provenance {
+:assertion prov:wasDerivedFrom <https://hyp.is/BNb_zpwyEeqD-DvU6Y0QDA/protocolexchange.researchsquare.com/article/pex-835/v2> .
+}
+
+:pubInfo {
+    :pub1 prov:wasAttributedTo orcid:0000-0003-2978-8922 .
+    :pub1 prov:generatedAtTime "2020-05-29T15:15:26+00:00"^^xsd:dateTime .
+}
