@@ -1,0 +1,103 @@
+@prefix this: <https://protocolexchange.researchsquare.com/article/pex-835/v2#RAGPAAGeR3Q5akN8aqyD1SfJoCVOeL3kBnh6KbYTqwb7I> .
+@prefix sub: <https://protocolexchange.researchsquare.com/article/pex-835/v2#RAGPAAGeR3Q5akN8aqyD1SfJoCVOeL3kBnh6KbYTqwb7I.> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix bpmn: <http://dkm.fbk.eu/index.php/BPMN2_Ontology#> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix pwo: <http://purl.org/spar/pwo#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix orcid: <http://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubInfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:manualTask1 dc:description "Prepare 500 mM N3-kethoxal stock solution using DMSO. Then prepare the labeling medium by diluting the N3-kethoxal solution into pre-warmed (37 ˚C) cell culture medium to a final concentration of 5 mM. It is critical to pre-warm the medium to facilitate N3-kethoxal dissolution.";
+    dul:precedes sub:manualTask2;
+    a bpmn:manualTask;
+    rdf:value "task1_from_step1" .
+  
+  sub:manualTask10 dc:description "Mix the beads with 95 µL fragmented DNA from step 8. Incubate the mixture at room temperature for 15 min with gentle rotation. After incubation, place the mixture on a magnetic rack to remove the supernatant and wash beads 5 times with 100 µL 1× binding and wash buffer.";
+    dul:precedes sub:manualTask11;
+    a bpmn:manualTask;
+    rdf:value "task10_from_step1" .
+  
+  sub:manualTask11 dc:description "Re-suspend the beads in 15 µL nuclease-free water and heat it at 95 ˚C for 10 min to elute enriched DNA. Then put the mixture on a magnetic rack, and transfer the supernatant to a new labeled tube.";
+    dul:precedes sub:manualTask12;
+    a bpmn:manualTask;
+    rdf:value "task11_from_step1" .
+  
+  sub:manualTask12 dc:description "In parallel with the previous step, heat the saved input at 95 ˚C for 10 min. Then, put both the input and the eluted samples on ice immediately.";
+    dul:precedes sub:manualTask13;
+    a bpmn:manualTask;
+    rdf:value "task12_from_step1" .
+  
+  sub:manualTask13 dc:description "Perform library construction by using the Accel-NGS Methyl-seq DNA library kit (Swift 30024). Perform PCR amplification for 7-8 cycles for the input samples and 12-14 cycles for the enriched samples. The library size should range from 200-500 bp.";
+    dul:precedes sub:manualTask14;
+    a bpmn:manualTask;
+    rdf:value "task13_from_step1" .
+  
+  sub:manualTask14 dc:description "Sequence libraries on Illumina platforms by using single-end mode, aiming to get 30 million reads per sample. DNAs can be stored at -20 ˚C at the noted stop points if needed.";
+    a bpmn:manualTask;
+    rdf:value "task14_from_step1" .
+  
+  sub:manualTask2 dc:description "Incubate 1-5 million cells in the labeling medium for 10 min at 37 ˚C. For adhesive cells, apply the labeling medium to the cell culture directly in dishes and incubate cells for 10 min at 37 ˚C. For suspension cells, suspend cells in the labeling medium and incubate them for 10 min at 37 ˚C.";
+    dul:precedes sub:manualTask3;
+    a bpmn:manualTask;
+    rdf:value "task2_from_step1" .
+  
+  sub:manualTask3 dc:description "Harvest cells after the incubation. Isolate total DNA from cells by using PureLink genomic DNA mini kit (Thermo K182001). Elute DNA by using 50 µL 25 mM K3BO3 (pH 7.0).";
+    dul:precedes sub:manualTask4;
+    a bpmn:manualTask;
+    rdf:value "task3_from_step1" .
+  
+  sub:manualTask4 dc:description "Prepare the click reaction mixture as the follows: 2 µg total DNA diluted in 85µL of 25 mM K3BO3 (pH 7.0), 10 µL 10× PBS, 5 µL 20 mM DBCO-PEG4-biotin (DMSO solution, Sigma 760749). Incubate the mixture at 37 ˚C for 1.5 h with shaking at 500 rpm to facilitate the “click” reaction.";
+    dul:precedes sub:manualTask5;
+    a bpmn:manualTask;
+    rdf:value "task4_from_step1" .
+  
+  sub:manualTask5 dc:description "Add 5 µL RNase A (Thermo 12091039) to the reaction mixture. Incubate the mixture at 37 ˚C for 15 min with shaking at 500 rpm.";
+    dul:precedes sub:manualTask6;
+    a bpmn:manualTask;
+    rdf:value "task5_from_step1" .
+  
+  sub:manualTask6 dc:description "Purify DNA from the reaction mixture by DNA Clean & Concentrator kit (Zymo D4013). Elute DNA by using 50 µL 25 mM K3BO3 (pH 7.0).";
+    dul:precedes sub:manualTask7;
+    a bpmn:manualTask;
+    rdf:value "task6_from_step1" .
+  
+  sub:manualTask7 dc:description "Dilute 1 µg biotinylated DNA in 100 µL 25 mM K3BO3 (pH 7.0). Fragment the DNA by sonication using Bioruptor Pico under 30s-on /30s-off setting for 30 cycles. The size of fragmented DNA ranges from 150-350 bp.";
+    dul:precedes sub:manualTask8;
+    a bpmn:manualTask;
+    rdf:value "task7_from_step1" .
+  
+  sub:manualTask8 dc:description "Save 5 µL of the fragmented DNA as input. Use the remaining 95 µL for enrichment.";
+    dul:precedes sub:manualTask9;
+    a bpmn:manualTask;
+    rdf:value "task8_from_step1" .
+  
+  sub:manualTask9 dc:description "Wash 10 µL Dynabeads Myone Streptavidin C1 (Thermo 65001) 3 times with 50 µL 1× binding and wash buffer (5 mM Tris-HCl pH 7.4, 0.5 mM EDTA, 1 M NaCl, 0.05% Tween-20). Re-suspend pre-washed beads in 95 µL 2× binding and wash buffer (10 mM Tris-HCl pH 7.4, 1 mM EDTA, 2 M NaCl, 0.1% Tween-20).";
+    dul:precedes sub:manualTask10;
+    a bpmn:manualTask;
+    rdf:value "task9_from_step1" .
+  
+  sub:plan1 pwo:hasFirstStep sub:manualTask1;
+    a p-plan:Plan;
+    rdf:value "Kethoxal-assisted single-stranded DNA sequencing (KAS-seq) for capturing transcription dynamics and enhancer activity" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasDerivedFrom <https://hyp.is/BNb_zpwyEeqD-DvU6Y0QDA/protocolexchange.researchsquare.com/article/pex-835/v2> .
+}
+
+sub:pubInfo {
+  this: prov:generatedAtTime "2020-05-29T12:08:10+00:00"^^xsd:dateTime;
+    prov:wasAttributedTo orcid:0000-0003-2978-8922 .
+}
