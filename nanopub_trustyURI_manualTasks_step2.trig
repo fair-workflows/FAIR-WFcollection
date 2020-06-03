@@ -1,0 +1,58 @@
+@prefix this: <https://protocolexchange.researchsquare.com/article/pex-835/v2#RAWGlq9d-Db7f5FkJ36DOMf_WsAu2dUOtEoRJlKkb3L5E> .
+@prefix sub: <https://protocolexchange.researchsquare.com/article/pex-835/v2#RAWGlq9d-Db7f5FkJ36DOMf_WsAu2dUOtEoRJlKkb3L5E.> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix bpmn: <http://dkm.fbk.eu/index.php/BPMN2_Ontology#> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix pwo: <http://purl.org/spar/pwo#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix orcid: <http://orcid.org/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubInfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:manualTask1 dc:description "Homogenize mouse liver tissue to a cell suspension in ice-cold PBS by using a dounce homogenizer or a pellet pestle.";
+    dul:precedes sub:manualTask2;
+    a bpmn:manualTask;
+    rdf:value "task1_from_step2" .
+  
+  sub:manualTask2 dc:description "Spin the cell suspension at 100 g for 15 seconds to sediment and remove potential large tissue pieces at the bottom of the tube.";
+    dul:precedes sub:manualTask3;
+    a bpmn:manualTask;
+    rdf:value "task2_from_step2" .
+  
+  sub:manualTask3 dc:description "Spin the cell suspension at 800 g for 5 min. Remove the supernatant and save the cell pellet at the bottom of the tube for labeling.";
+    dul:precedes sub:manualTask4;
+    a bpmn:manualTask;
+    rdf:value "task3_from_step2" .
+  
+  sub:manualTask4 dc:description "Suspend 1-5 million cells in the labeling medium for 10 min at 37 ˚C (refer to step 1 in the protocol for mammalian cell cultures for labeling medium preparation).";
+    dul:precedes sub:manualTask5;
+    a bpmn:manualTask;
+    rdf:value "task4_from_step2" .
+  
+  sub:manualTask5 dc:description "Isolate total DNA from cells by using PureLink genomic DNA mini kit (Thermo K182001). Elute DNA by using 50 µL 25 mM K3BO3 (pH 7.0). Perform Biotinylation and purification, Enrichment of N3-kethoxal-modified DNA, Library preparation and sequencing according to the protocol for mammalian cell cultures.";
+    a bpmn:manualTask;
+    rdf:value "task5_from_step2" .
+  
+  sub:plan1 pwo:hasFirstStep sub:manualTask1;
+    a p-plan:Plan;
+    rdf:value "Kethoxal-assisted single-stranded DNA sequencing (KAS-seq) for capturing transcription dynamics and enhancer activity" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasDerivedFrom <https://hyp.is/BNb_zpwyEeqD-DvU6Y0QDA/protocolexchange.researchsquare.com/article/pex-835/v2> .
+}
+
+sub:pubInfo {
+  this: prov:generatedAtTime "2020-05-29T14:32:40+00:00"^^xsd:dateTime;
+    prov:wasAttributedTo orcid:0000-0003-2978-8922 .
+}
