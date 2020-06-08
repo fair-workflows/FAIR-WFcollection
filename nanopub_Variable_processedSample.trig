@@ -1,0 +1,33 @@
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-835/v2#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix np:  <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> . 
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:head {
+    : a np:Nanopublication .
+    : np:hasAssertion :assertion .
+    : np:hasProvenance :provenance .
+    : np:hasPublicationInfo :pubInfo .
+}
+
+:assertion {
+    :processed_sample p-plan:isVariableOfPlan : .
+    :processed_sample a p-plan:Variable .
+    :processed_sample rdf:value "single-stranded DNA" .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-05-22T13:42:02"^^xsd:dateTime .
+    :assertion prov:wasDerivedFrom <https://hypothes.is/a/BNb_zpwyEeqD-DvU6Y0QDA> .
+}
+
+:pubInfo {
+    : prov:wasAttributedTo authority:iannotate .
+    : prov:generatedAtTime "2020-05-24T11:50:07"^^xsd:dateTime .
+}
+
