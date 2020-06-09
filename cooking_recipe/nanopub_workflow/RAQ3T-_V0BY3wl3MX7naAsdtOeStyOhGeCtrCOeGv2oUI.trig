@@ -1,5 +1,5 @@
-@prefix this: <http://purl.org/np/RA66CIuewVWoGtpKOzK_2UuANVPN3AeXpqJGAjU0LOg8I> .
-@prefix sub: <http://purl.org/np/RA66CIuewVWoGtpKOzK_2UuANVPN3AeXpqJGAjU0LOg8I#> .
+@prefix this: <http://purl.org/np/RAQ3T-_V0BY3wl3MX7naAsdtOeStyOhGeCtrCOeGv2oUI> .
+@prefix sub: <http://purl.org/np/RAQ3T-_V0BY3wl3MX7naAsdtOeStyOhGeCtrCOeGv2oUI#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -14,12 +14,12 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:step dcterms:description "Bake in the preheated oven until no longer pink at the bone and the juices run clear, about 75 minutes.  An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 180 degrees F (82 degrees C).";
+  sub:step dcterms:description "Melt the butter in a skillet over medium heat. Add the apple and onion to the melted butter, season with the curry powder, and cook and stir until the apple and onion are tender, 7 to 10 minutes. Stir the mushroom soup and half-and-half into the mixture until completely combined; spoon over the chicken pieces.";
     a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask> .
 }
 
 sub:provenance {
-  sub:assertion prov:generatedAtTime "2020-05-27T12:18:33.052012"^^xsd:dateTime;
+  sub:assertion prov:generatedAtTime "2020-06-09T14:34:02.960294"^^xsd:dateTime;
     prov:wasAttributedTo sub:experimentScientist;
     prov:wasDerivedFrom sub:experiment .
 }
@@ -27,9 +27,9 @@ sub:provenance {
 sub:pubInfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
-    npx:hasSignature "RNqQ74JeywaN+9CFY9sxvu2EVX6uTUMmFle/NcEgtgw1AdDI19oj75wTJNN/b9qdIY3/UHDly8vGF+4GkIbv2eL/lkOYfdqzLLH25k8d6fDw5i6oEf7pTiEcZsq4CRnadhGQIpMy9E0IZy4sv/A9ipb5OItkgFDtdcAOkIgA1e0=";
+    npx:hasSignature "o1fiuH6ou52uYDWFCKscb1jBiiDy+Amm+H/TuutrnKvplurKoe/MScAHXJnax7lf6qIsSVmmmy3bYXaTjsX9GG05LReBHtrKPKkwkW1UMkssNfcExYt1uujYkZzrwohMgV1rVRs+Ca5+BbC0RKhi1mLhQhmH6ymgmdFquN/tns8=";
     npx:hasSignatureTarget this: .
   
-  this: prov:generatedAtTime "2020-05-27T12:18:33.052012"^^xsd:dateTime;
+  this: prov:generatedAtTime "2020-06-09T14:34:02.960294"^^xsd:dateTime;
     prov:wasAttributedTo <http://purl.org/person#DrBob> .
 }

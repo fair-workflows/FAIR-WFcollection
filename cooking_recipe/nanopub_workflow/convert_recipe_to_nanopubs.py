@@ -167,6 +167,9 @@ for step_uri, step_triples in steps.items():
         step_rdf.add(triple)
     published_URI = Nanopub.publish(step_rdf, uri=step_uri)
 
+    # Publishing the step as a nanopub strips the fragment from it, so add that back in...
+    published_URI += '#step'
+
     # Build mapping of URIs so the workflow nanopub uses the published URIs
     uri_map[step_uri] = rdflib.term.URIRef(published_URI)
     

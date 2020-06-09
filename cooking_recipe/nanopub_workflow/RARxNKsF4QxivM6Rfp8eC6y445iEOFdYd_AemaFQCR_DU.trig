@@ -1,5 +1,5 @@
-@prefix this: <http://purl.org/np/RAvdb6P3vy4W3UG9Pc6QsLpmfMNSl7w8Jct44nELT0t6A> .
-@prefix sub: <http://purl.org/np/RAvdb6P3vy4W3UG9Pc6QsLpmfMNSl7w8Jct44nELT0t6A#> .
+@prefix this: <http://purl.org/np/RARxNKsF4QxivM6Rfp8eC6y445iEOFdYd_AemaFQCR_DU> .
+@prefix sub: <http://purl.org/np/RARxNKsF4QxivM6Rfp8eC6y445iEOFdYd_AemaFQCR_DU#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -14,12 +14,12 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:step dcterms:description "Preheat an oven to 350 degrees F (175 degrees C).";
+  sub:step dcterms:description "Arrange the chicken pieces in a single layer in a 9x13-inch baking dish. Season the chicken liberally with salt, pepper, and the paprika; set aside.";
     a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask> .
 }
 
 sub:provenance {
-  sub:assertion prov:generatedAtTime "2020-05-27T12:18:29.548436"^^xsd:dateTime;
+  sub:assertion prov:generatedAtTime "2020-06-09T14:34:04.572434"^^xsd:dateTime;
     prov:wasAttributedTo sub:experimentScientist;
     prov:wasDerivedFrom sub:experiment .
 }
@@ -27,9 +27,9 @@ sub:provenance {
 sub:pubInfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
-    npx:hasSignature "aSyP+AJjyJqSLowaNwomJ2lLS/hyVb9rN7Jd1i5EAGaDrX7CQqtBxUtwFSPAR41pVKtBjojfpV7lx2df1pUvF52J6bamPtW/ixkFYS+O8zZamoQMW99lqmk2lJQYt0RliW+MyTGjbpSVtuM4lKGkmGAP/NI2bdbueayzgDf9V8s=";
+    npx:hasSignature "oZ/JjsVuN6Ee0WkVMGpgiGnTT3qrEerzlEAYw5zXTBkNeWTzxmLBWjtl8Tj6JZhWZ/Tk479gLjz9FOTqH8E8odT01iWFUtlspAy3u87cxTy6ElObLWDzEHPlfprIc6H3u2ZYiROgZe8psC9vCGYv5MHIsFMEVOzRX+i5Mq9Ddzs=";
     npx:hasSignatureTarget this: .
   
-  this: prov:generatedAtTime "2020-05-27T12:18:29.548436"^^xsd:dateTime;
+  this: prov:generatedAtTime "2020-06-09T14:34:04.572434"^^xsd:dateTime;
     prov:wasAttributedTo <http://purl.org/person#DrBob> .
 }
