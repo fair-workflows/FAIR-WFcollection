@@ -1,0 +1,84 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix pwo:   <http://purl.org/spar/pwo#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns3:   <http://xmlns.com/foaf/0.1/> .
+@prefix ns5:   <http://www.w3.org/2002/07/owl#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sld:   <https://w3id.org/cwl/salad#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix dul:   <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix plex: <https://w3id.org/fair/plex/ml-text-classify:> .
+
+
+### Workflow
+
+plex:text_clf_plan_param1 rdf:type  dul:Workflow ;
+	rdf:type  plex:text_clf_plan; 
+	pwo:hasFirstStep plex:count_vectorize ;
+	prov:qualifiedUsage plex:vect__in_data_fetch_20_newsgroups ;
+	prov:qualifiedUsage plex:vect__max_df_05 ;
+	prov:qualifiedUsage plex:vect__ngram_range_1_2 ;
+	prov:qualifiedUsage plex:tfidf__norm_l1 ;
+	prov:qualifiedUsage plex:clf__max_iter_20 ;
+	prov:qualifiedUsage plex:clf__penalty_elastic .
+
+### Steps
+
+plex:count_vectorize	rdf:type 	p-plan:Step ;
+	p-plan:isStepOfPlan plex:text_clf_plan ; 
+	p-plan:hasInputVar	 plex:vect__in_data ;
+	p-plan:hasInputVar  plex:vect__max_df ;
+	p-plan:hasInputVar  plex:vect__ngram_range ;
+	p-plan:hasOutputVar plex:vect__out_data ; 
+	dul:precedes	 plex:tf_idf_transformer .
+
+
+plex:tf_idf_transformer	rdf:type 	p-plan:Step;
+	p-plan:isStepOfPlan plex:text_clf_plan;  
+	p-plan:hasInputVar	 plex:vect__out_data;
+	p-plan:hasInputVar  plex:tfidf__norm;
+	p-plan:hasOutputVar plex:tfidf__out_data;
+	dul:precedes	 plex:sgdc_classifier. 
+
+plex:sgdc_classifier	rdf:type 	p-plan:Step;
+	p-plan:isStepOfPlan plex:text_clf_plan; 
+	p-plan:hasInputVar	 plex:tfidf__out_data;
+	p-plan:hasInputVar  plex:clf__max_iter;
+	p-plan:hasInputVar  plex:clf__penalty;
+	p-plan:hasOutputVar plex:clf__out_data . 
+
+
+### Variables
+
+plex:vect__in_data rdf:type p-plan:Variable .
+plex:vect__max_df rdf:type p-plan:Variable .
+plex:vect__ngram_range rdf:type p-plan:Variable .
+plex:vect__out_data rdf:type p-plan:Variable .
+plex:tfidf__norm rdf:type p-plan:Variable .
+plex:tfidf__out_data rdf:type p-plan:Variable .
+plex:clf__max_iter rdf:type p-plan:Variable .
+plex:clf__penalty rdf:type p-plan:Variable .
+plex:clf__out_data rdf:type p-plan:Variable .
+
+### Datasets and Bindings
+
+plex:vect__in_data_fetch_20_newsgroups rdf:type prov:Usage ;
+	prov:entity plex:vect__in_data ; # variable
+	rdf:value plex:distr_fetch_20_newsgroups . #distribtion
+
+plex:vect__max_df_0.5 rdf:type prov:Usage ;
+	prov:entity plex:vect__max_df ;
+ 	rdf:value "0.5"^^xsd:float .
+
+plex:vect__ngram_range_1_2 rdf:type prov:Usage ;
+	prov:entity plex:vect__ngram_range ;
+ 	rdf:value "(1,2)" .
+
+plex:vect__out_data_vec rdf:type prov:Usage ;
+	prov:entity plex:vect__out_data ;
+ 	prov:entity plex:distr_vect .
+
+
