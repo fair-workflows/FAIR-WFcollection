@@ -15,11 +15,11 @@
 
 ### Workflow
 
-plex:text_clf_plan_param1 rdf:type  dul:Workflow ;
-	rdf:type  plex:text_clf_plan; 
+plex:text_clf_plan rdf:type  dul:Workflow, p-plan:Plan;
+    dc:description  "This workflow classify the given text using machine learning model and TF-IDF features" ; 
 	pwo:hasFirstStep plex:count_vectorize ;
 	prov:qualifiedUsage plex:vect__in_data_fetch_20_newsgroups ;
-	prov:qualifiedUsage plex:vect__max_df_05 ;
+	prov:qualifiedUsage plex:vect__max_df_0.5 ;
 	prov:qualifiedUsage plex:vect__ngram_range_1_2 ;
 	prov:qualifiedUsage plex:tfidf__norm_l1 ;
 	prov:qualifiedUsage plex:clf__max_iter_20 ;
