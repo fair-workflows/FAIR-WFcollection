@@ -1,0 +1,31 @@
+@prefix this: <https://protocolexchange.researchsquare.com/article/pex-835/v2#RAMMPna5VnDjw3qrLEqV10s5KhCWkGLz62Jm-9c40m36M> .
+@prefix sub: <https://protocolexchange.researchsquare.com/article/pex-835/v2#RAMMPna5VnDjw3qrLEqV10s5KhCWkGLz62Jm-9c40m36M.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubInfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:processed_sample p-plan:isVariableOfPlan this:;
+    a p-plan:Variable;
+    rdf:value "single-stranded DNA" .
+}
+
+sub:provenance {
+  sub:assertion prov:generatedAtTime "2020-05-22T13:42:02"^^xsd:dateTime;
+    prov:wasDerivedFrom authority:BNb_zpwyEeqD-DvU6Y0QDA .
+}
+
+sub:pubInfo {
+  this: prov:generatedAtTime "2020-05-24T11:50:07"^^xsd:dateTime;
+    prov:wasAttributedTo authority:iannotate .
+}

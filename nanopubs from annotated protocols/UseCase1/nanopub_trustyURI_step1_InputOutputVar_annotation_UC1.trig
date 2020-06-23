@@ -1,0 +1,43 @@
+@prefix this: <https://protocolexchange.researchsquare.com/article/pex-835/v2#RAYEg7h-nfZANKBgug8pGRnkN6COz7dVB-TzwlJuNBvPk> .
+@prefix sub: <https://protocolexchange.researchsquare.com/article/pex-835/v2#RAYEg7h-nfZANKBgug8pGRnkN6COz7dVB-TzwlJuNBvPk.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubInfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:instrument rdf:value "1.5 mL tubeNanodropCentrifugeThemomixerThermo cyclerDynaMag-PCR MagnetBioruptor Pico (Diagenode)0.65 mL Bioruptor Micotubes (Diagenode, C30010011)" .
+  
+  sub:processed_sample rdf:value "single-stranded DNA" .
+  
+  sub:protocol1 p-plan:hasInputVar sub:instrument, sub:reagents, sub:sample;
+    p-plan:hasOutputvar sub:processed_sample;
+    p-plan:isStepOfPlan this:;
+    a p-plan:Step;
+    rdf:value "KAS-seq with mammalian cell cultures" .
+  
+  sub:reagents rdf:value "N3-kethoxal (Synthesized as previously12)DMSO (Fisher Scientific, BP231-100)DBCO-PEG4-biotin (Sigma, 760749)Boric acid (Sigma, 15663)Potassium hydroxide (Sigma, P5958)Tween-20 (Sigma, P9416)Phosphate buffered saline (PBS, Thermo, 10010001)Phosphate buffered saline, 10× (Thermo, AM9624)1 M Tris-HCl buffer (Thermo, 15567027)5 M sodium chloride solution (Thermo, AM9759)0.5 M EDTA solution (Thermo, AM9206G)RNase A (Thermo, 12091039)Dynabeads Myone Streptavidin C1 (Thermo, 65001)PureLink genomic DNA mini kit (Thermo, K182001)Quick-DNA Microprep Plus kit (Zymo, D4074)MinElute PCR purification kit (Qiagen, 28004)DNA Clean & Concentrator kit (Zymo, D4013)Tagmentation DNA Enzyme (Illumina, 15027865)Tagmentation DNA Buffer (Illumina, 15027866)i5 index primer (Illumina, 20027213)i7 index primer (Illumina, 20027213)NEBNext Ultra II Q5 Master Mix (NEB, M0544S)Accel-NGS Methyl-seq DNA library kit (Swift 30024)" .
+  
+  sub:sample rdf:value "mammalian cell cultures" .
+}
+
+sub:provenance {
+  sub:assertion prov:generatedAtTime "2020-05-20T16:21:39"^^xsd:dateTime, "2020-05-22T13:31:20"^^xsd:dateTime,
+      "2020-05-22T13:36:40"^^xsd:dateTime, "2020-05-22T13:38:00"^^xsd:dateTime, "2020-05-22T13:42:02"^^xsd:dateTime;
+    prov:wasDerivedFrom authority:BNb_zpwyEeqD-DvU6Y0QDA, authority:RM1h-pwxEeqioOdp0H_MxQ,
+      authority:_ALaipq1Eeq1Tycc8Yud1g, authority:dHWv_JwxEeqD929oDkW26A, authority:hay41JwwEeqhIts-We5ekg .
+}
+
+sub:pubInfo {
+  this: prov:generatedAtTime "2020-06-04T19:50:21+00:00"^^xsd:dateTime;
+    prov:wasAttributedTo authority:iannotate .
+}

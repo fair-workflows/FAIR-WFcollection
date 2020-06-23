@@ -1,0 +1,594 @@
+[
+  {
+    "id": "SEPmDKZnEeq5_O8QPLVVUA",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-04T13:28:31",
+    "updated": "2020-06-04T13:28:31",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "input variable in Plex ontology",
+    "prefix": "solate primary hepatocytes from ",
+    "exact": "mus musculus (mouse)",
+    "suffix": " for the purposes of culturing p",
+    "start": 589,
+    "end": 609,
+    "tags": [
+      "sample"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 82,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[7]/div[2]/span[1]/p[1]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[7]/div[2]/span[1]/p[1]/em[1]"
+          },
+          {
+            "end": 609,
+            "type": "TextPositionSelector",
+            "start": 589
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "mus musculus (mouse)",
+            "prefix": "solate primary hepatocytes from ",
+            "suffix": " for the purposes of culturing p"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "JKiPYKWxEeqmmnel1WSugg",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:44:42",
+    "updated": "2020-06-03T15:44:42",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "manual tasks in Plex ontology",
+    "prefix": "slips (GC-12, Neuvitro)Procedure",
+    "exact": "1. Setup perfusion station: Place metal platform within the glass chamber. Run the tubing through perfusion machine and clamp the end of the tubing with a large binder clip. Attach a butterfly needle to each port. [See Supplementary Picture 1].2. Place the unclamped end of tubing in the perfusion buffer and turn on perfusion machine. Let the buffer flow until it is seen coming out of each needle, then clamp each butterfly needle tubing. Pause the perfusion machine until ready to use. 3. Take anesthetized animal (via IP injection of Avertin) and place supine on metal platform and tape all limbs down. 4. Remove the abdominal skin, preserving the muscle and peritoneum. Open the peritoneum and open the abdominal cavity for full visualization of the liver and abdominal organs. 5. Push the stomach and intestines to the right side of the animal and identify the inferior vena cava (IVC) and portal vein (PV). 6. Cannulate the IVC with the butterfly needle ensuring that the bevel of the needle is facing up. Use a hemostat to secure the needle within the IVC and tape the tubing down to the metal platform. Unclamp the butterfly needle tubing. Turn on the perfusion machine. If the IVC was successfully cannulated, the liver should begin to engorge and lighten in color. 7. Immediately identify and cut the PV. At this point the animal should rapidly bleed out and perfusion buffer should begin to flow out of the PV. 8. Pass at least 100 mL of perfusion buffer through a single mouse.9. While the perfusion is running, add the collagenase (transported on ice) to the collagenase buffer and mix well. 10. Pause the perfusion machine and switch the tubing to the collagenase buffer. Resume perfusion and run through entire volume of collagenase buffer.11. When the perfusion is finished, remove the liver by cutting along the vasculature and connective tissue; avoid cutting the liver parenchyma. Place the liver in a petri dish with 10 mL of perfusion buffer.  12. Agitate the liver to dissociate the hepatocytes. 13. Using a serological pipette, transfer the dissociated cell suspension to a 70 micron mesh filter over a 50 mL Falcon tube. Once filtered through, complete the volume with perfusion buffer to dilute the collagenase. 14. Immediately centrifuge at a minimum speed of 800 rpm for 5 minutes. 15. Discard the supernatant. Resuspend in washing media and centrifuge again at 800 rpm for 5 minutes.  16. Discard the supernatant. Resuspend in 10 mL (or 5 mL if the cell pellet is small) of plating media. 17. Suspended in plating media, the hepatocytes will remain viable for a few hours, until plated.  Once plated, place in 37°C cell incubator. Cells should be plated on a collagen coated surface. ",
+    "suffix": "AcknowledgementsWe have adapted ",
+    "start": 2950,
+    "end": 5663,
+    "tags": [
+      "protocol instructions"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 195,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[11]/div[2]/span[1]/p[17]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[11]/div[2]/span[1]/p[1]"
+          },
+          {
+            "end": 5663,
+            "type": "TextPositionSelector",
+            "start": 2950
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "1. Setup perfusion station: Place metal platform within the glass chamber. Run the tubing through perfusion machine and clamp the end of the tubing with a large binder clip. Attach a butterfly needle to each port. [See Supplementary Picture 1].2. Place the unclamped end of tubing in the perfusion buffer and turn on perfusion machine. Let the buffer flow until it is seen coming out of each needle, then clamp each butterfly needle tubing. Pause the perfusion machine until ready to use. 3. Take anesthetized animal (via IP injection of Avertin) and place supine on metal platform and tape all limbs down. 4. Remove the abdominal skin, preserving the muscle and peritoneum. Open the peritoneum and open the abdominal cavity for full visualization of the liver and abdominal organs. 5. Push the stomach and intestines to the right side of the animal and identify the inferior vena cava (IVC) and portal vein (PV). 6. Cannulate the IVC with the butterfly needle ensuring that the bevel of the needle is facing up. Use a hemostat to secure the needle within the IVC and tape the tubing down to the metal platform. Unclamp the butterfly needle tubing. Turn on the perfusion machine. If the IVC was successfully cannulated, the liver should begin to engorge and lighten in color. 7. Immediately identify and cut the PV. At this point the animal should rapidly bleed out and perfusion buffer should begin to flow out of the PV. 8. Pass at least 100 mL of perfusion buffer through a single mouse.9. While the perfusion is running, add the collagenase (transported on ice) to the collagenase buffer and mix well. 10. Pause the perfusion machine and switch the tubing to the collagenase buffer. Resume perfusion and run through entire volume of collagenase buffer.11. When the perfusion is finished, remove the liver by cutting along the vasculature and connective tissue; avoid cutting the liver parenchyma. Place the liver in a petri dish with 10 mL of perfusion buffer.  12. Agitate the liver to dissociate the hepatocytes. 13. Using a serological pipette, transfer the dissociated cell suspension to a 70 micron mesh filter over a 50 mL Falcon tube. Once filtered through, complete the volume with perfusion buffer to dilute the collagenase. 14. Immediately centrifuge at a minimum speed of 800 rpm for 5 minutes. 15. Discard the supernatant. Resuspend in washing media and centrifuge again at 800 rpm for 5 minutes.  16. Discard the supernatant. Resuspend in 10 mL (or 5 mL if the cell pellet is small) of plating media. 17. Suspended in plating media, the hepatocytes will remain viable for a few hours, until plated.  Once plated, place in 37°C cell incubator. Cells should be plated on a collagen coated surface. ",
+            "prefix": "slips (GC-12, Neuvitro)Procedure",
+            "suffix": "AcknowledgementsWe have adapted "
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "rp8w-KWwEeqRig_DgLJATg",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:41:24",
+    "updated": "2020-06-03T15:41:53",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "input variable in Plex ontology",
+    "prefix": " and place in 37°C bathEquipment",
+    "exact": "Collagenase from Clostridium histolyticum release of physiologically active rat hepatocytes tested, Type IV, 0.5-5.0 FALGPA units/mg solid, ≥125 CDU/mg solid( Sigma Aldrich Cat #C5138-500MG)Masterflex® L/S® Precision Variable‐Speed Perfusion Machine (Cole Parmer #HV‐07528‐10)60mm TPP Tissue Culture Dishes (LightLabs #TC‐1015)Mesh strainer, 70 micron (Bd Biosciences 352350)Glutamax (Invitrogen 35050061)Avertin (Sigma Aldrich T48402-25G)Masterflex platinum-cured silicone tubing, L/S 15, 25 ft (Cole Parmer HV-96410-15)Terumo™ Surflo™ Winged Infusion Sets (Fisher scientific 22-289912)Qtips (Fisher scientific 22-029-488)Collagen coated coverslips (GC-12, Neuvitro)",
+    "suffix": "Procedure1. Setup perfusion stat",
+    "start": 2274,
+    "end": 2941,
+    "tags": [
+      "instrument",
+      "equipment"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 44,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[10]/div[2]/span[1]/p[10]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[10]/div[2]/span[1]/p[1]/strong[1]"
+          },
+          {
+            "end": 2941,
+            "type": "TextPositionSelector",
+            "start": 2274
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Collagenase from Clostridium histolyticum release of physiologically active rat hepatocytes tested, Type IV, 0.5-5.0 FALGPA units/mg solid, ≥125 CDU/mg solid( Sigma Aldrich Cat #C5138-500MG)Masterflex® L/S® Precision Variable‐Speed Perfusion Machine (Cole Parmer #HV‐07528‐10)60mm TPP Tissue Culture Dishes (LightLabs #TC‐1015)Mesh strainer, 70 micron (Bd Biosciences 352350)Glutamax (Invitrogen 35050061)Avertin (Sigma Aldrich T48402-25G)Masterflex platinum-cured silicone tubing, L/S 15, 25 ft (Cole Parmer HV-96410-15)Terumo™ Surflo™ Winged Infusion Sets (Fisher scientific 22-289912)Qtips (Fisher scientific 22-029-488)Collagen coated coverslips (GC-12, Neuvitro)",
+            "prefix": " and place in 37°C bathEquipment",
+            "suffix": "Procedure1. Setup perfusion stat"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "cvGXEqWwEeqiusNqwRAYvg",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:39:44",
+    "updated": "2020-06-03T15:39:44",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "input variable in Plex ontology",
+    "prefix": "sterilize and place in 37°C bath",
+    "exact": "Plating media",
+    "suffix": "174 mL M199 media2 mL 100x gluta",
+    "start": 2134,
+    "end": 2147,
+    "tags": [
+      "reagent",
+      "recipe"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 13,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[25]/strong[1]/u[1]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[25]/strong[1]/u[1]"
+          },
+          {
+            "end": 2147,
+            "type": "TextPositionSelector",
+            "start": 2134
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Plating media",
+            "prefix": "sterilize and place in 37°C bath",
+            "suffix": "174 mL M199 media2 mL 100x gluta"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "WOmceqWwEeq1QQMDR60aWg",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:39:01",
+    "updated": "2020-06-03T15:39:01",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "input variable in Plex ontology",
+    "prefix": "e, prepare the following medias:",
+    "exact": "Washing media",
+    "suffix": "500 mL M199 media5 mL 100X gluta",
+    "start": 1965,
+    "end": 1978,
+    "tags": [
+      "reagent",
+      "recipe"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 13,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[21]/strong[1]/u[1]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[21]/strong[1]/u[1]"
+          },
+          {
+            "end": 1978,
+            "type": "TextPositionSelector",
+            "start": 1965
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Washing media",
+            "prefix": "e, prepare the following medias:",
+            "suffix": "500 mL M199 media5 mL 100X gluta"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "I321vKWwEeqDhr9CauIcFg",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:37:31",
+    "updated": "2020-06-03T15:37:31",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "input variable in Plex ontology",
+    "prefix": " solution in 37°C bath until use",
+    "exact": "Collagenase buffer",
+    "suffix": "80 mL 1xHBSS10 mL CaCl2 (see ste",
+    "start": 1649,
+    "end": 1667,
+    "tags": [
+      "reagent",
+      "recipe"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 18,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[12]/strong[1]/u[1]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[12]/strong[1]/u[1]"
+          },
+          {
+            "end": 1667,
+            "type": "TextPositionSelector",
+            "start": 1649
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Collagenase buffer",
+            "prefix": " solution in 37°C bath until use",
+            "suffix": "80 mL 1xHBSS10 mL CaCl2 (see ste"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "DvkIYqWwEeqqpTPAPkYbEw",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:36:57",
+    "updated": "2020-06-03T15:36:57",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "input variable in Plex ontology",
+    "prefix": " incrementally until dissolved. ",
+    "exact": "Perfusion buffer",
+    "suffix": ":400 mL 1xHBSS25 mL HEPES soluti",
+    "start": 1436,
+    "end": 1452,
+    "tags": [
+      "reagent",
+      "recipe"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 16,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[7]/strong[1]/u[1]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[7]/strong[1]/u[1]"
+          },
+          {
+            "end": 1452,
+            "type": "TextPositionSelector",
+            "start": 1436
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Perfusion buffer",
+            "prefix": " incrementally until dissolved. ",
+            "suffix": ":400 mL 1xHBSS25 mL HEPES soluti"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "-onn_KWvEeqQtOcRBgRybA",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:36:22",
+    "updated": "2020-06-03T15:36:22",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "input variable in Plex ontology",
+    "prefix": " of CaCl2 and 10 mL of 1xHBSS3. ",
+    "exact": "EGTA solution",
+    "suffix": ": 95 mg of EGTA and 5 mL of 1xHB",
+    "start": 1262,
+    "end": 1275,
+    "tags": [
+      "reagent",
+      "recipe"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 13,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[5]/u[1]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[5]/u[1]"
+          },
+          {
+            "end": 1275,
+            "type": "TextPositionSelector",
+            "start": 1262
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "EGTA solution",
+            "prefix": " of CaCl2 and 10 mL of 1xHBSS3. ",
+            "suffix": ": 95 mg of EGTA and 5 mL of 1xHB"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "5Y7-eKWvEeqlATcicVKD3Q",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:35:47",
+    "updated": "2020-06-03T15:35:47",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "input variable in Plex ontology",
+    "prefix": "HBSS to final volume of 30 mL2. ",
+    "exact": "CaCl2 solution",
+    "suffix": ": 74 mg of CaCl2 and 10 mL of 1x",
+    "start": 1209,
+    "end": 1223,
+    "tags": [
+      "reagent",
+      "recipe"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 14,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[4]/u[1]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[4]/u[1]"
+          },
+          {
+            "end": 1223,
+            "type": "TextPositionSelector",
+            "start": 1209
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "CaCl2 solution",
+            "prefix": "HBSS to final volume of 30 mL2. ",
+            "suffix": ": 74 mg of CaCl2 and 10 mL of 1x"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "zFlbYKWvEeqbHt-oT56w0Q",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:35:05",
+    "updated": "2020-06-03T15:35:05",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "input variable in Plex ontology",
+    "prefix": "epare the following reagents.1. ",
+    "exact": "HEPES solution",
+    "suffix": ": 7.2 g HEPES in ~25 mL of 1xHBS",
+    "start": 1134,
+    "end": 1148,
+    "tags": [
+      "reagent",
+      "recipe"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 14,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[3]/u[1]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]/div[2]/span[1]/p[3]/u[1]"
+          },
+          {
+            "end": 1148,
+            "type": "TextPositionSelector",
+            "start": 1134
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "HEPES solution",
+            "prefix": "epare the following reagents.1. ",
+            "suffix": ": 7.2 g HEPES in ~25 mL of 1xHBS"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  },
+  {
+    "id": "Z5ANAKWvEeqDuSOaejXNhQ",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+    "created": "2020-06-03T15:32:16",
+    "updated": "2020-06-03T15:32:16",
+    "title": "Primary mouse hepatocyte isolation",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "output variable in Plex ontology",
+    "prefix": "protocol is intended to isolate ",
+    "exact": "primary hepatocytes",
+    "suffix": " from mus musculus (mouse) for t",
+    "start": 564,
+    "end": 583,
+    "tags": [
+      "sample",
+      "processed sample"
+    ],
+    "group": "7PdAaVpi",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-616/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 56,
+            "startOffset": 37,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[7]/div[2]/span[1]/p[1]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[7]/div[2]/span[1]/p[1]"
+          },
+          {
+            "end": 583,
+            "type": "TextPositionSelector",
+            "start": 564
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "primary hepatocytes",
+            "prefix": "protocol is intended to isolate ",
+            "suffix": " from mus musculus (mouse) for t"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Primary mouse hepatocyte isolation"
+      ]
+    }
+  }
+]
