@@ -1,5 +1,5 @@
-@prefix this: <http://purl.org/np/RAFwN26IsClL7ex5jGGPklsEoiMTLtkJhL8ZCOF9_CPDs> .
-@prefix sub: <http://purl.org/np/RAFwN26IsClL7ex5jGGPklsEoiMTLtkJhL8ZCOF9_CPDs#> .
+@prefix this: <http://purl.org/np/RAGnWOrqneVmOm-VF7HaEc6Qe63joqwYD44VwUKYq5GZU> .
+@prefix sub: <http://purl.org/np/RAGnWOrqneVmOm-VF7HaEc6Qe63joqwYD44VwUKYq5GZU#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -14,12 +14,12 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:step dcterms:description "Preheat an oven to 350 degrees F (175 degrees C).";
+  sub:step dcterms:description "Bake in the preheated oven until no longer pink at the bone and the juices run clear, about 75 minutes.  An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 180 degrees F (82 degrees C).";
     a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask> .
 }
 
 sub:provenance {
-  sub:assertion prov:generatedAtTime "2020-06-09T14:34:08.001502"^^xsd:dateTime;
+  sub:assertion prov:generatedAtTime "2020-06-24T14:41:54.721507"^^xsd:dateTime;
     prov:wasAttributedTo sub:experimentScientist;
     prov:wasDerivedFrom sub:experiment .
 }
@@ -27,9 +27,10 @@ sub:provenance {
 sub:pubInfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
-    npx:hasSignature "eJV+VshpN0OpN1a7WgEBi0760q0iZw+IrNVYbikNLVArSaH9H1LNyAUWj87CcOf/MhO/mUzNKV12PuC2CNq0D9+Ugc20j19BeCIVbKbUNGkRJEJdmSB5TtcllDVho7Om6p7Rzo7fo2aIUVFKXWwYIp828ur0YfJkMuND4bFh5EM=";
+    npx:hasSignature "EP7OaAyStSojuqiqou9cllI3DfW4dhqeccVZiyuUDhrSL5SYZsLhGYQBTo1u2nA1nlu2dCFY9k38ggse1+grpjbbTTNIzSVvT02OxFy2HqTHaZZxyzBi78fi0V+t3LdFs+bQeG3HVqn4ZW9cGT9lOeFbo/zZB/kStOXyeMK7hr8=";
     npx:hasSignatureTarget this: .
   
-  this: prov:generatedAtTime "2020-06-09T14:34:08.001502"^^xsd:dateTime;
+  this: np:introduces sub:step;
+    prov:generatedAtTime "2020-06-24T14:41:54.721507"^^xsd:dateTime;
     prov:wasAttributedTo <http://purl.org/person#DrBob> .
 }
