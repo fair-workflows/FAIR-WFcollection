@@ -12,3 +12,8 @@
 <http://plex.org/workflow_recipe_curried_chicken> <http://purl.org/dc/terms/description> "Recipe Workflow for Curried Chicken" .
 <http://plex.org/workflow_recipe_curried_chicken> <http://purl.org/spar/pwo#hasFirstStep> <http://plex.org/step_preheat_oven> .
 <http://plex.org/workflow_recipe_curried_chicken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/p-plan#Plan> .
+
+<http://plex.org/step_arrange_chicken_pieces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/p-plan#Step> .
+<http://plex.org/step_bake_in_oven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/p-plan#Step> .
+<http://plex.org/step_melt_butter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/p-plan#Step> .
+<http://plex.org/step_preheat_oven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/p-plan#Step> .
