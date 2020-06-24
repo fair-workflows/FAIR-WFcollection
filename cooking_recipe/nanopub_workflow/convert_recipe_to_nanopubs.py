@@ -1,6 +1,7 @@
 import sys
 import rdflib
 from urllib.parse import urlsplit, urlunsplit
+
 from fairworkflows import Nanopub
 
 def purlify_uri(uriref: rdflib.term.URIRef, fragment='') -> rdflib.term.URIRef:
@@ -46,7 +47,7 @@ def get_plan(np_rdf):
     if len(triples) == 0:
         return None, None
 
-    return str(workflow_uri), triples
+    return str(workflow_uri), workflow_uri, triples
 
 
 def get_first_step_triple(np_rdf):
@@ -98,7 +99,7 @@ def get_plex_steps(np_rdf):
 
         # Add step triples to dict, with the URI as the key
         uri_str = str(stepURI)
-        steps[uri_str] = step
+        steps[uri_str] = {'triples': step, 'rdfterm': stepURI}
 
     return steps
 
@@ -125,7 +126,7 @@ rdf = rdflib.Graph()
 rdf.parse('../rdf/cooking_recipe_instructions.nt', format='nt')
 
 # Get triples for this plan (its type, and its description)
-plan_uri, plan_triples = get_plan(rdf)
+plan_uri, plan_rdfterm, plan_triples = get_plan(rdf)
 if plan_triples:
     print('\nPlan:')
     for triple in plan_triples:
@@ -159,20 +160,24 @@ for triple in topology:
 
 # Publish the steps individually
 uri_map = {}
-for step_uri, step_triples in steps.items():
+for step_uri, step_info in steps.items():
 
     # Publish the triples for this step as a nanopub
     step_rdf = rdflib.Graph()
-    for triple in step_triples:
+    for triple in step_info['triples']:
         step_rdf.add(triple)
-    published_URI = Nanopub.publish(step_rdf, uri=step_uri)
+
+#    print(Nanopub.rdf(step_rdf, uri=step_uri, introduces_concept=step_info['rdfterm']).serialize(format='trig').decode('utf-8'))
+    published_URI = Nanopub.publish(step_rdf, uri=step_uri, introduces_concept=step_info['rdfterm'])
+
+    print(published_URI)
 
     # Publishing the step as a nanopub strips the fragment from it, so add that back in...
     published_URI += '#step'
 
     # Build mapping of URIs so the workflow nanopub uses the published URIs
     uri_map[step_uri] = rdflib.term.URIRef(published_URI)
-    
+
 print('Mapping of step URIs to published URIs:')
 print(uri_map)
 
@@ -199,6 +204,5 @@ for subj, pred, obj in workflow_rdf:
 workflow_rdf = new_workflow_rdf
 
 # Publish this workflow
-workflow_URI = Nanopub.publish(workflow_rdf, uri=plan_uri)
-
+workflow_URI = Nanopub.publish(workflow_rdf, uri=plan_uri, introduces_concept=plan_rdfterm)
 print('Workflow published at', workflow_URI)

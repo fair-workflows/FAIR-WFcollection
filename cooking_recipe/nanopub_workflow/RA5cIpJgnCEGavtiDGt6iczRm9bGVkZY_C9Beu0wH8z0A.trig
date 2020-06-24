@@ -1,5 +1,5 @@
-@prefix this: <http://purl.org/np/RAQ3T-_V0BY3wl3MX7naAsdtOeStyOhGeCtrCOeGv2oUI> .
-@prefix sub: <http://purl.org/np/RAQ3T-_V0BY3wl3MX7naAsdtOeStyOhGeCtrCOeGv2oUI#> .
+@prefix this: <http://purl.org/np/RA5cIpJgnCEGavtiDGt6iczRm9bGVkZY_C9Beu0wH8z0A> .
+@prefix sub: <http://purl.org/np/RA5cIpJgnCEGavtiDGt6iczRm9bGVkZY_C9Beu0wH8z0A#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -19,7 +19,7 @@ sub:assertion {
 }
 
 sub:provenance {
-  sub:assertion prov:generatedAtTime "2020-06-09T14:34:02.960294"^^xsd:dateTime;
+  sub:assertion prov:generatedAtTime "2020-06-24T14:41:59.552924"^^xsd:dateTime;
     prov:wasAttributedTo sub:experimentScientist;
     prov:wasDerivedFrom sub:experiment .
 }
@@ -27,9 +27,10 @@ sub:provenance {
 sub:pubInfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
-    npx:hasSignature "o1fiuH6ou52uYDWFCKscb1jBiiDy+Amm+H/TuutrnKvplurKoe/MScAHXJnax7lf6qIsSVmmmy3bYXaTjsX9GG05LReBHtrKPKkwkW1UMkssNfcExYt1uujYkZzrwohMgV1rVRs+Ca5+BbC0RKhi1mLhQhmH6ymgmdFquN/tns8=";
+    npx:hasSignature "lqVbgEpWgOzToZ+Qibos4pNJfTVr/Qz+LjX0FznzeTzyIjTn2klrNujxlQQ9nsLETUpVubkSpe8g59uLrBIGOu0F9M55woZli2lXseg7euioTy3zeArDxqGByx/B3UBjikH0fFrqWoY+lFGiuAnL+RCeGEWYQwP3JcMVmOE+quY=";
     npx:hasSignatureTarget this: .
   
-  this: prov:generatedAtTime "2020-06-09T14:34:02.960294"^^xsd:dateTime;
+  this: np:introduces sub:step;
+    prov:generatedAtTime "2020-06-24T14:41:59.552924"^^xsd:dateTime;
     prov:wasAttributedTo <http://purl.org/person#DrBob> .
 }
