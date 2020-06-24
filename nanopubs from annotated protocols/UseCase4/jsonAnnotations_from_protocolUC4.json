@@ -1,123 +1,17 @@
 [
   {
-    "id": "cW69PrAAEeqxfJ-bP6ubqA",
+    "id": "iDdPNLVmEeqQ44s-zTYuPQ",
     "authority": "hypothes.is",
     "url": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
-    "created": "2020-06-16T18:37:33",
-    "updated": "2020-06-16T18:37:33",
+    "created": "2020-06-23T15:30:56",
+    "updated": "2020-06-23T15:34:31",
     "title": "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿.",
     "refs": [],
     "isReply": false,
     "isPagenote": false,
     "user": "iannotate",
     "displayName": null,
-    "text": "",
-    "prefix": "kg). STEP 2: Extraction of blood",
-    "exact": "The extraction of blood is performed via cardiac puncture. Scruff the mouse from the back with the body hanging straight vertically. Insert a 22-25G needle with a 3 mL syringe just under the ribs at the body centerline. The needle should hit the heart approximately at the level of the elbow (Figure 1). Gently, withdraw the syringe plunger until blood starts to come out. If blood doesn’t come out, move the syringe slightly upwards or downwards until blood is readily withdrawn. A volume of 1-2 mL can be extracted with this technique. Do not apply additional back pressure until the blood has filled the syringe1,2.CRITICAL STEP: proper mouse restrain is important to ensure successful blood collection. This step needs to be done as fast as possible to ensure that vessels won’t collapse before the transcardial perfusion. CAUTION: applying too much back pressure can collapse the heart muscle thus interfering with the blood extraction.Rapidly transfer the blood to a vacutainer blood collection tube with EDTA. If the blood will be used for RNA extraction, apply three parts of Trizol LS per one part of blood, and process immediately or snap freeze for later processing. If the blood will sit for more than a minute in the syringe before transferring to a container with EDTA, then it may be advisable to add some EDTA to the syringe to coat the inside.",
-    "suffix": "STOP POINT: samples can be store",
-    "start": 4353,
-    "end": 5713,
-    "tags": [
-      "step2_description"
-    ],
-    "group": "__world__",
-    "target": [
-      {
-        "source": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
-        "selector": [
-          {
-            "type": "RangeSelector",
-            "endOffset": 419,
-            "startOffset": 0,
-            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[7]",
-            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[4]"
-          },
-          {
-            "end": 5713,
-            "type": "TextPositionSelector",
-            "start": 4353
-          },
-          {
-            "type": "TextQuoteSelector",
-            "exact": "The extraction of blood is performed via cardiac puncture. Scruff the mouse from the back with the body hanging straight vertically. Insert a 22-25G needle with a 3 mL syringe just under the ribs at the body centerline. The needle should hit the heart approximately at the level of the elbow (Figure 1). Gently, withdraw the syringe plunger until blood starts to come out. If blood doesn’t come out, move the syringe slightly upwards or downwards until blood is readily withdrawn. A volume of 1-2 mL can be extracted with this technique. Do not apply additional back pressure until the blood has filled the syringe1,2.CRITICAL STEP: proper mouse restrain is important to ensure successful blood collection. This step needs to be done as fast as possible to ensure that vessels won’t collapse before the transcardial perfusion. CAUTION: applying too much back pressure can collapse the heart muscle thus interfering with the blood extraction.Rapidly transfer the blood to a vacutainer blood collection tube with EDTA. If the blood will be used for RNA extraction, apply three parts of Trizol LS per one part of blood, and process immediately or snap freeze for later processing. If the blood will sit for more than a minute in the syringe before transferring to a container with EDTA, then it may be advisable to add some EDTA to the syringe to coat the inside.",
-            "prefix": "kg). STEP 2: Extraction of blood",
-            "suffix": "STOP POINT: samples can be store"
-          }
-        ]
-      }
-    ],
-    "document": {
-      "title": [
-        "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿."
-      ]
-    }
-  },
-  {
-    "id": "W4u7NLAAEeqGFSN9AHia8g",
-    "authority": "hypothes.is",
-    "url": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
-    "created": "2020-06-16T18:36:56",
-    "updated": "2020-06-16T18:36:56",
-    "title": "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿.",
-    "refs": [],
-    "isReply": false,
-    "isPagenote": false,
-    "user": "iannotate",
-    "displayName": null,
-    "text": "",
-    "prefix": " pentobarbital (i.p. 10 mg/kg). ",
-    "exact": "STEP 2: Extraction of blood",
-    "suffix": "The extraction of blood is perfo",
-    "start": 4326,
-    "end": 4353,
-    "tags": [
-      "step2"
-    ],
-    "group": "__world__",
-    "target": [
-      {
-        "source": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
-        "selector": [
-          {
-            "type": "RangeSelector",
-            "endOffset": 27,
-            "startOffset": 0,
-            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[3]/strong[1]",
-            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[3]/strong[1]"
-          },
-          {
-            "end": 4353,
-            "type": "TextPositionSelector",
-            "start": 4326
-          },
-          {
-            "type": "TextQuoteSelector",
-            "exact": "STEP 2: Extraction of blood",
-            "prefix": " pentobarbital (i.p. 10 mg/kg). ",
-            "suffix": "The extraction of blood is perfo"
-          }
-        ]
-      }
-    ],
-    "document": {
-      "title": [
-        "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿."
-      ]
-    }
-  },
-  {
-    "id": "SD8SkrAAEeqN-fO4H0hgvQ",
-    "authority": "hypothes.is",
-    "url": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
-    "created": "2020-06-16T18:36:24",
-    "updated": "2020-06-16T18:36:24",
-    "title": "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿.",
-    "refs": [],
-    "isReply": false,
-    "isPagenote": false,
-    "user": "iannotate",
-    "displayName": null,
-    "text": "",
+    "text": "manualTask1 has as an input live mice and as an output euthanized mice.",
     "prefix": "ettesProcedureSTEP 1: Euthanasia",
     "exact": "When mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg).",
     "suffix": " STEP 2: Extraction of bloodThe ",
@@ -126,7 +20,7 @@
     "tags": [
       "step1_description"
     ],
-    "group": "__world__",
+    "group": "7PdAaVpi",
     "target": [
       {
         "source": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
@@ -148,59 +42,6 @@
             "exact": "When mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg).",
             "prefix": "ettesProcedureSTEP 1: Euthanasia",
             "suffix": " STEP 2: Extraction of bloodThe "
-          }
-        ]
-      }
-    ],
-    "document": {
-      "title": [
-        "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿."
-      ]
-    }
-  },
-  {
-    "id": "KoSs5LAAEeqSmNP-ohH17A",
-    "authority": "hypothes.is",
-    "url": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
-    "created": "2020-06-16T18:35:34",
-    "updated": "2020-06-16T18:35:34",
-    "title": "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿.",
-    "refs": [],
-    "isReply": false,
-    "isPagenote": false,
-    "user": "iannotate",
-    "displayName": null,
-    "text": "",
-    "prefix": " 710 Confocal)-PipettesProcedure",
-    "exact": "STEP 1: Euthanasia",
-    "suffix": "When mice have reached their end",
-    "start": 4196,
-    "end": 4214,
-    "tags": [
-      "step1"
-    ],
-    "group": "__world__",
-    "target": [
-      {
-        "source": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
-        "selector": [
-          {
-            "type": "RangeSelector",
-            "endOffset": 18,
-            "startOffset": 0,
-            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[1]/strong[1]",
-            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[1]/strong[1]"
-          },
-          {
-            "end": 4214,
-            "type": "TextPositionSelector",
-            "start": 4196
-          },
-          {
-            "type": "TextQuoteSelector",
-            "exact": "STEP 1: Euthanasia",
-            "prefix": " 710 Confocal)-PipettesProcedure",
-            "suffix": "When mice have reached their end"
           }
         ]
       }
@@ -308,59 +149,6 @@
             "exact": "pentobarbital",
             "prefix": "them with a lethal injection of ",
             "suffix": " (i.p. 10 mg/kg). STEP 2: Extrac"
-          }
-        ]
-      }
-    ],
-    "document": {
-      "title": [
-        "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿."
-      ]
-    }
-  },
-  {
-    "id": "taz3oK_cEeqWWTM6Bq-4VA",
-    "authority": "hypothes.is",
-    "url": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
-    "created": "2020-06-16T14:21:46",
-    "updated": "2020-06-16T14:21:46",
-    "title": "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿.",
-    "refs": [],
-    "isReply": false,
-    "isPagenote": false,
-    "user": "iannotate",
-    "displayName": null,
-    "text": "",
-    "prefix": "ettesProcedureSTEP 1: Euthanasia",
-    "exact": "When mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg).",
-    "suffix": " STEP 2: Extraction of bloodThe ",
-    "start": 4214,
-    "end": 4325,
-    "tags": [
-      "step1_description"
-    ],
-    "group": "7PdAaVpi",
-    "target": [
-      {
-        "source": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
-        "selector": [
-          {
-            "type": "RangeSelector",
-            "endOffset": 111,
-            "startOffset": 0,
-            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[2]",
-            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[2]"
-          },
-          {
-            "end": 4325,
-            "type": "TextPositionSelector",
-            "start": 4214
-          },
-          {
-            "type": "TextQuoteSelector",
-            "exact": "When mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg).",
-            "prefix": "ettesProcedureSTEP 1: Euthanasia",
-            "suffix": " STEP 2: Extraction of bloodThe "
           }
         ]
       }

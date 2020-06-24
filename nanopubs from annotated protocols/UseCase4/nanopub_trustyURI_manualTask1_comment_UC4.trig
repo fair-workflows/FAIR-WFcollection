@@ -1,0 +1,33 @@
+@prefix this: <https://protocolexchange.researchsquare.com/article/pex-838/v1.RA_Hv3s4lPHzij4YlTa-zz8iBtgpfk71uz70Ku-fZ7HTA> .
+@prefix sub: <https://protocolexchange.researchsquare.com/article/pex-838/v1.RA_Hv3s4lPHzij4YlTa-zz8iBtgpfk71uz70Ku-fZ7HTA#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bpmn: <http://dkm.fbk.eu/index.php/BPMN2_Ontology#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubInfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:step1 dc:description "When mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg).";
+    rdf:comment "manualTask1 has as an input live mice and as an output euthanized mice.";
+    a bpmn:manualTask;
+    rdf:value "STEP 1: Euthanasia" .
+}
+
+sub:provenance {
+  sub:assertion prov:generatedAtTime "2020-06-16T14:18:31"^^xsd:dateTime, "2020-06-23T15:34:31"^^xsd:dateTime;
+    prov:wasDerivedFrom authority:V7WRlq8bEeqSvjfdHfZKfg, authority:iDdPNLVmEeqQ44s-zTYuPQ .
+}
+
+sub:pubInfo {
+  this: prov:generatedAtTime "2020-06-17T21:19:54+00:00"^^xsd:dateTime;
+    prov:wasAttributedTo authority:iannotate .
+}
