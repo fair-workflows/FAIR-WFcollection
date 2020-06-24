@@ -1,0 +1,63 @@
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-838/v1> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix np:  <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> . 
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bpmn: <http://dkm.fbk.eu/index.php/BPMN2_Ontology#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+
+:head {
+    : a np:Nanopublication .
+    : np:hasAssertion :assertion .
+    : np:hasProvenance :provenance .
+    : np:hasPublicationInfo :pubInfo .
+}
+
+:assertion {
+    :step1 a bpmn:manualTask .
+    :step1 rdf:value "STEP 1: Euthanasia" .
+    :step1 dc:description "When mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg)." .
+    :step1 p-plan:hasInputVar :sample .
+    :sample rdf:type "mice" .
+    :step1 p-plan:hasOutputVar :euthanized_mice .
+    :euthanized_mice rdf:type "euthanize them" .
+    :step1 dul:precedes :step2 .
+    :step2 a bpmn:manualTask .
+    :step2 rdf:value "STEP 2: Extraction of blood" .
+    :step2 dc:description "The extraction of blood is performed via cardiac puncture. Scruff the mouse from the back with the body hanging straight vertically. Insert a 22-25G needle with a 3 mL syringe just under the ribs at the body centerline. The needle should hit the heart approximately at the level of the elbow (Figure 1). Gently, withdraw the syringe plunger until blood starts to come out. If blood doesn’t come out, move the syringe slightly upwards or downwards until blood is readily withdrawn. A volume of 1-2 mL can be extracted with this technique. Do not apply additional back pressure until the blood has filled the syringe1,2. CRITICAL STEP: proper mouse restrain is important to ensure successful blood collection. This step needs to be done as fast as possible to ensure that vessels won’t collapse before the transcardial perfusion. CAUTION: applying too much back pressure can collapse the heart muscle thus interfering with the blood extraction. Rapidly transfer the blood to a vacutainer blood collection tube with EDTA. If the blood will be used for RNA extraction, apply three parts of Trizol LS per one part of blood, and process immediately or snap freeze for later processing. If the blood will sit for more than a minute in the syringe before transferring to a container with EDTA, then it may be advisable to add some EDTA to the syringe to coat the inside." .
+    :step2 p-plan:hasInputVar :euthanized_mouse .
+    :euthanized_mouse rdf:type "mouse" .
+    :step2 p-plan:hasOutputVar :sample .
+    :sample rdf:type "blood" .
+
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-06-16T14:18:31"^^xsd:dateTime .
+    :assertion prov:wasDerivedFrom <https://hypothes.is/a/V7WRlq8bEeqSvjfdHfZKfg> .
+    :assertion prov:generatedAtTime "2020-06-16T14:21:46"^^xsd:dateTime .
+    :assertion prov:wasDerivedFrom <https://hypothes.is/a/taz3oK_cEeqWWTM6Bq-4VA> .
+    :assertion prov:generatedAtTime "2020-06-16T13:31:27"^^xsd:dateTime .
+    :assertion prov:wasDerivedFrom <https://hypothes.is/a/mAr9dq8bEeqS_4sbniiWFg> .
+    :assertion prov:generatedAtTime "2020-06-16T13:32:21"^^xsd:dateTime .
+    :assertion prov:wasDerivedFrom <https://hypothes.is/a/NKhg_K_UEeqycZvC4D-zlA> .
+    :assertion prov:generatedAtTime "2020-06-16T14:15:30"^^xsd:dateTime .
+    :assertion prov:wasDerivedFrom <https://hypothes.is/a/5WEpoq8aEeql9l9lbbmXtA> .
+    :assertion prov:generatedAtTime "2020-06-16T14:22:40"^^xsd:dateTime .
+    :assertion prov:wasDerivedFrom <https://hypothes.is/a/1hSUnq_cEeqIcP_6cI5Z7A> .
+    :assertion prov:generatedAtTime "2020-06-16T13:35:38"^^xsd:dateTime .
+    :assertion prov:wasDerivedFrom <https://hypothes.is/a/LObKgq_WEeq84sMvFWl6Ig> .
+    :assertion prov:generatedAtTime "2020-06-16T13:38:01"^^xsd:dateTime .
+    :assertion prov:wasDerivedFrom <https://hypothes.is/a/mXP6Eq_WEeqeu_sfPyv0rg> .
+}
+
+:pubInfo {
+    : prov:wasAttributedTo authority:iannotate .
+    : prov:generatedAtTime "2020-06-17T21:19:54+00:00"^^xsd:dateTime .
+}
+

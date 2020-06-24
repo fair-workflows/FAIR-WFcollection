@@ -1,0 +1,32 @@
+@prefix this: <https://protocolexchange.researchsquare.com/article/pex-616/v1.RAtBek_7lLX190TqyGcfKrboyTH8b4pw_QPiJ2kbmZYms> .
+@prefix sub: <https://protocolexchange.researchsquare.com/article/pex-616/v1.RAtBek_7lLX190TqyGcfKrboyTH8b4pw_QPiJ2kbmZYms#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bpmn: <http://dkm.fbk.eu/index.php/BPMN2_Ontology#> .
+
+sub:head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubInfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:protocol_instructions p-plan:isStepOfPlan this:;
+    a bpmn:manualTask;
+    rdf:value "1. Setup perfusion station: Place metal platform within the glass chamber. Run the tubing through perfusion machine and clamp the end of the tubing with a large binder clip. Attach a butterfly needle to each port. [See Supplementary Picture 1].2. Place the unclamped end of tubing in the perfusion buffer and turn on perfusion machine. Let the buffer flow until it is seen coming out of each needle, then clamp each butterfly needle tubing. Pause the perfusion machine until ready to use. 3. Take anesthetized animal (via IP injection of Avertin) and place supine on metal platform and tape all limbs down. 4. Remove the abdominal skin, preserving the muscle and peritoneum. Open the peritoneum and open the abdominal cavity for full visualization of the liver and abdominal organs. 5. Push the stomach and intestines to the right side of the animal and identify the inferior vena cava (IVC) and portal vein (PV). 6. Cannulate the IVC with the butterfly needle ensuring that the bevel of the needle is facing up. Use a hemostat to secure the needle within the IVC and tape the tubing down to the metal platform. Unclamp the butterfly needle tubing. Turn on the perfusion machine. If the IVC was successfully cannulated, the liver should begin to engorge and lighten in color. 7. Immediately identify and cut the PV. At this point the animal should rapidly bleed out and perfusion buffer should begin to flow out of the PV. 8. Pass at least 100 mL of perfusion buffer through a single mouse.9. While the perfusion is running, add the collagenase (transported on ice) to the collagenase buffer and mix well. 10. Pause the perfusion machine and switch the tubing to the collagenase buffer. Resume perfusion and run through entire volume of collagenase buffer.11. When the perfusion is finished, remove the liver by cutting along the vasculature and connective tissue; avoid cutting the liver parenchyma. Place the liver in a petri dish with 10 mL of perfusion buffer.  12. Agitate the liver to dissociate the hepatocytes. 13. Using a serological pipette, transfer the dissociated cell suspension to a 70 micron mesh filter over a 50 mL Falcon tube. Once filtered through, complete the volume with perfusion buffer to dilute the collagenase. 14. Immediately centrifuge at a minimum speed of 800 rpm for 5 minutes. 15. Discard the supernatant. Resuspend in washing media and centrifuge again at 800 rpm for 5 minutes.  16. Discard the supernatant. Resuspend in 10 mL (or 5 mL if the cell pellet is small) of plating media. 17. Suspended in plating media, the hepatocytes will remain viable for a few hours, until plated.  Once plated, place in 37°C cell incubator. Cells should be plated on a collagen coated surface." .
+}
+
+sub:provenance {
+  sub:assertion prov:generatedAtTime "2020-06-03T15:44:42"^^xsd:dateTime;
+    prov:wasDerivedFrom authority:JKiPYKWxEeqmmnel1WSugg .
+}
+
+sub:pubInfo {
+  this: prov:generatedAtTime "2020-06-04T17:17:49+00:00"^^xsd:dateTime;
+    prov:wasAttributedTo authority:iannotate .
+}

@@ -1,0 +1,128 @@
+{
+  "@graph" : [ 
+   {
+    "@id" : "plex:text_clf_plan",
+    "@type" : [ "p-plan:Plan", "dul:Workflow" ],
+    "description" : "This workflow classify the given text using machine learning model and TF-IDF features",
+    "hasFirstStep" : "plex:count_vectorize",
+    "qualifiedUsage" : [ "plex:clf__penalty_elastic", "plex:vect__in_data_fetch_20_newsgroups", "plex:vect__max_df_0.5", "plex:vect__ngram_range_1_2", "plex:tfidf__norm_l1", "plex:clf__max_iter_20" ]
+  }, {
+    "@id" : "plex:count_vectorize",
+    "@type" : "p-plan:Step",
+    "hasInputVar" : [ "plex:vect__ngram_range", "plex:vect__max_df", "plex:vect__in_data" ],
+    "hasOutputVar" : "plex:vect__out_data",
+    "isStepOfPlan" : "plex:text_clf_plan",
+    "precedes" : "plex:tf_idf_transformer"
+  }, {
+    "@id" : "plex:sgdc_classifier",
+    "@type" : "p-plan:Step",
+    "hasInputVar" : [ "plex:clf__penalty", "plex:clf__max_iter", "plex:tfidf__out_data" ],
+    "hasOutputVar" : "plex:clf__out_data",
+    "isStepOfPlan" : "plex:text_clf_plan"
+  }, {
+    "@id" : "plex:tf_idf_transformer",
+    "@type" : "p-plan:Step",
+    "hasInputVar" : [ "plex:tfidf__norm", "plex:vect__out_data" ],
+    "hasOutputVar" : "plex:tfidf__out_data",
+    "isStepOfPlan" : "plex:text_clf_plan",
+    "precedes" : "plex:sgdc_classifier"
+  },{
+    "@id" : "plex:clf__max_iter",
+    "@type" : "p-plan:Variable"
+  }, {
+    "@id" : "plex:clf__out_data",
+    "@type" : "p-plan:Variable"
+  }, {
+    "@id" : "plex:clf__penalty",
+    "@type" : "p-plan:Variable"
+  },{
+    "@id" : "plex:tfidf__norm",
+    "@type" : "p-plan:Variable"
+  }, {
+    "@id" : "plex:tfidf__out_data",
+    "@type" : "p-plan:Variable"
+  }, {
+    "@id" : "plex:vect__in_data",
+    "@type" : "p-plan:Variable"
+  }, {
+    "@id" : "plex:vect__in_data_fetch_20_newsgroups",
+    "@type" : "prov:Usage",
+    "value" : "plex:distr_fetch_20_newsgroups",
+    "entity" : "plex:vect__in_data"
+  }, {
+    "@id" : "plex:vect__max_df",
+    "@type" : "p-plan:Variable"
+  }, {
+    "@id" : "plex:vect__max_df_0.5",
+    "@type" : "prov:Usage",
+    "rdf:value" : {
+      "@type" : "xsd:float",
+      "@value" : "0.5"
+    },
+    "entity" : "plex:vect__max_df"
+  }, {
+    "@id" : "plex:vect__ngram_range",
+    "@type" : "p-plan:Variable"
+  }, {
+    "@id" : "plex:vect__ngram_range_1_2",
+    "@type" : "prov:Usage",
+    "rdf:value" : "(1,2)",
+    "entity" : "plex:vect__ngram_range"
+  }, {
+    "@id" : "plex:vect__out_data",
+    "@type" : "p-plan:Variable"
+  }, {
+    "@id" : "plex:vect__out_data_vec",
+    "@type" : "prov:Usage",
+    "entity" : [ "plex:distr_vect", "plex:vect__out_data" ]
+  } ],
+  "@context" : {
+    "hasFirstStep" : {
+      "@id" : "http://purl.org/spar/pwo#hasFirstStep",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "qualifiedUsage" : {
+      "@id" : "http://www.w3.org/ns/prov#qualifiedUsage",
+      "@type" : "@id"
+    },
+    "value" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "@type" : "@id"
+    },
+    "entity" : {
+      "@id" : "http://www.w3.org/ns/prov#entity",
+      "@type" : "@id"
+    },
+    "hasOutputVar" : {
+      "@id" : "http://purl.org/net/p-plan#hasOutputVar",
+      "@type" : "@id"
+    },
+    "hasInputVar" : {
+      "@id" : "http://purl.org/net/p-plan#hasInputVar",
+      "@type" : "@id"
+    },
+    "isStepOfPlan" : {
+      "@id" : "http://purl.org/net/p-plan#isStepOfPlan",
+      "@type" : "@id"
+    },
+    "precedes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#precedes",
+      "@type" : "@id"
+    },
+    "ns5" : "http://www.w3.org/2002/07/owl#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "pwo" : "http://purl.org/spar/pwo#",
+    "sld" : "https://w3id.org/cwl/salad#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "dul" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+    "p-plan" : "http://purl.org/net/p-plan#",
+    "plex" : "https://w3id.org/fair/plex/ml-text-classify:",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "ns3" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/terms/"
+  }
+}
