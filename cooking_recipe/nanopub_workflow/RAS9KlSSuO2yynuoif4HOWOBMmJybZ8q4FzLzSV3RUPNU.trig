@@ -1,7 +1,8 @@
-@prefix this: <http://purl.org/np/RA6hd3VcKsh5XqhwcYllDMRtdrdPbVTeZw3z96CNwJSKQ> .
-@prefix sub: <http://purl.org/np/RA6hd3VcKsh5XqhwcYllDMRtdrdPbVTeZw3z96CNwJSKQ#> .
+@prefix this: <http://purl.org/np/RAS9KlSSuO2yynuoif4HOWOBMmJybZ8q4FzLzSV3RUPNU> .
+@prefix sub: <http://purl.org/np/RAS9KlSSuO2yynuoif4HOWOBMmJybZ8q4FzLzSV3RUPNU#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -15,11 +16,11 @@ sub:Head {
 
 sub:assertion {
   sub:step dcterms:description "Arrange the chicken pieces in a single layer in a 9x13-inch baking dish. Season the chicken liberally with salt, pepper, and the paprika; set aside.";
-    a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask> .
+    a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask>, p-plan:Step .
 }
 
 sub:provenance {
-  sub:assertion prov:generatedAtTime "2020-06-24T14:41:58.239178"^^xsd:dateTime;
+  sub:assertion prov:generatedAtTime "2020-06-24T15:05:07.691363"^^xsd:dateTime;
     prov:wasAttributedTo sub:experimentScientist;
     prov:wasDerivedFrom sub:experiment .
 }
@@ -27,10 +28,10 @@ sub:provenance {
 sub:pubInfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
-    npx:hasSignature "RP0v2XH89LI/vLD0g7fvSNDis1NtKKWuqUtQG9LO6plKcO04nYYVBCYq0xmQF94FVSvDliN/S75ryHv+bbMQelQhd82vi37nRiIvZVW5tXxnWDjxLFJGsCKg7PzlzJfPQzQFXmwi8JnkwobXxcipHeOFEB9ggbc8Fw0ZqB+JznY=";
+    npx:hasSignature "jrzR1oxvxt0JhMlqGBYgXhElktqq1XRcnkMKl0mOV63SP9acUv6VUYnrJDXqAQ5r0oupU6Q2ak9a100ahyXx50REOgglAYSZnCyNPyCTUa+PKMlcOtgX8veVK0gWNXiTHg0lJsV2H8gUwDQQCKX3yrGePNZ8byEGMaZ5KrDOIJw=";
     npx:hasSignatureTarget this: .
   
   this: np:introduces sub:step;
-    prov:generatedAtTime "2020-06-24T14:41:58.239178"^^xsd:dateTime;
+    prov:generatedAtTime "2020-06-24T15:05:07.691363"^^xsd:dateTime;
     prov:wasAttributedTo <http://purl.org/person#DrBob> .
 }

@@ -1,5 +1,5 @@
-@prefix this: <http://purl.org/np/RAenz24NsPwNeBqdNVQEhFfZUH5qjJALVV8lgo1MDThB4> .
-@prefix sub: <http://purl.org/np/RAenz24NsPwNeBqdNVQEhFfZUH5qjJALVV8lgo1MDThB4#> .
+@prefix this: <http://purl.org/np/RA82s-BAzJxR8ikNILeDdielNgvhy5IU3gU7UK7DKQeTc> .
+@prefix sub: <http://purl.org/np/RA82s-BAzJxR8ikNILeDdielNgvhy5IU3gU7UK7DKQeTc#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -17,22 +17,22 @@ sub:Head {
 }
 
 sub:assertion {
-  <http://purl.org/np/RA2S3DT_Q2xt7ffX69amvNIvjNhu8WLkiDrCLvHRla5gQ#step> dul:precedes
-      <http://purl.org/np/RA6hd3VcKsh5XqhwcYllDMRtdrdPbVTeZw3z96CNwJSKQ#step> .
-  
-  <http://purl.org/np/RA5cIpJgnCEGavtiDGt6iczRm9bGVkZY_C9Beu0wH8z0A#step> dul:precedes
-      <http://purl.org/np/RAGnWOrqneVmOm-VF7HaEc6Qe63joqwYD44VwUKYq5GZU#step> .
-  
-  <http://purl.org/np/RA6hd3VcKsh5XqhwcYllDMRtdrdPbVTeZw3z96CNwJSKQ#step> dul:precedes
-      <http://purl.org/np/RA5cIpJgnCEGavtiDGt6iczRm9bGVkZY_C9Beu0wH8z0A#step> .
+  <http://purl.org/np/RA-eqZIexXTxWJljjGWqxL7cA8P1yrsLEupsJoflVM1Ss#step> dul:precedes
+      <http://purl.org/np/RAS9KlSSuO2yynuoif4HOWOBMmJybZ8q4FzLzSV3RUPNU#step> .
   
   sub:workflow dcterms:description "Recipe Workflow for Curried Chicken";
-    pwo:hasFirstStep <http://purl.org/np/RA2S3DT_Q2xt7ffX69amvNIvjNhu8WLkiDrCLvHRla5gQ#step>;
+    pwo:hasFirstStep <http://purl.org/np/RA-eqZIexXTxWJljjGWqxL7cA8P1yrsLEupsJoflVM1Ss#step>;
     a p-plan:Plan .
+  
+  <http://purl.org/np/RAQld18ih25jgoNUIVpi4GqCFGPqD4j3FbZ_BM5k0slDo#step> dul:precedes
+      <http://purl.org/np/RAtpuBDTEZba6A4KJwyIOj5bUyB_O9AQPzzjZZo9WZsQA#step> .
+  
+  <http://purl.org/np/RAS9KlSSuO2yynuoif4HOWOBMmJybZ8q4FzLzSV3RUPNU#step> dul:precedes
+      <http://purl.org/np/RAQld18ih25jgoNUIVpi4GqCFGPqD4j3FbZ_BM5k0slDo#step> .
 }
 
 sub:provenance {
-  sub:assertion prov:generatedAtTime "2020-06-24T14:42:00.847008"^^xsd:dateTime;
+  sub:assertion prov:generatedAtTime "2020-06-24T15:05:10.198558"^^xsd:dateTime;
     prov:wasAttributedTo sub:experimentScientist;
     prov:wasDerivedFrom sub:experiment .
 }
@@ -40,10 +40,10 @@ sub:provenance {
 sub:pubInfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
-    npx:hasSignature "NHggQx8/5nttaz/jAqquFd/heHLAmuXdkgsy9w/EeLaYt5LsKN6N/I6XVEj14F8l2O+bBKemHnkKgDi0XnjBPDls1QRx7U9Q0SEFH0tBKmycV58bJcrjDdR2TrO1Y71/7/l6MvxNlpivDNx8bwOfOzBaeJKVfbRx3aFol61qnLs=";
+    npx:hasSignature "AM4PJc48i08QBhgSXTNJgiCxmbqexO3cRzEjCtWXjZEuX+cyqOOtq3KEy2b3UkGH8jNOmUSHGMkgegtBXFVpo+x5s7as2LjVdCh2Mn0Md+j3EKUSWVqtYel6lEfmNYdpje8nQ6MnhSWFqvW1RyalTJfYngKU6FUkV0uPpMve+kw=";
     npx:hasSignatureTarget this: .
   
   this: np:introduces sub:workflow;
-    prov:generatedAtTime "2020-06-24T14:42:00.847008"^^xsd:dateTime;
+    prov:generatedAtTime "2020-06-24T15:05:10.198558"^^xsd:dateTime;
     prov:wasAttributedTo <http://purl.org/person#DrBob> .
 }

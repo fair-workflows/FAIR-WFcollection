@@ -1,7 +1,8 @@
-@prefix this: <http://purl.org/np/RA5cIpJgnCEGavtiDGt6iczRm9bGVkZY_C9Beu0wH8z0A> .
-@prefix sub: <http://purl.org/np/RA5cIpJgnCEGavtiDGt6iczRm9bGVkZY_C9Beu0wH8z0A#> .
+@prefix this: <http://purl.org/np/RAQld18ih25jgoNUIVpi4GqCFGPqD4j3FbZ_BM5k0slDo> .
+@prefix sub: <http://purl.org/np/RAQld18ih25jgoNUIVpi4GqCFGPqD4j3FbZ_BM5k0slDo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -15,11 +16,11 @@ sub:Head {
 
 sub:assertion {
   sub:step dcterms:description "Melt the butter in a skillet over medium heat. Add the apple and onion to the melted butter, season with the curry powder, and cook and stir until the apple and onion are tender, 7 to 10 minutes. Stir the mushroom soup and half-and-half into the mixture until completely combined; spoon over the chicken pieces.";
-    a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask> .
+    a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask>, p-plan:Step .
 }
 
 sub:provenance {
-  sub:assertion prov:generatedAtTime "2020-06-24T14:41:59.552924"^^xsd:dateTime;
+  sub:assertion prov:generatedAtTime "2020-06-24T15:05:06.434764"^^xsd:dateTime;
     prov:wasAttributedTo sub:experimentScientist;
     prov:wasDerivedFrom sub:experiment .
 }
@@ -27,10 +28,10 @@ sub:provenance {
 sub:pubInfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
-    npx:hasSignature "lqVbgEpWgOzToZ+Qibos4pNJfTVr/Qz+LjX0FznzeTzyIjTn2klrNujxlQQ9nsLETUpVubkSpe8g59uLrBIGOu0F9M55woZli2lXseg7euioTy3zeArDxqGByx/B3UBjikH0fFrqWoY+lFGiuAnL+RCeGEWYQwP3JcMVmOE+quY=";
+    npx:hasSignature "n4+WVxsmrmEwnO1hcyzFakiRXrkjqL7Rzi+gvMWNg9WKzgHmqN8lU6mEtt4hVjTP+KKHPQXpRhLvLys4F57yUgHTVtaWMA/vVHAWUs9l8lA6wuwNmtgj5atTLhcShKZQBm6ZfMWhUJIhHaCSDo9XaQxERWDdiG1RBaHHUxB93qw=";
     npx:hasSignatureTarget this: .
   
   this: np:introduces sub:step;
-    prov:generatedAtTime "2020-06-24T14:41:59.552924"^^xsd:dateTime;
+    prov:generatedAtTime "2020-06-24T15:05:06.434764"^^xsd:dateTime;
     prov:wasAttributedTo <http://purl.org/person#DrBob> .
 }

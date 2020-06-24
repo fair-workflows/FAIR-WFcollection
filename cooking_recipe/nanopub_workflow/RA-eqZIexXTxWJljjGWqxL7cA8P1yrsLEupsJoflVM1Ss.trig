@@ -1,7 +1,8 @@
-@prefix this: <http://purl.org/np/RAGnWOrqneVmOm-VF7HaEc6Qe63joqwYD44VwUKYq5GZU> .
-@prefix sub: <http://purl.org/np/RAGnWOrqneVmOm-VF7HaEc6Qe63joqwYD44VwUKYq5GZU#> .
+@prefix this: <http://purl.org/np/RA-eqZIexXTxWJljjGWqxL7cA8P1yrsLEupsJoflVM1Ss> .
+@prefix sub: <http://purl.org/np/RA-eqZIexXTxWJljjGWqxL7cA8P1yrsLEupsJoflVM1Ss#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -14,12 +15,12 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:step dcterms:description "Bake in the preheated oven until no longer pink at the bone and the juices run clear, about 75 minutes.  An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 180 degrees F (82 degrees C).";
-    a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask> .
+  sub:step dcterms:description "Preheat an oven to 350 degrees F (175 degrees C).";
+    a <http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask>, p-plan:Step .
 }
 
 sub:provenance {
-  sub:assertion prov:generatedAtTime "2020-06-24T14:41:54.721507"^^xsd:dateTime;
+  sub:assertion prov:generatedAtTime "2020-06-24T15:05:05.205442"^^xsd:dateTime;
     prov:wasAttributedTo sub:experimentScientist;
     prov:wasDerivedFrom sub:experiment .
 }
@@ -27,10 +28,10 @@ sub:provenance {
 sub:pubInfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZmUKAHAF0CY2sKahOanR1V8wP62NOw3G0wcVLULWxqXB/gcW25bGPcA5RKoiuhT6dUbfcRXmwLknE29h6KWfKYLtNaqdrHbjSnNC65dNmNxCNp0i6ZLZRh51mxw9IPJHZrDqQ9bcLwm9d1G1fDKasA+h1vrF3Hv1YrQsF9aW1QIDAQAB";
-    npx:hasSignature "EP7OaAyStSojuqiqou9cllI3DfW4dhqeccVZiyuUDhrSL5SYZsLhGYQBTo1u2nA1nlu2dCFY9k38ggse1+grpjbbTTNIzSVvT02OxFy2HqTHaZZxyzBi78fi0V+t3LdFs+bQeG3HVqn4ZW9cGT9lOeFbo/zZB/kStOXyeMK7hr8=";
+    npx:hasSignature "iL6NdBdQBMaDTtlFGxyR82xiyZO67qGJk0f1oy3JGELzHuqQBK88m0Z/tkuANtVcKF70PrFu9CMH3q1zWbRQFiDwrQhXRKmwFjxkW/lcTbwRA9OnSNelhnqK5cJBkhuaYlxZfPw/ZCFr5Gs//iXLzUPX6zXuiUZLmfmv2M6eeoc=";
     npx:hasSignatureTarget this: .
   
   this: np:introduces sub:step;
-    prov:generatedAtTime "2020-06-24T14:41:54.721507"^^xsd:dateTime;
+    prov:generatedAtTime "2020-06-24T15:05:05.205442"^^xsd:dateTime;
     prov:wasAttributedTo <http://purl.org/person#DrBob> .
 }
