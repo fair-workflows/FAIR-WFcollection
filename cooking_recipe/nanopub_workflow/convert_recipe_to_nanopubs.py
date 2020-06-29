@@ -78,6 +78,7 @@ def get_plex_steps(np_rdf):
     manualTask = rdflib.term.URIRef('http://dkm.fbk.eu/index.php/BPMN2_Ontology#ManualTask')
     scriptTask = rdflib.term.URIRef('http://dkm.fbk.eu/index.php/BPMN2_Ontology#ScriptTask')
     description = rdflib.term.URIRef('http://purl.org/dc/terms/description')
+    pplan_step = rdflib.term.URIRef('http://purl.org/net/p-plan#Step')
 
     initBindings = {'type': rdf_type, 'manualTask': manualTask, 'scriptTask': scriptTask, 'description': description}
     qres = np_rdf.query(
@@ -96,6 +97,7 @@ def get_plex_steps(np_rdf):
 
         step.append((stepURI, rdf_type, row['task']))
         step.append((stepURI, description, row['taskDescription']))
+        step.append((stepURI, rdf_type, pplan_step))
 
         # Add step triples to dict, with the URI as the key
         uri_str = str(stepURI)
