@@ -1,0 +1,161 @@
+[
+  {
+    "id": "lB7Z3rbsEeqZMm96UVPfMg",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
+    "created": "2020-06-25T14:03:00",
+    "updated": "2020-06-25T14:03:00",
+    "title": "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿.",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ProcedureSTEP 1: EuthanasiaWhen ",
+    "exact": "mice",
+    "suffix": " have reached their endpoint, eu",
+    "start": 4219,
+    "end": 4223,
+    "tags": [
+      "sample"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 9,
+            "startOffset": 5,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[2]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[2]"
+          },
+          {
+            "end": 4223,
+            "type": "TextPositionSelector",
+            "start": 4219
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "mice",
+            "prefix": "ProcedureSTEP 1: EuthanasiaWhen ",
+            "suffix": " have reached their endpoint, eu"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿."
+      ]
+    }
+  },
+  {
+    "id": "hTcWNLbsEeq832-JoNBA4A",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
+    "created": "2020-06-25T14:02:34",
+    "updated": "2020-06-25T14:02:34",
+    "title": "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿.",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "them with a lethal injection of ",
+    "exact": "pentobarbital (i.p. 10 mg/kg)",
+    "suffix": ". STEP 2: Extraction of bloodThe",
+    "start": 4295,
+    "end": 4324,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 110,
+            "startOffset": 81,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[2]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[2]"
+          },
+          {
+            "end": 4324,
+            "type": "TextPositionSelector",
+            "start": 4295
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pentobarbital (i.p. 10 mg/kg)",
+            "prefix": "them with a lethal injection of ",
+            "suffix": ". STEP 2: Extraction of bloodThe"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿."
+      ]
+    }
+  },
+  {
+    "id": "Z7PjgLbsEeqyhi-v9z03RA",
+    "authority": "hypothes.is",
+    "url": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
+    "created": "2020-06-25T14:01:45",
+    "updated": "2020-06-25T14:01:45",
+    "title": "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿.",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ettesProcedureSTEP 1: Euthanasia",
+    "exact": "When mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg).",
+    "suffix": " STEP 2: Extraction of bloodThe ",
+    "start": 4214,
+    "end": 4325,
+    "tags": [
+      "step1_description"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://protocolexchange.researchsquare.com/article/pex-838/v1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 111,
+            "startOffset": 0,
+            "endContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[2]",
+            "startContainer": "/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/div[2]/span[1]/p[2]"
+          },
+          {
+            "end": 4325,
+            "type": "TextPositionSelector",
+            "start": 4214
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "When mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg).",
+            "prefix": "ettesProcedureSTEP 1: Euthanasia",
+            "suffix": " STEP 2: Extraction of bloodThe "
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice﻿."
+      ]
+    }
+  }
+]
