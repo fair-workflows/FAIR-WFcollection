@@ -1,0 +1,123 @@
+@prefix : <http://purl.org/nanopub/temp/mynanopub#> .
+@prefix bpmn: <http://dkm.fbk.eu/index.php/BPMN2_Ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix hycl: <http://purl.org/petapico/o/hycl#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : np:introduces :step ;
+        prov:generatedAtTime "2020-07-02T20:02:17.394408"^^xsd:dateTime ;
+        prov:wasAttributedTo <http://purl.org/person#DrBob> .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-07-02T20:02:17.394408"^^xsd:dateTime ;
+        prov:wasAttributedTo :experimentScientist ;
+        prov:wasDerivedFrom <https://protocolexchange.researchsquare.com/article/pex-838/v1> .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "ProcedureSTEP 1: EuthanasiaWhen mice have reached their endpoint, eu" ;
+        dul:isDescribedBy <http://purl.org/nanopub/temp/mynanopub> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/mynanopub#> .
+@prefix bpmn: <http://dkm.fbk.eu/index.php/BPMN2_Ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix hycl: <http://purl.org/petapico/o/hycl#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : np:introduces :step ;
+        prov:generatedAtTime "2020-07-02T20:02:17.400567"^^xsd:dateTime ;
+        prov:wasAttributedTo <http://purl.org/person#DrBob> .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-07-02T20:02:17.400567"^^xsd:dateTime ;
+        prov:wasAttributedTo :experimentScientist ;
+        prov:wasDerivedFrom <https://protocolexchange.researchsquare.com/article/pex-838/v1> .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "them with a lethal injection of pentobarbital (i.p. 10 mg/kg). STEP 2: Extraction of bloodThe" ;
+        dul:isDescribedBy <http://purl.org/nanopub/temp/mynanopub> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/mynanopub#> .
+@prefix bpmn: <http://dkm.fbk.eu/index.php/BPMN2_Ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix hycl: <http://purl.org/petapico/o/hycl#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : np:introduces :step ;
+        prov:generatedAtTime "2020-07-02T20:02:17.402807"^^xsd:dateTime ;
+        prov:wasAttributedTo <http://purl.org/person#DrBob> .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-07-02T20:02:17.402807"^^xsd:dateTime ;
+        prov:wasAttributedTo :experimentScientist ;
+        prov:wasDerivedFrom <https://protocolexchange.researchsquare.com/article/pex-838/v1> .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "ettesProcedureSTEP 1: EuthanasiaWhen mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg). STEP 2: Extraction of bloodThe " ;
+        dul:isDescribedBy <http://purl.org/nanopub/temp/mynanopub> .
+}
+
+

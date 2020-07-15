@@ -1,0 +1,446 @@
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-838/v1#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-08T15:09:10"^^xsd:dateTime ;
+        prov:wasAttributedTo authority:iannotate .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "When mice have reached their endpoint, euthanize them with a lethal injection of pentobarbital (i.p. 10 mg/kg)." ;
+        ns1:hasPart :reagent,
+            :sample .
+
+    :reagent rdfs:label "pentobarbital (i.p. 10 mg/kg)" .
+
+    :sample rdfs:label "mice" .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-07-08T14:51:16"^^xsd:dateTime,
+            "2020-07-08T14:52:38"^^xsd:dateTime,
+            "2020-07-08T15:09:10"^^xsd:dateTime ;
+        prov:wasDerivedFrom <https://hypothes.is/a/-fV-MMEsEeqFu_9W2-khxA>,
+            authority:eZy-0MEqEeqHvyP5iBkn1w,
+            authority:qqjt0sEqEeq6ZSfvtPiVLA .
+}
+
+
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-838/v1#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-06-28T11:55:48"^^xsd:dateTime ;
+        prov:wasAttributedTo authority:iannotate .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "The extraction of blood is performed via cardiac puncture. Scruff the mouse from the back with the body hanging straight vertically. Insert a 22-25G needle with a 3 mL syringe just under the ribs at the body centerline. The needle should hit the heart approximately at the level of the elbow (Figure 1). Gently, withdraw the syringe plunger until blood starts to come out. If blood doesn’t come out, move the syringe slightly upwards or downwards until blood is readily withdrawn. A volume of 1-2 mL can be extracted with this technique. Do not apply additional back pressure until the blood has filled the syringe1,2.CRITICAL STEP: proper mouse restrain is important to ensure successful blood collection. This step needs to be done as fast as possible to ensure that vessels won’t collapse before the transcardial perfusion. CAUTION: applying too much back pressure can collapse the heart muscle thus interfering with the blood extraction.Rapidly transfer the blood to a vacutainer blood collection tube with EDTA. If the blood will be used for RNA extraction, apply three parts of Trizol LS per one part of blood, and process immediately or snap freeze for later processing. If the blood will sit for more than a minute in the syringe before transferring to a container with EDTA, then it may be advisable to add some EDTA to the syringe to coat the inside.STOP POINT: samples can be stored at -80ºC until further processing or can be processed fresh. Proceed to extract RNA with a preferred method." ;
+        ns1:hasPart :equipment,
+            :reagent,
+            :sample .
+
+    :equipment rdfs:label "22-25G needle",
+            "3 mL syringe",
+            "vacutainer blood collection tube" .
+
+    :reagent rdfs:label "EDTA",
+            "Trizol LS" .
+
+    :sample rdfs:label "blood",
+            "mouse" .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-06-28T11:55:48"^^xsd:dateTime,
+            "2020-07-07T14:46:21"^^xsd:dateTime,
+            "2020-07-07T14:46:47"^^xsd:dateTime,
+            "2020-07-07T14:47:02"^^xsd:dateTime,
+            "2020-07-07T14:48:01"^^xsd:dateTime,
+            "2020-07-07T14:48:51"^^xsd:dateTime,
+            "2020-07-07T14:49:04"^^xsd:dateTime,
+            "2020-07-07T14:49:24"^^xsd:dateTime ;
+        prov:wasDerivedFrom <https://hypothes.is/a/-VoZisBgEeq_36NX5HUUQw>,
+            <https://hypothes.is/a/23IPpMBgEeq325OXUuXqvA>,
+            authority:AOzMYMBhEeqo59vC4Hv0JQ,
+            authority:DPFECsBhEeqf8j_Ta6DKpw,
+            authority:TrcHYrk2EeqdSvuEff9ILQ,
+            authority:n7fihsBgEeq1cAtZEGKzpA,
+            authority:r0BRhMBgEeqqz3dMoegpWQ,
+            authority:uF66lMBgEeqJ15tI7WyXSQ .
+}
+
+
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-838/v1#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-01T10:49:55"^^xsd:dateTime ;
+        prov:wasAttributedTo authority:iannotate .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "Place the mouse on its back on a grate sitting on top of the rectangular bucket and tape the forelimbs and hindlimbs firmly to the grate. Perform a cut from below the ribs to the upper chest in order to expose the chest cavity. Attach hemostats to the ribs and retract in order to fully expose the heart. Insert a 21G needle attached to a perfusion pump containing 1X PBS into the left ventricle, and then perform a small cut in the right atrium. Start to pump 1X PBS to the mouse, until the fluid runs clear out of the cut in the right atrium. The liver changing from a deep red to a paler shade is an indicator of a good perfusion.CRITICAL STEP: further perfusion with 4% PFA should be avoided as half of the brain will be used for protein extraction and immunostaining results have shown significant improvement when skipping this step. " ;
+        ns1:hasPart :equipment,
+            :reagent,
+            :sample .
+
+    :equipment rdfs:label "21G needle",
+            "perfusion pump",
+            "rectangular bucket" .
+
+    :reagent rdfs:label "1X PBS",
+            "4% PFA" .
+
+    :sample rdfs:label "mouse" .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-07-01T10:49:55"^^xsd:dateTime,
+            "2020-07-08T05:25:08"^^xsd:dateTime,
+            "2020-07-08T05:26:48"^^xsd:dateTime,
+            "2020-07-08T05:27:36"^^xsd:dateTime,
+            "2020-07-08T05:28:20"^^xsd:dateTime,
+            "2020-07-08T05:28:34"^^xsd:dateTime,
+            "2020-07-08T05:29:22"^^xsd:dateTime ;
+        prov:wasDerivedFrom <https://hypothes.is/a/-wXpUMDbEeqxNbsc-PtTkw>,
+            <https://hypothes.is/a/1Y4ohsDbEeqY8YfpuBDbIQ>,
+            <https://hypothes.is/a/3gbcJMDbEeqmMMsvryRCfw>,
+            authority:Y5nJasDbEeqjM7du4cQqVQ,
+            authority:mcpQILuIEeqtqyP9xDf_uw,
+            authority:nr9IlMDbEeqZHosh1XZcQg,
+            authority:u7Mb7MDbEeqVMLc_Fi2oBg .
+}
+
+
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-838/v1#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-01T10:50:17"^^xsd:dateTime ;
+        prov:wasAttributedTo authority:iannotate .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "After perfusion with 1X PBS, the brain through the cranial window should look pale. Carefully remove the cranial window with forceps. Decapitate with scissors, then cut the muscles of the neck and the skin that covers the cranium. Insert the scissors through the foramen magnum, and gently start cutting the cranial bone, up to the rostral side.CAUTION: Take care to not damage the brain during this process.With forceps, remove the lateral bone flaps and expose the brain completely. Slide curved narrow forceps under the brain and carefully tilt it upward. When the brain is sufficiently loose, slide it out of the cranium with the help of the forceps and add to a clean petri dish sitting in an ice bath and wash the brain with ice cold 1X PBS to remove all hairs or other debris. With a clean razor blade, section the brain in half along the sagittal axis. With the help of curved forceps, carefully separate the cortex from the hippocampus (for more details see5) or dissect other brain regions are desired.Immerse one half (for immunostaining) in a tube containing 4% PFA and fix overnight at 4°C. After 24 hours, transfer the brain to a solution containing 30% sucrose. The other half or remaining brain sections can be snap freeze in liquid nitrogen or processed immediately for RNA or protein extraction.STOP POINT: If samples cannot be immediately processed, we recommend homogenizing the tissue immediately using a Dounce homogenizer (or other methods, such as bead mill) in the appropriate buffer, making sure to add RNAase or protease inhibitors depending on need, and then snap freeze and store at -80ºC." ;
+        ns1:hasPart :equipment,
+            :reagent .
+
+    :equipment rdfs:label " forceps",
+            "Dounce homogenizer",
+            "bead mill",
+            "curved forceps",
+            "ice bath",
+            "petri dish",
+            "razor blade",
+            "scissors",
+            "tube" .
+
+    :reagent rdfs:label "1X PBS",
+            "30% sucrose",
+            "4% PFA",
+            "RNAase",
+            "liquid nitrogen" .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-07-01T10:50:17"^^xsd:dateTime,
+            "2020-07-08T05:30:25"^^xsd:dateTime,
+            "2020-07-08T05:30:43"^^xsd:dateTime,
+            "2020-07-08T05:33:08"^^xsd:dateTime,
+            "2020-07-08T05:35:02"^^xsd:dateTime,
+            "2020-07-08T05:35:24"^^xsd:dateTime,
+            "2020-07-08T05:35:50"^^xsd:dateTime,
+            "2020-07-08T05:36:47"^^xsd:dateTime,
+            "2020-07-08T05:37:18"^^xsd:dateTime,
+            "2020-07-08T05:37:35"^^xsd:dateTime,
+            "2020-07-08T05:37:52"^^xsd:dateTime,
+            "2020-07-08T05:38:16"^^xsd:dateTime,
+            "2020-07-08T05:39:04"^^xsd:dateTime,
+            "2020-07-08T05:39:27"^^xsd:dateTime,
+            "2020-07-08T05:39:46"^^xsd:dateTime ;
+        prov:wasDerivedFrom <https://hypothes.is/a/0nPz8MDcEeq_KiP64ZFAXw>,
+            <https://hypothes.is/a/4dH5ZMDcEeq_K_uH9Nf47w>,
+            authority:A-mGAsDdEeqjj7vZjVEnBQ,
+            authority:FlvFmMDdEeqmjPsSzHKoxw,
+            authority:IE3LdMDcEeqmi2_sL9zTzA,
+            authority:IHBv6MDdEeqM5ltJysYhAQ,
+            authority:K0S0osDcEeqmRf8ut0ZKVQ,
+            authority:KxmInsDdEeqhrjvef-qdHw,
+            authority:ORwR0sDdEeqVMWth2QncTg,
+            authority:VbBJqMDdEeq0oB-e1woBcw,
+            authority:Y3YuGMDdEeqqih-ynzbR7Q,
+            authority:bpkgcMDdEeqDKZ-ti9XaXg,
+            authority:gb2P_MDcEeqM5WO_RYtKwg,
+            authority:puJEyruIEeqaBcsC-9BDsA,
+            authority:xUwXjsDcEeqXJ0P2cLGwuA .
+}
+
+
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-838/v1#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-01T10:50:39"^^xsd:dateTime ;
+        prov:wasAttributedTo authority:iannotate .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "For RNA analysis, prepare a tube containing Trizol or a lysis buffer with an RNAase inhibitor of preference3.For protein extraction, prepare extraction buffer in a 50 mL conical tube containing 1 mM AESBF (or other appropriate proteinase inhibitors), 1 tablet of cOmplete and 2 mL of RIPA buffer and dilute 1:25 with 1X PBS.Place half brain inside a clean Dounce homogenizer and homogenize the brain with 500 uL of extraction buffer. Use small strokes to avoid bubbles. A total of 20-30 strokes should be enough to homogenize the tissue. With a pipette, transfer the homogenized tissue to an Eppendorf and keep on ice. Wash the homogenizer with MiliQ water between samples. Sonicate tubes on water for 10 minutes. Transfer samples to a 4ºC centrifuge, and centrifuge at 14000 rpm (table top centrifuge) for 30 min. Transfer the supernatant to a new tube and if desired, the pellet can be stored for further processing. If extracting protein or RNA from cerebral microvessels is of interest, follow this detailed protocol on extracting cerebral microvessels from cortex4 .After sample preparation:·     Proceed with preferred protocol for protein measurement (Figure 2). We use Pierce BCA Protein Assay Kit (ThermoFisher CAT No. 23225)·     If performing RNA extraction, process samples as quickly as possible and clean all surfaces with RNAzap (ThermoFisher, CAT No. AM9780). Proceed with preferred protocol for RNA extraction. (Figure 3) CRITICAL STEP: The extraction and sectioning of the brain has to be performed as quickly as possible in order to ensure the least amount of RNA or protein degradation." ;
+        ns1:hasPart :equipment,
+            :reagent,
+            :sample .
+
+    :equipment rdfs:label " pipette",
+            "4ºC centrifuge",
+            "50 mL conical tube",
+            "Dounce homogenizer",
+            "Eppendorf",
+            "tube" .
+
+    :reagent rdfs:label "1 mM AESBF",
+            "1X PBS",
+            "MiliQ water",
+            "Pierce BCA Protein Assay Kit (ThermoFisher CAT No. 23225)",
+            "RIPA buffer",
+            "RNAzap (ThermoFisher, CAT No. AM9780)",
+            "Trizol",
+            "extraction buffer",
+            "lysis buffer" .
+
+    :sample rdfs:label " RNA",
+            " brain",
+            "cerebral microvessels",
+            "homogenized tissue",
+            "protein" .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-07-01T10:50:39"^^xsd:dateTime,
+            "2020-07-08T05:40:15"^^xsd:dateTime,
+            "2020-07-08T05:40:29"^^xsd:dateTime,
+            "2020-07-08T05:41:12"^^xsd:dateTime,
+            "2020-07-08T05:42:21"^^xsd:dateTime,
+            "2020-07-08T05:42:38"^^xsd:dateTime,
+            "2020-07-08T05:42:52"^^xsd:dateTime,
+            "2020-07-08T05:43:18"^^xsd:dateTime,
+            "2020-07-08T05:43:32"^^xsd:dateTime,
+            "2020-07-08T05:44:02"^^xsd:dateTime,
+            "2020-07-08T05:44:21"^^xsd:dateTime,
+            "2020-07-08T05:45:54"^^xsd:dateTime,
+            "2020-07-08T05:47:03"^^xsd:dateTime,
+            "2020-07-08T05:47:20"^^xsd:dateTime,
+            "2020-07-08T05:47:37"^^xsd:dateTime,
+            "2020-07-08T05:48:05"^^xsd:dateTime,
+            "2020-07-08T05:49:03"^^xsd:dateTime,
+            "2020-07-08T05:50:07"^^xsd:dateTime,
+            "2020-07-08T05:50:51"^^xsd:dateTime,
+            "2020-07-08T05:51:05"^^xsd:dateTime,
+            "2020-07-08T05:51:32"^^xsd:dateTime,
+            "2020-07-08T05:51:54"^^xsd:dateTime ;
+        prov:wasDerivedFrom <https://hypothes.is/a/-z739sDeEeqGug8iK-Fo-Q>,
+            <https://hypothes.is/a/1PQ4-sDdEeqk86-H_WBHnQ>,
+            <https://hypothes.is/a/3eKCFMDdEeqlCeuqmOSrfQ>,
+            <https://hypothes.is/a/4LrpCMDeEeqSvWfN7s3CgA>,
+            <https://hypothes.is/a/7QEcYMDdEeqVMkPb9lB2LQ>,
+            <https://hypothes.is/a/9b1vwMDdEeqFnAc0VMPwqA>,
+            authority:A2ijlsDfEeqVbRuF9Dibng,
+            authority:Bzu66sDeEeqY8-e2tsDebg,
+            authority:E2zCVMDfEeqwK_OZs4ff-A,
+            authority:EtbvbsDeEeqLl-u9Hq0JhA,
+            authority:ILvIasDfEeqPxBPO5wxWTA,
+            authority:Si7hnMDeEeq7dZvAG3c_-Q,
+            authority:cwIsgsDeEeqyv7PYGdcQMA,
+            authority:fYgTpsDeEeqMiadvyBww7Q,
+            authority:gCxsysDdEeqjNDcrQ5FNkg,
+            authority:hzTJHMDeEeqOM4fJaJcU1g,
+            authority:iIv8eMDdEeqtkr-TX1D71g,
+            authority:mC6krsDeEeqgpcvdt0Mt2g,
+            authority:oblJEsDdEeqJkcd1zrIXHQ,
+            authority:s7WkxruIEeqi7IPY0ZHXHg,
+            authority:uodtOMDeEeq-NvcHLqmvNg,
+            authority:yzTbCMDdEeq2LAM7S7Didw .
+}
+
+
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-838/v1#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-01T10:51:08"^^xsd:dateTime ;
+        prov:wasAttributedTo authority:iannotate .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "The half brain stored in sucrose will be used for immunostaining. Extract the brain from the sucrose solution and add to a petri dish. Place the brain in a coronal or sagittal position inside the metallic cryotome holder with OCT compound as an adhesive. Let freeze inside the cryotome.CRITICAL STEP: the brain should be oriented straight and parallel to the blade in order to ensure correct slicing.If sections are used as serial sections prepare six tubes for a half brain, or if they will be stored as regions of interest label the tubes accordingly and fill them up with 1.7 mL of cryoprotection solution. Prepare cryoprotection solution by mixing 150 g of sucrose, 200 mL of 1X PBS, 150 mL of ethylene glycol, and complete to a final volume of 500 mL with 1X PBS. Store at 4ºC.Position the metallic holder into the cryotome. Start trimming the OCT adhesive until the brain appears. Start slicing the brain with a thickness of 30 µm, or as desired. Select each slice, submerge in PBS and alternate the storage of each slice into different tubes. This will ensure that a representation of the whole brain is stored on each tube.STOP POINT: Slices can be stored at 4ºC for as long as needed before mounting." .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-07-01T10:51:08"^^xsd:dateTime ;
+        prov:wasDerivedFrom authority:xU7O7LuIEeqKGJugpmlnsQ .
+}
+
+
+@prefix : <https://protocolexchange.researchsquare.com/article/pex-838/v1#> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix plex: <https://w3id.org/fair/plex> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-01T10:51:35"^^xsd:dateTime ;
+        prov:wasAttributedTo authority:iannotate .
+}
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description " Take one of the tubes stored at 4ºC and place the brain slices on a petri dish with 1X PBS. Mount the slices on a glass slide with a brush. A total of 3-6 slices can be mounted on a glass slide, depending on the size of the slices. Ensure that the slices are completely straight and not folded. Make sure to leave enough spaces in the edges for the liquid blocker marker. Allow to thoroughly dry.After slices have dried, draw a rectangle with liquid blocking marker to prevent leakage of solutions. Wash slices 6 times with PBS for 5 minutes. Prepare a blocking solution by adding 250 µL of goat serum, 50 µL of 10% Triton X and complete to a 5 mL volume using 1X PBS. Block slides for 30 min with the blocking solution. Aspirate the blocking solution and apply primary antibody (1:500 dilution, or the appropriate dilution for the antibody, in blocking solution). Let incubate overnight at 4ºC (or as appropriate for the antibody) with a wet paper towel to avoid desiccation.The following day aspirate the primary antibody. Wash slides three times with for 5 min with 1X PBS.CRITICAL STEP: once the slices are thoroughly adhered after the first drying step, do not allow slides to completely dry again because this can compromise the integrity of the tissue and the quality of the staining. Make sure to cover slides completely with the solution.Apply secondary antibody (1:500 dilution, or as appropriate, in blocking solution) and incubate for 2 hours at room temperature (or as appropriate) in a light shielded area with a wet paper towel to avoid desiccation.Aspirate the secondary antibody and wash three times with 1X PBS. This would be an appropriate time to apply DAPI or other water-soluble counterstains. For example, if this was an Alzheimer’s disease mouse model and labeling of amyloid plaques was desired, apply Methoxy-X04 diluted 1:250 in 1X PBS and incubate at room temperature for 15 minutes. Wash 2 times with 80% ethanol. Then, allow slides to thoroughly dry before mounting. Use a mounting medium of preference (we recommend Prolong Gold). Our images were acquired with a Zeiss LSM 710 Confocal, using fluorescently-labeled secondary antibodies (Figure 4)." .
+}
+
+:provenance {
+    :assertion prov:generatedAtTime "2020-07-01T10:51:35"^^xsd:dateTime ;
+        prov:wasDerivedFrom <https://hypothes.is/a/1VqHVLuIEeqPhGOu_a-y_w> .
+}
+
+
