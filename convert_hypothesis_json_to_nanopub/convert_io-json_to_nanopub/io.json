@@ -1,0 +1,1074 @@
+{
+    "protocol": {
+        "id": 22315,
+        "title": "Universal DNA isolation protocol",
+        "title_html": "Universal DNA isolation protocol",
+        "image": {
+            "source": "https://www.protocols.io/img/default_protocol.png",
+            "placeholder": "https://www.protocols.io/img/default_protocol.png"
+        },
+        "doi": "dx.doi.org/10.17504/protocols.io.z2jf8cn",
+        "doi_status": 2,
+        "uri": "universal-dna-isolation-protocol-z2jf8cn",
+        "type_id": 1,
+        "template_id": 1,
+        "published_on": 1555081123,
+        "stats": {
+            "number_of_views": 376,
+            "number_of_steps": 10,
+            "number_of_bookmarks": 2,
+            "number_of_comments": 0,
+            "number_of_exports": 29,
+            "number_of_runs": 1,
+            "number_of_votes": 0,
+            "is_voted": 0
+        },
+        "parent_protocols": [],
+        "parent_collections": [],
+        "cited_protocols": [],
+        "version_id": 2,
+        "created_on": 1555080014,
+        "categories": null,
+        "creator": {
+            "name": "Ruslan Kalendar",
+            "affiliation": "PrimerDigital",
+            "affiliations": [
+                {
+                    "affiliation": "PrimerDigital",
+                    "url": "http://primerdigital.com/",
+                    "is_default": 1
+                }
+            ],
+            "username": "ruslan-kalendar",
+            "link": "http://primerdigital.com/dna.html",
+            "image": {
+                "source": "https://s3.amazonaws.com/pr-journal/rg3in96.jpg",
+                "placeholder": "https://s3.amazonaws.com/pr-journal/rg3in96.jpg"
+            },
+            "badges": [
+                {
+                    "id": 2,
+                    "image": {
+                        "source": "/img/badges/bronze.svg",
+                        "placeholder": "/img/badges/bronze.svg"
+                    },
+                    "name": "Author"
+                },
+                {
+                    "id": 5,
+                    "image": {
+                        "source": "/img/badges/star.svg",
+                        "placeholder": "/img/badges/star.svg"
+                    },
+                    "name": "Early adopter"
+                },
+                {
+                    "id": 6,
+                    "image": {
+                        "source": "/img/badges/accelerator.svg",
+                        "placeholder": "/img/badges/accelerator.svg"
+                    },
+                    "name": "Science accelerator"
+                }
+            ],
+            "verified": 0,
+            "is_verified_user": false,
+            "research_interests": null,
+            "blocked_by_you": false,
+            "blocked_you": false,
+            "hide_following": false
+        },
+        "journal": null,
+        "journal_name": null,
+        "journal_link": null,
+        "article_citation": null,
+        "public": 1,
+        "has_versions": 1,
+        "link": "http://primerdigital.com/dna.html",
+        "total_collections": 0,
+        "number_of_steps": 10,
+        "authors": [
+            {
+                "name": "Ruslan Kalendar",
+                "affiliation": "PrimerDigital",
+                "affiliations": [],
+                "username": "ruslan-kalendar",
+                "link": null,
+                "image": {
+                    "source": "https://s3.amazonaws.com/pr-journal/rg3in96.jpg",
+                    "placeholder": "https://s3.amazonaws.com/pr-journal/rg3in96.jpg"
+                },
+                "badges": [],
+                "verified": 1,
+                "is_verified_user": true,
+                "research_interests": null,
+                "blocked_by_you": false,
+                "blocked_you": false,
+                "hide_following": false
+            }
+        ],
+        "versions": [
+            {
+                "id": 0,
+                "title": "",
+                "title_html": null,
+                "image": {
+                    "source": null,
+                    "placeholder": null
+                },
+                "doi": null,
+                "doi_status": 0,
+                "uri": null,
+                "type_id": 0,
+                "template_id": 0,
+                "published_on": null,
+                "stats": {
+                    "number_of_views": 0,
+                    "number_of_steps": 0,
+                    "number_of_bookmarks": 0,
+                    "number_of_comments": 0,
+                    "number_of_exports": 0,
+                    "number_of_runs": 0,
+                    "number_of_votes": 0,
+                    "is_voted": 0
+                },
+                "parent_protocols": [],
+                "parent_collections": [],
+                "cited_protocols": [],
+                "version_id": 0,
+                "created_on": null,
+                "categories": null,
+                "creator": {
+                    "name": " ",
+                    "affiliation": null,
+                    "affiliations": [],
+                    "username": null,
+                    "link": null,
+                    "image": {
+                        "source": null,
+                        "placeholder": null
+                    },
+                    "badges": [],
+                    "verified": 0,
+                    "is_verified_user": false,
+                    "research_interests": null,
+                    "blocked_by_you": false,
+                    "blocked_you": false,
+                    "hide_following": false
+                },
+                "journal": null,
+                "journal_name": null,
+                "journal_link": null,
+                "article_citation": null
+            },
+            {
+                "id": 9449,
+                "title": "Universal DNA isolation protocol",
+                "title_html": "Universal DNA isolation protocol",
+                "image": {
+                    "source": "https://www.protocols.io/img/default_protocol.png",
+                    "placeholder": "https://www.protocols.io/img/default_protocol.png"
+                },
+                "doi": null,
+                "doi_status": 0,
+                "uri": "universal-dna-isolation-protocol-mghc3t6",
+                "type_id": 0,
+                "template_id": 0,
+                "published_on": 1515864823,
+                "stats": {
+                    "number_of_views": 0,
+                    "number_of_steps": 0,
+                    "number_of_bookmarks": 0,
+                    "number_of_comments": 0,
+                    "number_of_exports": 0,
+                    "number_of_runs": 0,
+                    "number_of_votes": 0,
+                    "is_voted": 0
+                },
+                "parent_protocols": [],
+                "parent_collections": [],
+                "cited_protocols": [],
+                "version_id": 1,
+                "created_on": 1515171719,
+                "categories": null,
+                "creator": {
+                    "name": "Ruslan Kalendar",
+                    "affiliation": "PrimerDigital",
+                    "affiliations": [],
+                    "username": "ruslan-kalendar",
+                    "link": null,
+                    "image": {
+                        "source": "https://s3.amazonaws.com/pr-journal/rg3in96.jpg",
+                        "placeholder": "https://s3.amazonaws.com/pr-journal/rg3in96.jpg"
+                    },
+                    "badges": [],
+                    "verified": 0,
+                    "is_verified_user": false,
+                    "research_interests": null,
+                    "blocked_by_you": false,
+                    "blocked_you": false,
+                    "hide_following": false
+                },
+                "journal": null,
+                "journal_name": null,
+                "journal_link": null,
+                "article_citation": null
+            },
+            {
+                "id": 22315,
+                "title": "Universal DNA isolation protocol",
+                "title_html": "Universal DNA isolation protocol",
+                "image": {
+                    "source": "https://www.protocols.io/img/default_protocol.png",
+                    "placeholder": "https://www.protocols.io/img/default_protocol.png"
+                },
+                "doi": null,
+                "doi_status": 0,
+                "uri": "universal-dna-isolation-protocol-z2jf8cn",
+                "type_id": 0,
+                "template_id": 0,
+                "published_on": 1555081123,
+                "stats": {
+                    "number_of_views": 0,
+                    "number_of_steps": 0,
+                    "number_of_bookmarks": 0,
+                    "number_of_comments": 0,
+                    "number_of_exports": 0,
+                    "number_of_runs": 0,
+                    "number_of_votes": 0,
+                    "is_voted": 0
+                },
+                "parent_protocols": [],
+                "parent_collections": [],
+                "cited_protocols": [],
+                "version_id": 2,
+                "created_on": 1555080014,
+                "categories": null,
+                "creator": {
+                    "name": "Ruslan Kalendar",
+                    "affiliation": "PrimerDigital",
+                    "affiliations": [],
+                    "username": "ruslan-kalendar",
+                    "link": null,
+                    "image": {
+                        "source": "https://s3.amazonaws.com/pr-journal/rg3in96.jpg",
+                        "placeholder": "https://s3.amazonaws.com/pr-journal/rg3in96.jpg"
+                    },
+                    "badges": [],
+                    "verified": 0,
+                    "is_verified_user": false,
+                    "research_interests": null,
+                    "blocked_by_you": false,
+                    "blocked_you": false,
+                    "hide_following": false
+                },
+                "journal": null,
+                "journal_name": null,
+                "journal_link": null,
+                "article_citation": null
+            }
+        ],
+        "groups": [
+            {
+                "id": 569,
+                "uri": "primerdigital",
+                "title": "PrimerDigital",
+                "image": {
+                    "source": "https://s3.amazonaws.com/pr-journal/rgvin96.png",
+                    "placeholder": "https://s3.amazonaws.com/pr-journal/rgvin96.png"
+                },
+                "tech_support": {
+                    "email": null,
+                    "phone": null,
+                    "hide_contact": 0,
+                    "use_email": 0,
+                    "url": null
+                },
+                "is_member": 0,
+                "request": {
+                    "id": 569,
+                    "uri": "primerdigital",
+                    "title": "PrimerDigital",
+                    "image": {
+                        "source": "https://s3.amazonaws.com/pr-journal/rgvin96.png",
+                        "placeholder": "https://s3.amazonaws.com/pr-journal/rgvin96.png"
+                    },
+                    "tech_support": {
+                        "email": null,
+                        "phone": null,
+                        "hide_contact": 0,
+                        "use_email": 0,
+                        "url": null
+                    },
+                    "is_member": 0,
+                    "description": null,
+                    "research_interests": null,
+                    "website": null,
+                    "location": null,
+                    "affiliation": null,
+                    "status": {
+                        "is_visible": true,
+                        "access_level": 0
+                    },
+                    "stats": {
+                        "files": [],
+                        "total_members": 0,
+                        "total_followers": 0,
+                        "total_child_groups": 0,
+                        "total_parent_groups": 0,
+                        "has_collaborations": 0
+                    },
+                    "user_status": {
+                        "is_member": false,
+                        "is_confirmed": true,
+                        "is_invited": false,
+                        "is_owner": false,
+                        "is_admin": false,
+                        "is_following": false
+                    },
+                    "join_link": null,
+                    "token": null,
+                    "owner": {
+                        "name": " ",
+                        "affiliation": null,
+                        "affiliations": [],
+                        "username": null,
+                        "link": null,
+                        "image": {
+                            "source": null,
+                            "placeholder": null
+                        },
+                        "badges": [],
+                        "verified": 0,
+                        "is_verified_user": false,
+                        "research_interests": null,
+                        "blocked_by_you": false,
+                        "blocked_you": false,
+                        "hide_following": false
+                    },
+                    "is_protocol_requested": 0,
+                    "is_group_requested": 0,
+                    "is_my": false,
+                    "is_request": false,
+                    "is_confirmed": 1,
+                    "is_declined": 0,
+                    "requester": {
+                        "name": " ",
+                        "affiliation": null,
+                        "affiliation_url": null,
+                        "username": null,
+                        "link": null
+                    },
+                    "protocol": {
+                        "id": 0,
+                        "title": "Universal DNA isolation protocol",
+                        "title_html": "Universal DNA isolation protocol",
+                        "image": {
+                            "source": null,
+                            "placeholder": null
+                        },
+                        "doi": null,
+                        "doi_status": 0,
+                        "uri": "universal-dna-isolation-protocol-z2jf8cn",
+                        "type_id": 1,
+                        "template_id": 0,
+                        "published_on": null,
+                        "stats": {
+                            "number_of_views": 0,
+                            "number_of_steps": 0,
+                            "number_of_bookmarks": 0,
+                            "number_of_comments": 0,
+                            "number_of_exports": 0,
+                            "number_of_runs": 0,
+                            "number_of_votes": 0,
+                            "is_voted": 0
+                        },
+                        "parent_protocols": [],
+                        "parent_collections": [],
+                        "cited_protocols": []
+                    },
+                    "created_on": 1555081123,
+                    "resolve_on": 0,
+                    "resolved_user": {
+                        "name": " ",
+                        "affiliation": null,
+                        "affiliations": [],
+                        "username": null,
+                        "link": null,
+                        "image": {
+                            "source": null,
+                            "placeholder": null
+                        },
+                        "badges": [],
+                        "verified": 0,
+                        "is_verified_user": false,
+                        "research_interests": null,
+                        "blocked_by_you": false,
+                        "blocked_you": false,
+                        "hide_following": false
+                    },
+                    "shared": false
+                }
+            }
+        ],
+        "is_owner": 0,
+        "has_subprotocols": 0,
+        "is_subprotocol": 0,
+        "is_bookmarked": 0,
+        "can_claim_authorship": 1,
+        "can_accept_authorship": 0,
+        "can_be_copied": 0,
+        "can_remove_fork": 1,
+        "fork_id": null,
+        "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn",
+        "forks_count": {
+            "private": 0,
+            "public": 0
+        },
+        "access": {
+            "can_view": 0,
+            "can_remove": 0,
+            "can_add": 0,
+            "can_edit": 0,
+            "can_publish": 0,
+            "can_get_doi": 0,
+            "can_share": 0,
+            "can_move": 0,
+            "can_move_outside": 0,
+            "can_transfer": 0,
+            "can_download": 1,
+            "is_locked": 0
+        },
+        "guid": "88A22164B9DA11E99CA40242AC110005",
+        "state_version_id": 0,
+        "steps": [
+            {
+                "id": 730385,
+                "guid": "EAF62A605D3211E989B4C51A9D5C9E16",
+                "previous_id": null,
+                "previous_guid": null,
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "E4CCA7BB82454B2786B84D128B5F7D8B",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "5C7E444EA005401FBBE4B02E5A567DCB",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\">Eppendorf Safe-Lock microcentrifuge tube with tissue sample and glass ball (6 mm) freeze at -80°C, grind in the MM300 Mixer Mill for 2 min at 30 Hz. Alternatively, grind the sample in lysis solution.</div></div>"
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            },
+            {
+                "id": 730369,
+                "guid": "9F0BFB91D89843FCB9A802491624682A",
+                "previous_id": 730385,
+                "previous_guid": "EAF62A605D3211E989B4C51A9D5C9E16",
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "BD47A90914E04C20B3858A6BD95A2807",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "87AB69FEB98B46BBAA7458802FFD9C1B",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\">In 2 ml tube with mechanically disrupted seeds/leaves/herbarium or DNA solution (CTAB purification) add 1 ml CTAB solution buffer with RNAse A (the sample mass should not exceed 100 mg), vortex very well and incubate the samples at 60-65°C during 60-120 min or longer (long incubation increases DNA yield).</div></div>"
+                        }
+                    },
+                    {
+                        "id": 1054725,
+                        "guid": "BC691C2392C946C99149E7DF7FF699C2",
+                        "order_id": 2,
+                        "type_id": 4,
+                        "title": "duration",
+                        "source": {
+                            "duration": 7200,
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054726,
+                        "guid": "20D1F990A4BA460BB0AF0DCBDFD1AA2C",
+                        "order_id": 3,
+                        "type_id": 24,
+                        "title": "temperature",
+                        "source": {
+                            "temperature": 65,
+                            "unit": "°C",
+                            "title": ""
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            },
+            {
+                "id": 730371,
+                "guid": "8F45DD6BE64F4F0BA64BDC95AA2EC144",
+                "previous_id": 730369,
+                "previous_guid": "9F0BFB91D89843FCB9A802491624682A",
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "87C61C00485043E89AE9B1B316F2B8A3",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "BC44F8C764E44E35B7231D61CCF7F583",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\">Spin at maximum speed in a microcentrifuge for 2 minutes, transferred the upper aqueous layer to a new 2 ml microcentrifuge tube.</div></div>"
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            },
+            {
+                "id": 730377,
+                "guid": "ABC18D405D3111E989B4C51A9D5C9E16",
+                "previous_id": 730371,
+                "previous_guid": "8F45DD6BE64F4F0BA64BDC95AA2EC144",
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "0A6DD97A018448F3BA2E43532F06998F",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "8F655A7DCC414FA0A98AE3570FF6B5CA",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\"> Transfer theentire clarified supernatant to a new 2 ml microcentrifuge tube contains an equal volume of chloroform. Mix well for 3-5 minutes in the MM300 Mixer Mill at 30 Hz.</div></div>"
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            },
+            {
+                "id": 730373,
+                "guid": "343E0ABCAB29425AA814A96C3DEA0B9C",
+                "previous_id": 730377,
+                "previous_guid": "ABC18D405D3111E989B4C51A9D5C9E16",
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "D60F6A390D90443DB62C7DD14D797B83",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "F5BA88F5DEC34869966A5FB69FFF8C3E",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\">Spin at maximum speed in a microcentrifuge for 2 minutes.</div></div>"
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            },
+            {
+                "id": 730374,
+                "guid": "D146261F867046DB9EC4DF7AAF52A40B",
+                "previous_id": 730373,
+                "previous_guid": "343E0ABCAB29425AA814A96C3DEA0B9C",
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "418C9195CB834CD28640E5666DD7EDB3",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "C10842F485D448098EAB60FC3B96D83E",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\">Transfer the entire clarified upper aqueous layer to a new 2 ml microcentrifuge tube which contains an equal or half volume of 2-propanol and vortex thoroughly.</div></div>"
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            },
+            {
+                "id": 730370,
+                "guid": "A7D320BB7D814DB79664C7220B8C78AC",
+                "previous_id": 730374,
+                "previous_guid": "D146261F867046DB9EC4DF7AAF52A40B",
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "3BA0F69EBCD84891BED4F24237055BCA",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "0D5D2A12EEE74BFFA37ADD88404B8290",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\"> Centrifuge at maximum speed in a microcentrifuge for 2-5 minutes. A whitish DNA pellet should be visible.</div></div>"
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            },
+            {
+                "id": 730375,
+                "guid": "93BB11EAF0E444FC8C3CA25AD00B311A",
+                "previous_id": 730370,
+                "previous_guid": "A7D320BB7D814DB79664C7220B8C78AC",
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "9905AD780E4B489A8C1153DFEF592BFC",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "BE91C51913A646DE955A34B2E99BF28C",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\"> Discard supernatant and wash the pellet by adding 1.8 ml 70% ethanol, vortex thoroughly. At this stage, DNA samples can be stored at room temperature or refrigerated.</div></div>"
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            },
+            {
+                "id": 730376,
+                "guid": "40DE6BD021B74538A29B29AA7FD8E72E",
+                "previous_id": 730375,
+                "previous_guid": "93BB11EAF0E444FC8C3CA25AD00B311A",
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "36448993173C45DE9DD90E063AEDF8BB",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "4A9F025F1EA14A17B9F32663B4469EA0",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\"> Centrifuge at maximum speed for 2-5 min and carefully discard the supernatant by decanting or with a micropipette. A whitish DNA pellet should be visible during discarding a supernatant.</div></div>"
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            },
+            {
+                "id": 730380,
+                "guid": "6928F2B05D3211E989B4C51A9D5C9E16",
+                "previous_id": 730376,
+                "previous_guid": "40DE6BD021B74538A29B29AA7FD8E72E",
+                "modified_on": 0,
+                "protocol_id": 0,
+                "components": [
+                    {
+                        "id": 1054723,
+                        "guid": "5F32DAD3D4AC454E9E979121C3CF8FE0",
+                        "order_id": 1,
+                        "type_id": 6,
+                        "title": "Section",
+                        "source": {
+                            "title": ""
+                        }
+                    },
+                    {
+                        "id": 1054724,
+                        "guid": "F7A86170A1D94844BCA37221C1A8A926",
+                        "order_id": 1,
+                        "type_id": 1,
+                        "title": "description",
+                        "source": {
+                            "description": "<div class = \"text-blocks\"><div class = \"text-block\"> The DNA pellet does not dry and dissolved immediately in 300 μl 1xTE, pH 8.0 at 55°C for 10-20 minutes.</div></div>"
+                        }
+                    }
+                ],
+                "cases": [],
+                "data": null,
+                "html": null,
+                "section": null,
+                "section_color": null,
+                "section_duration": 0,
+                "critical": null,
+                "critical_id": null,
+                "duration": 0
+            }
+        ],
+        "document": null,
+        "materials": [
+            {
+                "id": 4247,
+                "mol_weight": 0,
+                "name": "70% Ethanol ",
+                "linfor": "",
+                "url": "",
+                "sku": "",
+                "cas_number": "",
+                "rrid": "",
+                "public": 0,
+                "vendor": {
+                    "name": "Contributed by users",
+                    "affiliation": null,
+                    "affiliations": [],
+                    "username": null,
+                    "link": "https://www.protocols.io",
+                    "image": {
+                        "source": "https://www.protocols.io/img/vendors/1.png",
+                        "placeholder": "https://www.protocols.io/img/vendors/1.png"
+                    },
+                    "badges": [],
+                    "verified": 0,
+                    "is_verified_user": false,
+                    "research_interests": null,
+                    "blocked_by_you": false,
+                    "blocked_you": false,
+                    "hide_following": false,
+                    "id": 1
+                },
+                "can_edit": 0,
+                "stats": {
+                    "total_protocols": 0
+                }
+            },
+            {
+                "id": 4949,
+                "mol_weight": 0,
+                "name": "1L TE Buffer [10X] (Tris-EDTA) (100mM Tris base, 10mM EDTA, pH 8.0)",
+                "linfor": "",
+                "url": "https://www.gbiosciences.com/TE-Buffer-10X\r",
+                "sku": "786-034",
+                "cas_number": "",
+                "rrid": "",
+                "public": 0,
+                "vendor": {
+                    "name": "G-Biosciences",
+                    "affiliation": null,
+                    "affiliations": [],
+                    "username": null,
+                    "link": "http://www.gbiosciences.com/",
+                    "image": {
+                        "source": "https://www.protocols.io/img/vendors/placeholder.png",
+                        "placeholder": "https://www.protocols.io/img/vendors/placeholder.png"
+                    },
+                    "badges": [],
+                    "verified": 0,
+                    "is_verified_user": false,
+                    "research_interests": null,
+                    "blocked_by_you": false,
+                    "blocked_you": false,
+                    "hide_following": false,
+                    "id": 105
+                },
+                "can_edit": 0,
+                "stats": {
+                    "total_protocols": 0
+                }
+            },
+            {
+                "id": 47497,
+                "mol_weight": 0,
+                "name": "CTAB (Hexadecyltrimethylammonium bromide)",
+                "linfor": "",
+                "url": "https://www.biobasic.com/us/ctab-hexadecyltrimethylammonium-bromide-4106",
+                "sku": "CB0108.SIZE.500g",
+                "cas_number": "",
+                "rrid": "",
+                "public": 0,
+                "vendor": {
+                    "name": "Bio Basic Inc.",
+                    "affiliation": null,
+                    "affiliations": [],
+                    "username": null,
+                    "link": "http://biobasic.com/",
+                    "image": {
+                        "source": "https://www.protocols.io/img/vendors/placeholder.png",
+                        "placeholder": "https://www.protocols.io/img/vendors/placeholder.png"
+                    },
+                    "badges": [],
+                    "verified": 0,
+                    "is_verified_user": false,
+                    "research_interests": null,
+                    "blocked_by_you": false,
+                    "blocked_you": false,
+                    "hide_following": false,
+                    "id": 120
+                },
+                "can_edit": 0,
+                "stats": {
+                    "total_protocols": 0
+                }
+            },
+            {
+                "id": 47551,
+                "mol_weight": 0,
+                "name": "Chloroform:isoamyl alcohol (24:1)",
+                "linfor": "",
+                "url": "https://www.biobasic.com/us/chloroform-isoamyl-alcohol-24-1",
+                "sku": "CB0351.SIZE.200ml",
+                "cas_number": "",
+                "rrid": "",
+                "public": 0,
+                "vendor": {
+                    "name": "Bio Basic Inc.",
+                    "affiliation": null,
+                    "affiliations": [],
+                    "username": null,
+                    "link": "http://biobasic.com/",
+                    "image": {
+                        "source": "https://www.protocols.io/img/vendors/placeholder.png",
+                        "placeholder": "https://www.protocols.io/img/vendors/placeholder.png"
+                    },
+                    "badges": [],
+                    "verified": 0,
+                    "is_verified_user": false,
+                    "research_interests": null,
+                    "blocked_by_you": false,
+                    "blocked_you": false,
+                    "hide_following": false,
+                    "id": 120
+                },
+                "can_edit": 0,
+                "stats": {
+                    "total_protocols": 0
+                }
+            },
+            {
+                "id": 48034,
+                "mol_weight": 0,
+                "name": "HEPES, free acid",
+                "linfor": "",
+                "url": "https://www.biobasic.com/us/hepes-free-acid-4242",
+                "sku": "HB0264.SIZE.1Kg",
+                "cas_number": "",
+                "rrid": "",
+                "public": 0,
+                "vendor": {
+                    "name": "Bio Basic Inc.",
+                    "affiliation": null,
+                    "affiliations": [],
+                    "username": null,
+                    "link": "http://biobasic.com/",
+                    "image": {
+                        "source": "https://www.protocols.io/img/vendors/placeholder.png",
+                        "placeholder": "https://www.protocols.io/img/vendors/placeholder.png"
+                    },
+                    "badges": [],
+                    "verified": 0,
+                    "is_verified_user": false,
+                    "research_interests": null,
+                    "blocked_by_you": false,
+                    "blocked_you": false,
+                    "hide_following": false,
+                    "id": 120
+                },
+                "can_edit": 0,
+                "stats": {
+                    "total_protocols": 0
+                }
+            },
+            {
+                "id": 48135,
+                "mol_weight": 0,
+                "name": "Isopropanol",
+                "linfor": "",
+                "url": "https://www.biobasic.com/us/isopropanol",
+                "sku": "IB0918.SIZE.500ml",
+                "cas_number": "",
+                "rrid": "",
+                "public": 0,
+                "vendor": {
+                    "name": "Bio Basic Inc.",
+                    "affiliation": null,
+                    "affiliations": [],
+                    "username": null,
+                    "link": "http://biobasic.com/",
+                    "image": {
+                        "source": "https://www.protocols.io/img/vendors/placeholder.png",
+                        "placeholder": "https://www.protocols.io/img/vendors/placeholder.png"
+                    },
+                    "badges": [],
+                    "verified": 0,
+                    "is_verified_user": false,
+                    "research_interests": null,
+                    "blocked_by_you": false,
+                    "blocked_you": false,
+                    "hide_following": false,
+                    "id": 120
+                },
+                "can_edit": 0,
+                "stats": {
+                    "total_protocols": 0
+                }
+            }
+        ],
+        "description": "<div class = \"text-blocks\"><div class = \"text-block\">The isolation of nucleic acids from a sample is an important step for many molecular biological applications and medical diagnostic assays. This protocol describes an efficient method for purification or/and isolation of nucleic acids from difficult animal tissues, plant material and other samples from which DNA extraction is generally regarded as being difficult which can contain impurities and inhibitors or interfering substances. This method is established acidic CTAB (with a pH value of 5 to 6.8) based extraction protocol that allows for reliable isolation of high molecular weight genomic DNA for removing contaminants from nucleic acids in a sample, e.g., environmental or biological samples such as soil, food, plant, animal or microorganism. DNA may quickly be extracted from samples without phenol, guanidine thiocyanate or 2-mercaptoethanol.</div></div>",
+        "changed_on": 1555081123,
+        "guidelines": "<div class = \"text-blocks\"><div class = \"text-block\">The procedure is suitable for all types of tissues from wide variety of animal, blood and plant species. All DNA extraction steps are performed at weak acid pH (HEPES free acid) and optionally with hot chloroform for 'difficult' samples, and at room temperature.\nThe following protocol is designed for small and large tissue samples (tissue volume 100-200 μl).\nNote that isolating genomic DNA not requires gentle mixing because the DNA not be sheared by vortexing.</div></div>",
+        "before_start": "<div class = \"text-blocks\"><div class = \"text-block\"><span style = \"font-weight:bold;\">Required solutions:</span></div><div class = \"text-block\"><ul style = \"list-style-type:disc;\"><li style = \"counter-reset:ol0;list-style-type:disc;\"><span style = \"font-weight:bold;\">CTAB</span><span> solution: 1.5% CTAB, 1.5 M NaCl, 10 mM Na</span><span style = \"vertical-align:sub;\">3</span><span>EDTA, 0.1 M HEPES/MOPS (pH ∼5.3);\n100 ml: 1.5 g CTAB, 1.2 g HEPES-acid, 2 ml 0.5 M Na</span><span style = \"vertical-align:sub;\">3</span><span>EDTA, 30 ml 5 M NaCl;</span></li><li style = \"counter-reset:ol0;list-style-type:disc;\">Fresh 1xTE (1 mM EDTA, 10mM Tris-HCl, pH 8.0).</li></ul></div></div>",
+        "warning": "<div class = \"text-blocks\"><div class = \"text-block\">General rules for a laboratory safety should be followed.</div></div>",
+        "materials_text": null
+    },
+    "status_code": 0
+}

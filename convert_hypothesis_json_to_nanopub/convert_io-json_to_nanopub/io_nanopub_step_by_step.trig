@@ -1,0 +1,370 @@
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\">Eppendorf Safe-Lock microcentrifuge tube with tissue sample and glass ball (6 mm) freeze at -80°C, grind in the MM300 Mixer Mill for 2 min at 30 Hz. Alternatively, grind the sample in lysis solution.</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.259612"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\">In 2 ml tube with mechanically disrupted seeds/leaves/herbarium or DNA solution (CTAB purification) add 1 ml CTAB solution buffer with RNAse A (the sample mass should not exceed 100 mg), vortex very well and incubate the samples at 60-65°C during 60-120 min or longer (long incubation increases DNA yield).</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.262195"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\">Spin at maximum speed in a microcentrifuge for 2 minutes, transferred the upper aqueous layer to a new 2 ml microcentrifuge tube.</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.263868"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\"> Transfer theentire clarified supernatant to a new 2 ml microcentrifuge tube contains an equal volume of chloroform. Mix well for 3-5 minutes in the MM300 Mixer Mill at 30 Hz.</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.265515"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\">Spin at maximum speed in a microcentrifuge for 2 minutes.</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.267283"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\">Transfer the entire clarified upper aqueous layer to a new 2 ml microcentrifuge tube which contains an equal or half volume of 2-propanol and vortex thoroughly.</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.268953"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\"> Centrifuge at maximum speed in a microcentrifuge for 2-5 minutes. A whitish DNA pellet should be visible.</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.270705"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\"> Discard supernatant and wash the pellet by adding 1.8 ml 70% ethanol, vortex thoroughly. At this stage, DNA samples can be stored at room temperature or refrigerated.</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.272340"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\"> Centrifuge at maximum speed for 2-5 min and carefully discard the supernatant by decanting or with a micropipette. A whitish DNA pellet should be visible during discarding a supernatant.</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.273961"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
+@prefix : <dx.doi.org/10.17504/protocols.io.z2jf8cn#> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dul: <http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite/> .
+@prefix io: <https://www.protocols.io/researchers/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pwo: <http://purl.org/spar/pwo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:assertion {
+    :step a bpmn:manualTask ;
+        dc:description "<div class = \"text-blocks\"><div class = \"text-block\"> The DNA pellet does not dry and dissolved immediately in 300 μl 1xTE, pH 8.0 at 55°C for 10-20 minutes.</div></div>" .
+}
+
+:provenance {
+    :assertion prov:wasDerivedFrom <dx.doi.org/10.17504/protocols.io.z2jf8cn> .
+}
+
+:Head {
+    : a np:Nanopublication ;
+        np:hasAssertion :assertion ;
+        np:hasProvenance :provenance ;
+        np:hasPublicationInfo :pubInfo .
+}
+
+:pubInfo {
+    : prov:generatedAtTime "2020-07-23T16:27:57.275585"^^xsd:dateTime ;
+        prov:wasAttributedTo io:oxgiraldo .
+}
+
+
