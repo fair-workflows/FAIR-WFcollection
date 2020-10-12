@@ -1,0 +1,35 @@
+@prefix this: <https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=1#RAXSvISHbZNEE2NNL91bQsMO33FlWJLILA0-hV1ha8Kc8> .
+@prefix sub: <https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=1#RAXSvISHbZNEE2NNL91bQsMO33FlWJLILA0-hV1ha8Kc8.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Grind frozen plant material (100mg) in liquid Nitrogen" ;
+		sp:hasExperimentalInput "frozen plant material" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "frozen plant material" ;
+		bs:reagentUsed "liquid Nitrogen" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:15:03"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:CjAZOAl5Eeupmbu4XbL6XQ , authority:U7mgbgl6EeuFKfMpFYUUzA , authority:UuAxdgl6EeuISU_tHFr2Ng .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:15:03"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

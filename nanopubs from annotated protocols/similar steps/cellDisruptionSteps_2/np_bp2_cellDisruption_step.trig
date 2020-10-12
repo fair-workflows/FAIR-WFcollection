@@ -1,0 +1,35 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol3634.pdf#RAYSPJhdeWfbxIet_uOuzb4q2YCUnyjM8ibN7xmzHTMxo> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol3634.pdf#RAYSPJhdeWfbxIet_uOuzb4q2YCUnyjM8ibN7xmzHTMxo.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Lysis and debris elimination: Incubate the samples in extraction buffer at 65 °C for 15 min. Vortex once during incubation. Centrifuge at 6,000 x g for 10 min." ;
+		sp:hasExperimentalInput "samples" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "samples" ;
+		bs:reagentUsed "extraction buffer " .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T11:43:15"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:tjsxFgrtEeu3tysf2cg6qA , authority:vmJnVgrtEeuPvYNgAA59wA , authority:yHwjsgrtEeu1Y-te_5N06g .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T11:43:15"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

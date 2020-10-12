@@ -1,0 +1,800 @@
+[
+  {
+    "id": "Hza2egl-Eeu8FU8OUVWfsQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=10",
+    "created": "2020-10-08T15:51:25",
+    "updated": "2020-10-08T15:51:25",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "dissolved immediately in 300 μl ",
+    "exact": "1xTE",
+    "suffix": ", pH 8.0 at 55°C for 10-20 minut",
+    "start": 3322,
+    "end": 3326,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=10",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 68,
+            "startOffset": 64,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 3326,
+            "type": "TextPositionSelector",
+            "start": 3322
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "1xTE",
+            "prefix": "dissolved immediately in 300 μl ",
+            "suffix": ", pH 8.0 at 55°C for 10-20 minut"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "ExkIXAl-EeuHFv8jSDDNgw",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=10",
+    "created": "2020-10-08T15:51:05",
+    "updated": "2020-10-08T15:51:05",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "iscarding a supernatant.+10 The ",
+    "exact": "DNA pellet",
+    "suffix": " does not dry and dissolved imme",
+    "start": 3262,
+    "end": 3272,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=10",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 14,
+            "startOffset": 4,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 3272,
+            "type": "TextPositionSelector",
+            "start": 3262
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "DNA pellet",
+            "prefix": "iscarding a supernatant.+10 The ",
+            "suffix": " does not dry and dissolved imme"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "CBGV5gl-Eeu-jqO0wCuWkw",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=10",
+    "created": "2020-10-08T15:50:46",
+    "updated": "2020-10-08T15:50:46",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ng discarding a supernatant.+10 ",
+    "exact": "The DNA pellet does not dry and dissolved immediately in 300 μl 1xTE, pH 8.0 at 55°C for 10-20 minutes.",
+    "suffix": "+\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+    "start": 3258,
+    "end": 3361,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=10",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 104,
+            "startOffset": 1,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 3361,
+            "type": "TextPositionSelector",
+            "start": 3258
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The DNA pellet does not dry and dissolved immediately in 300 μl 1xTE, pH 8.0 at 55°C for 10-20 minutes.",
+            "prefix": "ng discarding a supernatant.+10 ",
+            "suffix": "+\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "8GyYeAl9EeuDM-dBKcGogw",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=8",
+    "created": "2020-10-08T15:50:07",
+    "updated": "2020-10-08T15:50:07",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ash the pellet by adding 1.8 ml ",
+    "exact": "70% ethanol",
+    "suffix": ", vortex thoroughly. At this sta",
+    "start": 2956,
+    "end": 2967,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=8",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 68,
+            "startOffset": 57,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[8]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[8]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 2967,
+            "type": "TextPositionSelector",
+            "start": 2956
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "70% ethanol",
+            "prefix": "ash the pellet by adding 1.8 ml ",
+            "suffix": ", vortex thoroughly. At this sta"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "4kiCrAl9Eeu-jaOYYFLsqQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=8",
+    "created": "2020-10-08T15:49:43",
+    "updated": "2020-10-08T15:49:43",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "iscard supernatant and wash the ",
+    "exact": "pellet",
+    "suffix": " by adding 1.8 ml 70% ethanol, v",
+    "start": 2932,
+    "end": 2938,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=8",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 39,
+            "startOffset": 33,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[8]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[8]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 2938,
+            "type": "TextPositionSelector",
+            "start": 2932
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pellet",
+            "prefix": "iscard supernatant and wash the ",
+            "suffix": " by adding 1.8 ml 70% ethanol, v"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "1S0GEAl9EeuBaEf2cXJV_A",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=8",
+    "created": "2020-10-08T15:49:21",
+    "updated": "2020-10-08T15:49:21",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "DNA pellet should be visible.+8 ",
+    "exact": "Discard supernatant and wash the pellet by adding 1.8 ml 70% ethanol, vortex thoroughly.",
+    "suffix": " At this stage, DNA samples can ",
+    "start": 2899,
+    "end": 2987,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=8",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 89,
+            "startOffset": 1,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[8]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[8]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 2987,
+            "type": "TextPositionSelector",
+            "start": 2899
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Discard supernatant and wash the pellet by adding 1.8 ml 70% ethanol, vortex thoroughly.",
+            "prefix": "DNA pellet should be visible.+8 ",
+            "suffix": " At this stage, DNA samples can "
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "qXwPFgl9EeuZol841cJ1mw",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=6",
+    "created": "2020-10-08T15:48:08",
+    "updated": "2020-10-08T15:48:08",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ains an equal or half volume of ",
+    "exact": "2-propanol",
+    "suffix": " and vortex thoroughly.+7 Centri",
+    "start": 2755,
+    "end": 2765,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=6",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 137,
+            "startOffset": 127,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[6]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[6]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 2765,
+            "type": "TextPositionSelector",
+            "start": 2755
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "2-propanol",
+            "prefix": "ains an equal or half volume of ",
+            "suffix": " and vortex thoroughly.+7 Centri"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "n6pJxgl9EeuGyyN9kxjq7A",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=6",
+    "created": "2020-10-08T15:47:51",
+    "updated": "2020-10-08T15:47:51",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ed upper aqueous layer to a new ",
+    "exact": "2 ml microcentrifuge tube",
+    "suffix": " which contains an equal or half",
+    "start": 2687,
+    "end": 2712,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=6",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 84,
+            "startOffset": 59,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[6]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[6]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 2712,
+            "type": "TextPositionSelector",
+            "start": 2687
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "2 ml microcentrifuge tube",
+            "prefix": "ed upper aqueous layer to a new ",
+            "suffix": " which contains an equal or half"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "ktXSsAl9EeutFEsoNQyOgw",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=6",
+    "created": "2020-10-08T15:47:30",
+    "updated": "2020-10-08T15:47:30",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "microcentrifuge for 2 minutes.+6",
+    "exact": "Transfer the entire clarified upper aqueous layer to a new 2 ml microcentrifuge tube which contains an equal or half volume of 2-propanol and vortex thoroughly.",
+    "suffix": "+7 Centrifuge at maximum speed i",
+    "start": 2628,
+    "end": 2788,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=6",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 160,
+            "startOffset": 0,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[6]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[6]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 2788,
+            "type": "TextPositionSelector",
+            "start": 2628
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Transfer the entire clarified upper aqueous layer to a new 2 ml microcentrifuge tube which contains an equal or half volume of 2-propanol and vortex thoroughly.",
+            "prefix": "microcentrifuge for 2 minutes.+6",
+            "suffix": "+7 Centrifuge at maximum speed i"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "aE1Vrgl9Eeuf7zNAsvuTfA",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+    "created": "2020-10-08T15:46:18",
+    "updated": "2020-10-08T15:46:18",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ernatively, grind the sample in ",
+    "exact": "lysis solution",
+    "suffix": ".+2In 2 ml tube with mechanicall",
+    "start": 1919,
+    "end": 1933,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 198,
+            "startOffset": 184,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1933,
+            "type": "TextPositionSelector",
+            "start": 1919
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "lysis solution",
+            "prefix": "ernatively, grind the sample in ",
+            "suffix": ".+2In 2 ml tube with mechanicall"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "AdG0EAl8EeuCEduDHzhh9Q",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+    "created": "2020-10-08T15:36:17",
+    "updated": "2020-10-08T15:36:17",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": ") freeze at -80°C, grind in the ",
+    "exact": "MM300 Mixer Mill",
+    "suffix": " for 2 min at 30 Hz. Alternative",
+    "start": 1847,
+    "end": 1863,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 128,
+            "startOffset": 112,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1863,
+            "type": "TextPositionSelector",
+            "start": 1847
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "MM300 Mixer Mill",
+            "prefix": ") freeze at -80°C, grind in the ",
+            "suffix": " for 2 min at 30 Hz. Alternative"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "8nQjBAl7EeutmJcyuKd3Sg",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+    "created": "2020-10-08T15:35:51",
+    "updated": "2020-10-08T15:35:51",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "uge tube with tissue sample and ",
+    "exact": "glass ball",
+    "suffix": " (6 mm) freeze at -80°C, grind i",
+    "start": 1799,
+    "end": 1809,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 74,
+            "startOffset": 64,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1809,
+            "type": "TextPositionSelector",
+            "start": 1799
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "glass ball",
+            "prefix": "uge tube with tissue sample and ",
+            "suffix": " (6 mm) freeze at -80°C, grind i"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "5UUh4gl7Eeuuu0-OuwR-DQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+    "created": "2020-10-08T15:35:29",
+    "updated": "2020-10-08T15:35:29",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "-Lock microcentrifuge tube with ",
+    "exact": "tissue sample",
+    "suffix": " and glass ball (6 mm) freeze at",
+    "start": 1781,
+    "end": 1794,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 59,
+            "startOffset": 46,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1794,
+            "type": "TextPositionSelector",
+            "start": 1781
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tissue sample",
+            "prefix": "-Lock microcentrifuge tube with ",
+            "suffix": " and glass ball (6 mm) freeze at"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "1my-qgl7Eeuz3fex5g5RkQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+    "created": "2020-10-08T15:35:04",
+    "updated": "2020-10-08T15:35:04",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "M EDTA, 10mM Tris-HCl, pH 8.0).1",
+    "exact": "Eppendorf Safe-Lock microcentrifuge tube",
+    "suffix": " with tissue sample and glass ba",
+    "start": 1735,
+    "end": 1775,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 40,
+            "startOffset": 0,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1775,
+            "type": "TextPositionSelector",
+            "start": 1735
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Eppendorf Safe-Lock microcentrifuge tube",
+            "prefix": "M EDTA, 10mM Tris-HCl, pH 8.0).1",
+            "suffix": " with tissue sample and glass ba"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  },
+  {
+    "id": "x33c0Al7Eeuzxxtf-Arvtg",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+    "created": "2020-10-08T15:34:39",
+    "updated": "2020-10-08T15:34:39",
+    "title": "Universal DNA isolation protocol",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "M EDTA, 10mM Tris-HCl, pH 8.0).1",
+    "exact": "Eppendorf Safe-Lock microcentrifuge tube with tissue sample and glass ball (6 mm) freeze at -80°C, grind in the MM300 Mixer Mill for 2 min at 30 Hz. Alternatively, grind the sample in lysis solution.",
+    "suffix": "+2In 2 ml tube with mechanically",
+    "start": 1735,
+    "end": 1934,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 199,
+            "startOffset": 0,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 1934,
+            "type": "TextPositionSelector",
+            "start": 1735
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Eppendorf Safe-Lock microcentrifuge tube with tissue sample and glass ball (6 mm) freeze at -80°C, grind in the MM300 Mixer Mill for 2 min at 30 Hz. Alternatively, grind the sample in lysis solution.",
+            "prefix": "M EDTA, 10mM Tris-HCl, pH 8.0).1",
+            "suffix": "+2In 2 ml tube with mechanically"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Universal DNA isolation protocol"
+      ]
+    }
+  }
+]

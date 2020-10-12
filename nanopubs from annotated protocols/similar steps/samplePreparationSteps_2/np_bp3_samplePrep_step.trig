@@ -1,0 +1,35 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RAXANzsnn_INUWJRsGUaCyL-T2j7o9oOo4HyD4qawQA_Q> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RAXANzsnn_INUWJRsGUaCyL-T2j7o9oOo4HyD4qawQA_Q.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Load 3.2 mm chrome beads to each tube using the small spoon provided with the beads or yourmethod of choice. Use 4 beads/tube for leaf tissue of grass seedlings less than 4 weeks after germination  and  5  beads  for  tissue  of  mature  leaves  of  any  age  as  long  as  they  are  not  senescent. Yo u may collect tissue in advance and store it at -20 °C or -80 °C for at least a year prior to prepping." ;
+		sp:hasExperimentalInput "leaf tissue" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "leaf tissue" ;
+		bs:labEquipmentUsed "3.2 mm chrome beads " , "small spoon" , "tube " .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T11:51:33"^^xsd:dateTime ;
+		prov:wasDerivedFrom <https://hypothes.is/a/-Of2TAruEeuY0TthznskJA> , authority:8Zjg6gruEeuBviu20ahRCQ , authority:BpweTgrvEeuUizNDunZ5pw , authority:F6e5oArvEeuFmPeJtcl-2g , authority:_y0tJAruEeu0JcPzk0sONQ .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T11:51:33"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

@@ -1,0 +1,693 @@
+[
+  {
+    "id": "XQajkgl_EeuSwHN61prq7w",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16",
+    "created": "2020-10-08T16:00:18",
+    "updated": "2020-10-08T16:00:18",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " a separate conical filled with ",
+    "exact": "70% ethanol ",
+    "suffix": "for 1 minute.+17With another gla",
+    "start": 2434,
+    "end": 2446,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 167,
+            "startOffset": 155,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[16]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[16]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 2446,
+            "type": "TextPositionSelector",
+            "start": 2434
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "70% ethanol ",
+            "prefix": " a separate conical filled with ",
+            "suffix": "for 1 minute.+17With another gla"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "U0FZzgl_EeuG2_OhniH2qg",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16",
+    "created": "2020-10-08T16:00:02",
+    "updated": "2020-10-08T16:00:02",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " a flame, fish out the clump of ",
+    "exact": "DNA",
+    "suffix": " in one piece and gently swirl i",
+    "start": 2363,
+    "end": 2366,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 87,
+            "startOffset": 84,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[16]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[16]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 2366,
+            "type": "TextPositionSelector",
+            "start": 2363
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "DNA",
+            "prefix": " a flame, fish out the clump of ",
+            "suffix": " in one piece and gently swirl i"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "Qty14gl_EeuDWtOgbSTxig",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16",
+    "created": "2020-10-08T15:59:35",
+    "updated": "2020-10-08T15:59:35",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "shion a shepherd's crook from a ",
+    "exact": "glass pipette",
+    "suffix": " over a flame, fish out the clum",
+    "start": 2313,
+    "end": 2326,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 47,
+            "startOffset": 34,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[16]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[16]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 2326,
+            "type": "TextPositionSelector",
+            "start": 2313
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "glass pipette",
+            "prefix": "shion a shepherd's crook from a ",
+            "suffix": " over a flame, fish out the clum"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "Mkeo9Al_Eeu99_f7Ow1cQA",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16",
+    "created": "2020-10-08T15:59:07",
+    "updated": "2020-10-08T15:59:07",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "up the DNA a little bit more.+16",
+    "exact": "Fashion a shepherd's crook from a glass pipette over a flame, fish out the clump of DNA in one piece and gently swirl it in a separate conical filled with 70% ethanol for 1 minute.",
+    "suffix": "+17With another glass pipette, g",
+    "start": 2317,
+    "end": 2497,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 180,
+            "startOffset": 0,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[16]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[16]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 2497,
+            "type": "TextPositionSelector",
+            "start": 2317
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Fashion a shepherd's crook from a glass pipette over a flame, fish out the clump of DNA in one piece and gently swirl it in a separate conical filled with 70% ethanol for 1 minute.",
+            "prefix": "up the DNA a little bit more.+16",
+            "suffix": "+17With another glass pipette, g"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "B3O2wgl_EeuUW2_8Brgktw",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2",
+    "created": "2020-10-08T15:57:55",
+    "updated": "2020-10-08T15:57:55",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "rcaptoethanol (BME), plus 200ul ",
+    "exact": "NEB Proteinase K",
+    "suffix": " (800 U / ml)  CTAB buffer (50 m",
+    "start": 1182,
+    "end": 1198,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 95,
+            "startOffset": 79,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1198,
+            "type": "TextPositionSelector",
+            "start": 1182
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "NEB Proteinase K",
+            "prefix": "rcaptoethanol (BME), plus 200ul ",
+            "suffix": " (800 U / ml)  CTAB buffer (50 m"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "9v4J0gl-EeuS3DPAxqh7LQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2",
+    "created": "2020-10-08T15:57:27",
+    "updated": "2020-10-08T15:57:27",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "l of CTAB buffer, plus 30 ul of ",
+    "exact": "beta-mercaptoethanol (BME)",
+    "suffix": ", plus 200ul NEB Proteinase K (8",
+    "start": 1143,
+    "end": 1169,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 66,
+            "startOffset": 40,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1169,
+            "type": "TextPositionSelector",
+            "start": 1143
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "beta-mercaptoethanol (BME)",
+            "prefix": "l of CTAB buffer, plus 30 ul of ",
+            "suffix": ", plus 200ul NEB Proteinase K (8"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "704rwgl-Eeu9I09D4KjpzA",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2",
+    "created": "2020-10-08T15:57:14",
+    "updated": "2020-10-08T15:57:14",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "mortar and pestle+2Add 15 ul of ",
+    "exact": "CTAB buffer",
+    "suffix": ", plus 30 ul of beta-mercaptoeth",
+    "start": 1116,
+    "end": 1127,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 24,
+            "startOffset": 13,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1127,
+            "type": "TextPositionSelector",
+            "start": 1116
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "CTAB buffer",
+            "prefix": "mortar and pestle+2Add 15 ul of ",
+            "suffix": ", plus 30 ul of beta-mercaptoeth"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "59N4rAl-EeumYcsjFQoUIA",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2",
+    "created": "2020-10-08T15:57:02",
+    "updated": "2020-10-08T15:57:02",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "rogen with a mortar and pestle+2",
+    "exact": "Add 15 ul of CTAB buffer, plus 30 ul of beta-mercaptoethanol (BME), plus 200ul NEB Proteinase K (800 U / ml)",
+    "suffix": "  CTAB buffer (50 ml) (use withi",
+    "start": 1103,
+    "end": 1211,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 108,
+            "startOffset": 0,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 1211,
+            "type": "TextPositionSelector",
+            "start": 1103
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Add 15 ul of CTAB buffer, plus 30 ul of beta-mercaptoethanol (BME), plus 200ul NEB Proteinase K (800 U / ml)",
+            "prefix": "rogen with a mortar and pestle+2",
+            "suffix": "  CTAB buffer (50 ml) (use withi"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "toQp1gl-EeuyiPee67a45g",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+    "created": "2020-10-08T15:55:39",
+    "updated": "2020-10-08T15:55:39",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "quid nitrogen with a mortar and ",
+    "exact": "pestle",
+    "suffix": "+2Add 15 ul of CTAB buffer, plus",
+    "start": 1095,
+    "end": 1101,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 71,
+            "startOffset": 65,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1101,
+            "type": "TextPositionSelector",
+            "start": 1095
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pestle",
+            "prefix": "quid nitrogen with a mortar and ",
+            "suffix": "+2Add 15 ul of CTAB buffer, plus"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "sKqyeAl-Eeu-lS-eI6I1sQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+    "created": "2020-10-08T15:55:29",
+    "updated": "2020-10-08T15:55:29",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "issue in liquid nitrogen with a ",
+    "exact": "mortar ",
+    "suffix": "and pestle+2Add 15 ul of CTAB bu",
+    "start": 1084,
+    "end": 1091,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 61,
+            "startOffset": 54,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1091,
+            "type": "TextPositionSelector",
+            "start": 1084
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "mortar ",
+            "prefix": "issue in liquid nitrogen with a ",
+            "suffix": "and pestle+2Add 15 ul of CTAB bu"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "p6KLsAl-EeuwB49csxC1vQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+    "created": "2020-10-08T15:55:14",
+    "updated": "2020-10-08T15:55:14",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "1Grind 3.5 g of young tissue in ",
+    "exact": "liquid nitrogen",
+    "suffix": " with a mortar and pestle+2Add 1",
+    "start": 1061,
+    "end": 1076,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 46,
+            "startOffset": 31,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1076,
+            "type": "TextPositionSelector",
+            "start": 1061
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "liquid nitrogen",
+            "prefix": "1Grind 3.5 g of young tissue in ",
+            "suffix": " with a mortar and pestle+2Add 1"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "n5ZA7Al-EeuhBFND_7AJGw",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+    "created": "2020-10-08T15:55:01",
+    "updated": "2020-10-08T15:55:01",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "op for 1-2 weeks1Grind 3.5 g of ",
+    "exact": "young tissue",
+    "suffix": " in liquid nitrogen with a morta",
+    "start": 1045,
+    "end": 1057,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 27,
+            "startOffset": 15,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1057,
+            "type": "TextPositionSelector",
+            "start": 1045
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "young tissue",
+            "prefix": "op for 1-2 weeks1Grind 3.5 g of ",
+            "suffix": " in liquid nitrogen with a morta"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  },
+  {
+    "id": "lV769gl-EeuX_KOGLT09HQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+    "created": "2020-10-08T15:54:43",
+    "updated": "2020-10-08T15:54:43",
+    "title": "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "d on the benchtop for 1-2 weeks1",
+    "exact": "Grind 3.5 g of young tissue in liquid nitrogen with a mortar and pestle",
+    "suffix": "+2Add 15 ul of CTAB buffer, plus",
+    "start": 1030,
+    "end": 1101,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 71,
+            "startOffset": 0,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[2]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 1101,
+            "type": "TextPositionSelector",
+            "start": 1030
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Grind 3.5 g of young tissue in liquid nitrogen with a mortar and pestle",
+            "prefix": "d on the benchtop for 1-2 weeks1",
+            "suffix": "+2Add 15 ul of CTAB buffer, plus"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "Modified Samberg Phenol:Chloforom HMW DNA prep for (some) plants"
+      ]
+    }
+  }
+]

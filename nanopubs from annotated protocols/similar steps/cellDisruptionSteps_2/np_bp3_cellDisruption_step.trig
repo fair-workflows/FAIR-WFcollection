@@ -1,0 +1,36 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RATnF3uOuAU3iI9zNtr8yRLtYlUtgg4711UdfhnHiwnxA> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RATnF3uOuAU3iI9zNtr8yRLtYlUtgg4711UdfhnHiwnxA.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Collect ~2.0 cm of leaf tip tissue into each tube and add 500 μl of extraction buffer. Less is more! The tissue will grind better if the leaf is no longer than the length of the tube (Figure 1).  The maximum number of samples for one run is 48 samples." ;
+		sp:hasExperimentalInput "leaf tip tissue" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "leaf tip tissue" ;
+		bs:labEquipmentUsed "tube" ;
+		bs:reagentUsed "extraction buffer" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T11:59:02"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:Gc1JGgrwEeu1af9R3KrZFw , authority:ICZzuArwEeuPEfc3jRvIaw , authority:JnCUVgrwEeuIaleCGmXzdg , authority:_TPlAgrvEeuvQQfyO963jA .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T11:59:02"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

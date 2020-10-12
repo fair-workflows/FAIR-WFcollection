@@ -1,0 +1,36 @@
+@prefix this: <https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2#RA7joG2vBECe04tunU9Q-wj5g8_k-BByzOIaoKEvM61X0> .
+@prefix sub: <https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2#RA7joG2vBECe04tunU9Q-wj5g8_k-BByzOIaoKEvM61X0.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "In a 2 ml tube, add 800 uL of 1,5x CTAB and 1 ul of Beta-mercaptoethanol to the ground leaf material" ;
+		sp:hasExperimentalInput "ground leaf material" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "ground leaf material" ;
+		bs:labEquipmentUsed "2 ml tube" ;
+		bs:reagentUsed "1,5x CTAB" , "Beta-mercaptoethanol" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:24:24"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:V43Gogl6EeuyaKMm0F_kwg , authority:Vq_bYgl6EeuthaPX_P5eAA , authority:W3sEMgl6EeuG-RdyzrBgZw , authority:WSR3_gl6EeuuVdMNurFrxQ , authority:rxRnUAl6EeuSxCfvcyDcag .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:24:24"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

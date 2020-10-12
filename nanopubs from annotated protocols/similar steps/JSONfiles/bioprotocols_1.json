@@ -1,0 +1,592 @@
+[
+  {
+    "id": "SvD1kArsEeulrBNRzg2wWw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:32:35",
+    "updated": "2020-10-10T11:32:35",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " ultrapure water or TE to  the  ",
+    "exact": "tube",
+    "suffix": "  and  let  it  stand  for  10  ",
+    "start": 9082,
+    "end": 9086,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 9086,
+            "type": "TextPositionSelector",
+            "start": 9082
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tube",
+            "prefix": " ultrapure water or TE to  the  ",
+            "suffix": "  and  let  it  stand  for  10  "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "FM8l9ArsEeuYzn8hIqEO4w",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:31:04",
+    "updated": "2020-10-10T11:31:04",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "or  10  min  to  dissolve  the  ",
+    "exact": "gDNA  sample",
+    "suffix": ".Note: Dissolve the sample in ul",
+    "start": 9142,
+    "end": 9154,
+    "tags": [
+      "sample",
+      "output"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 9154,
+            "type": "TextPositionSelector",
+            "start": 9142
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "gDNA  sample",
+            "prefix": "or  10  min  to  dissolve  the  ",
+            "suffix": ".Note: Dissolve the sample in ul"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "wrkpSgrrEeuYza8AO8381w",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:28:46",
+    "updated": "2020-10-10T11:28:46",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "10.Add 30 μl ultrapure water or ",
+    "exact": "TE",
+    "suffix": " to  the  tube  and  let  it  st",
+    "start": 9070,
+    "end": 9072,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 9072,
+            "type": "TextPositionSelector",
+            "start": 9070
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "TE",
+            "prefix": "10.Add 30 μl ultrapure water or ",
+            "suffix": " to  the  tube  and  let  it  st"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "vL_GZgrrEeuPtW-TPR_z2Q",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:28:36",
+    "updated": "2020-10-10T11:28:36",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "air-dry the pellet.10.Add 30 μl ",
+    "exact": "ultrapure water",
+    "suffix": " or TE to  the  tube  and  let  ",
+    "start": 9051,
+    "end": 9066,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 9066,
+            "type": "TextPositionSelector",
+            "start": 9051
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "ultrapure water",
+            "prefix": "air-dry the pellet.10.Add 30 μl ",
+            "suffix": " or TE to  the  tube  and  let  "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "tfzuMArrEeuVxm-RDBKtPw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:28:25",
+    "updated": "2020-10-10T11:28:25",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "rnight to air-dry the pellet.10.",
+    "exact": "Add 30 μl ultrapure water or TE to  the  tube  and  let  it  stand  for  10  min  to  dissolve  the  gDNA  sample.Note: Dissolve the sample in ultrapure water for subsequent DNA sequencing. For long long-term storage, dissolvethe sample in 30 μl TE.",
+    "suffix": "11.  Add 1 μl 10% RNaseI to the ",
+    "start": 9041,
+    "end": 9290,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 9290,
+            "type": "TextPositionSelector",
+            "start": 9041
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Add 30 μl ultrapure water or TE to  the  tube  and  let  it  stand  for  10  min  to  dissolve  the  gDNA  sample.Note: Dissolve the sample in ultrapure water for subsequent DNA sequencing. For long long-term storage, dissolvethe sample in 30 μl TE.",
+            "prefix": "rnight to air-dry the pellet.10.",
+            "suffix": "11.  Add 1 μl 10% RNaseI to the "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "iHT07grrEeuFjzPyZzRSow",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:27:08",
+    "updated": "2020-10-10T11:27:08",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ol. Mix by gently inverting the ",
+    "exact": "tube",
+    "suffix": "and let it  stand at -20 °C for ",
+    "start": 8358,
+    "end": 8362,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 8362,
+            "type": "TextPositionSelector",
+            "start": 8358
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tube",
+            "prefix": "ol. Mix by gently inverting the ",
+            "suffix": "and let it  stand at -20 °C for "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "gfT4MArrEeuFjgtQxYL2Qw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:26:57",
+    "updated": "2020-10-10T11:26:57",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "queous phase an equal volume of ",
+    "exact": "isopropyl alcohol",
+    "suffix": ". Mix by gently inverting the tu",
+    "start": 8311,
+    "end": 8328,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 8328,
+            "type": "TextPositionSelector",
+            "start": 8311
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "isopropyl alcohol",
+            "prefix": "queous phase an equal volume of ",
+            "suffix": ". Mix by gently inverting the tu"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "eND4WArrEeuFjSsqvF3l8A",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:26:42",
+    "updated": "2020-10-10T11:26:42",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "otein in the middle layer. 6.   ",
+    "exact": "Add to the aqueous phase an equal volume of isopropyl alcohol. Mix by gently inverting the tubeand let it  stand at -20 °C for at least 1 h. Centrifuge the sample at 12,000 x g for 15 min",
+    "suffix": ".Copyright © 2018   The Authors;",
+    "start": 8267,
+    "end": 8454,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 8454,
+            "type": "TextPositionSelector",
+            "start": 8267
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Add to the aqueous phase an equal volume of isopropyl alcohol. Mix by gently inverting the tubeand let it  stand at -20 °C for at least 1 h. Centrifuge the sample at 12,000 x g for 15 min",
+            "prefix": "otein in the middle layer. 6.   ",
+            "suffix": ".Copyright © 2018   The Authors;"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "Xz8beArqEeua51vXukMGuw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:18:50",
+    "updated": "2020-10-10T11:18:50",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "then transfer the powder into a ",
+    "exact": "tube",
+    "suffix": ".Note: All equipment should be f",
+    "start": 5591,
+    "end": 5595,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 5595,
+            "type": "TextPositionSelector",
+            "start": 5591
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tube",
+            "prefix": "then transfer the powder into a ",
+            "suffix": ".Note: All equipment should be f"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "V_H5igrqEeulqbN959Ouew",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:18:37",
+    "updated": "2020-10-10T11:18:37",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "he thoroughly cooled mortar and ",
+    "exact": "pestle",
+    "suffix": ". And then transfer the powder i",
+    "start": 5547,
+    "end": 5553,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 5553,
+            "type": "TextPositionSelector",
+            "start": 5547
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pestle",
+            "prefix": "he thoroughly cooled mortar and ",
+            "suffix": ". And then transfer the powder i"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "UmttogrqEeuT8lv3_FrYvw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:18:28",
+    "updated": "2020-10-10T11:18:28",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "der using the thoroughly cooled ",
+    "exact": "mortar",
+    "suffix": " and pestle. And then transfer t",
+    "start": 5536,
+    "end": 5542,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 5542,
+            "type": "TextPositionSelector",
+            "start": 5536
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "mortar",
+            "prefix": "der using the thoroughly cooled ",
+            "suffix": " and pestle. And then transfer t"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "SmdKpArqEeufTGcef147Tg",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:18:15",
+    "updated": "2020-10-10T11:18:15",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "et mass: 10-20 mg) and grind in ",
+    "exact": "liquid nitrogen",
+    "suffix": " to fine powder using the thorou",
+    "start": 5477,
+    "end": 5492,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 5492,
+            "type": "TextPositionSelector",
+            "start": 5477
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "liquid nitrogen",
+            "prefix": "et mass: 10-20 mg) and grind in ",
+            "suffix": " to fine powder using the thorou"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "QLX9DArqEeuqrespSDQClg",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:17:58",
+    "updated": "2020-10-10T11:17:58",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "2.   Harvest 2-3 freshly picked ",
+    "exact": "pinnae",
+    "suffix": " (total wet mass: 10-20 mg) and ",
+    "start": 5430,
+    "end": 5436,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 5436,
+            "type": "TextPositionSelector",
+            "start": 5430
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pinnae",
+            "prefix": "2.   Harvest 2-3 freshly picked ",
+            "suffix": " (total wet mass: 10-20 mg) and "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "NI5J0ArqEeu3h4ueU_amFw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "created": "2020-10-10T11:17:38",
+    "updated": "2020-10-10T11:17:38",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " pestle in liquid nitrogen.2.   ",
+    "exact": "Harvest 2-3 freshly picked pinnae (total wet mass: 10-20 mg) and grind in liquid nitrogen to fine powder using the thoroughly cooled mortar and pestle. And then transfer the powder into a tube.Note: All equipment should be fully cooled in liquid nitrogen during this procedure. Be careful not to let the liquid nitrogen dry while grinding, and the grinded tissue must remain frozen prior to  extraction with CTAB solution. Accidental thawing may result in DNA degradation.",
+    "suffix": "3. Add 500 μl 2% CTAB solution (",
+    "start": 5403,
+    "end": 5875,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2906.pdf",
+        "selector": [
+          {
+            "end": 5875,
+            "type": "TextPositionSelector",
+            "start": 5403
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Harvest 2-3 freshly picked pinnae (total wet mass: 10-20 mg) and grind in liquid nitrogen to fine powder using the thoroughly cooled mortar and pestle. And then transfer the powder into a tube.Note: All equipment should be fully cooled in liquid nitrogen during this procedure. Be careful not to let the liquid nitrogen dry while grinding, and the grinded tissue must remain frozen prior to  extraction with CTAB solution. Accidental thawing may result in DNA degradation.",
+            "prefix": " pestle in liquid nitrogen.2.   ",
+            "suffix": "3. Add 500 μl 2% CTAB solution ("
+          }
+        ]
+      }
+    ],
+    "document": {}
+  }
+]

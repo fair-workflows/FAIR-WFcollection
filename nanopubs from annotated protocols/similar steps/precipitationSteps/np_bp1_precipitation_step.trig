@@ -1,0 +1,33 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol2906.pdf#RAS8c_HLr4WbTxbLql9pLOINwE65X898ntwKRVUKr8nfA> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol2906.pdf#RAS8c_HLr4WbTxbLql9pLOINwE65X898ntwKRVUKr8nfA.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Add to the aqueous phase an equal volume of isopropyl alcohol. Mix by gently inverting the tubeand let it  stand at -20 °C for at least 1 h. Centrifuge the sample at 12,000 x g for 15 min" ;
+		a bpmn:manualTask ;
+		bs:labEquipmentUsed "tube" ;
+		bs:reagentUsed "isopropyl alcohol" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T11:26:42"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:eND4WArrEeuFjSsqvF3l8A , authority:gfT4MArrEeuFjgtQxYL2Qw , authority:iHT07grrEeuFjzPyZzRSow .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T11:26:42"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

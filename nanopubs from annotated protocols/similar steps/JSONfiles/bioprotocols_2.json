@@ -1,0 +1,846 @@
+[
+  {
+    "id": "ZPtpUAruEeuUccNOKXH8Iw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:47:37",
+    "updated": "2020-10-10T11:47:37",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "o the bottom of the tube. Store ",
+    "exact": "DNA samples",
+    "suffix": " at -20 °C or -80 °C until used.",
+    "start": 10686,
+    "end": 10697,
+    "tags": [
+      "sample",
+      "output"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 10697,
+            "type": "TextPositionSelector",
+            "start": 10686
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "DNA samples",
+            "prefix": "o the bottom of the tube. Store ",
+            "suffix": " at -20 °C or -80 °C until used."
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "XGj2GAruEeuvPuNBf4a2SA",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:47:23",
+    "updated": "2020-10-10T11:47:23",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "y droplets to the bottom of the ",
+    "exact": "tube",
+    "suffix": ". Store DNA samples at -20 °C or",
+    "start": 10674,
+    "end": 10678,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 10678,
+            "type": "TextPositionSelector",
+            "start": 10674
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tube",
+            "prefix": "y droplets to the bottom of the ",
+            "suffix": ". Store DNA samples at -20 °C or"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "UUzpBgruEeuFlkNPi47ITg",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:47:04",
+    "updated": "2020-10-10T11:47:04",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " 20-50  μl  of  TE  buffer  or  ",
+    "exact": "nuclease  free  water.",
+    "suffix": "  Vortex  to  dissolve if needed",
+    "start": 10550,
+    "end": 10572,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 10572,
+            "type": "TextPositionSelector",
+            "start": 10550
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "nuclease  free  water.",
+            "prefix": " 20-50  μl  of  TE  buffer  or  ",
+            "suffix": "  Vortex  to  dissolve if needed"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "S60_3AruEeu3kbeUugb_VA",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:46:55",
+    "updated": "2020-10-10T11:46:55",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "the  pellet  in  20-50  μl  of  ",
+    "exact": "TE  buffer ",
+    "suffix": " or  nuclease  free  water.  Vor",
+    "start": 10534,
+    "end": 10545,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 10545,
+            "type": "TextPositionSelector",
+            "start": 10534
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "TE  buffer ",
+            "prefix": "the  pellet  in  20-50  μl  of  ",
+            "suffix": " or  nuclease  free  water.  Vor"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "RJUz-AruEeuIYT9sE2ZPVg",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:46:43",
+    "updated": "2020-10-10T11:46:43",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " Resuspension:  Dissolve  the  p",
+    "exact": "ellet  ",
+    "suffix": "in  20-50  μl  of  TE  buffer  o",
+    "start": 10508,
+    "end": 10515,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 10515,
+            "type": "TextPositionSelector",
+            "start": 10508
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "ellet  ",
+            "prefix": " Resuspension:  Dissolve  the  p",
+            "suffix": "in  20-50  μl  of  TE  buffer  o"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "O7EJagruEeu0JCMMyUBKTA",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:46:28",
+    "updated": "2020-10-10T11:46:28",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "of the ethanol as possible.7.   ",
+    "exact": "Resuspension:  Dissolve  the  pellet  in  20-50  μl  of  TE  buffer  or  nuclease  free  water.  Vortex  to  dissolve if needed, and centrifuge briefly to collect any droplets to the bottom of the tube. Store DNA samples at -20 °C or -80 °C until used.Note: If  the  DNA  pellet  is  not  colorless  or  white  post  70%  ethanol  wash,  add  20-50 μl  of  TE  buffer or nuclease-free water to resuspend the DNA without disturbing the pellet. Gently pipet the liquid a few times in the tube and collect the supernatant as DNA for downstream processes. Keep the pellet until DNA is quantified. Use the DNA for PCR-based detection, or store in freezer until used.",
+    "suffix": "Data analysisAnalysis of protoco",
+    "start": 10477,
+    "end": 11138,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 11138,
+            "type": "TextPositionSelector",
+            "start": 10477
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Resuspension:  Dissolve  the  pellet  in  20-50  μl  of  TE  buffer  or  nuclease  free  water.  Vortex  to  dissolve if needed, and centrifuge briefly to collect any droplets to the bottom of the tube. Store DNA samples at -20 °C or -80 °C until used.Note: If  the  DNA  pellet  is  not  colorless  or  white  post  70%  ethanol  wash,  add  20-50 μl  of  TE  buffer or nuclease-free water to resuspend the DNA without disturbing the pellet. Gently pipet the liquid a few times in the tube and collect the supernatant as DNA for downstream processes. Keep the pellet until DNA is quantified. Use the DNA for PCR-based detection, or store in freezer until used.",
+            "prefix": "of the ethanol as possible.7.   ",
+            "suffix": "Data analysisAnalysis of protoco"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "Ji6l8gruEeuT_RvkgdbKyQ",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:45:52",
+    "updated": "2020-10-10T11:45:52",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "on a paper towel. Add 200 μl of ",
+    "exact": "70% ethanol",
+    "suffix": ", and centrifuge at 21,000 x gfo",
+    "start": 10145,
+    "end": 10156,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 10156,
+            "type": "TextPositionSelector",
+            "start": 10145
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "70% ethanol",
+            "prefix": "on a paper towel. Add 200 μl of ",
+            "suffix": ", and centrifuge at 21,000 x gfo"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "IU2YmgruEeuFci-ZpT8PFw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:45:44",
+    "updated": "2020-10-10T11:45:44",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ping the tubes upside down on a ",
+    "exact": "paper towel",
+    "suffix": ". Add 200 μl of 70% ethanol, and",
+    "start": 10118,
+    "end": 10129,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 10129,
+            "type": "TextPositionSelector",
+            "start": 10118
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "paper towel",
+            "prefix": "ping the tubes upside down on a ",
+            "suffix": ". Add 200 μl of 70% ethanol, and"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "GaB9VgruEeuPvqvQ44xc2A",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:45:31",
+    "updated": "2020-10-10T11:45:31",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ning supernatant by tapping the ",
+    "exact": "tubes",
+    "suffix": " upside down on a paper towel. A",
+    "start": 10095,
+    "end": 10100,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 10100,
+            "type": "TextPositionSelector",
+            "start": 10095
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tubes",
+            "prefix": "ning supernatant by tapping the ",
+            "suffix": " upside down on a paper towel. A"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "DuAwUAruEeu36G-VPuxu0w",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:45:13",
+    "updated": "2020-10-10T11:45:13",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " pipetting the supernatant.5.   ",
+    "exact": "Wash the pellet: Pour out the supernatant, and remove remaining supernatant by tapping the tubes upside down on a paper towel. Add 200 μl of 70% ethanol, and centrifuge at 21,000 x gfor 5 min.Note: Consider local regulations for correct handling of isopropanol waste.",
+    "suffix": "6.   Dry the  pellet:  Pipet  ou",
+    "start": 10004,
+    "end": 10271,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 10271,
+            "type": "TextPositionSelector",
+            "start": 10004
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Wash the pellet: Pour out the supernatant, and remove remaining supernatant by tapping the tubes upside down on a paper towel. Add 200 μl of 70% ethanol, and centrifuge at 21,000 x gfor 5 min.Note: Consider local regulations for correct handling of isopropanol waste.",
+            "prefix": " pipetting the supernatant.5.   ",
+            "suffix": "6.   Dry the  pellet:  Pipet  ou"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "74LqSgrtEeuUh3sLMcU07w",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:44:20",
+    "updated": "2020-10-10T11:44:20",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "  tube,  add  0.85  volume  of  ",
+    "exact": "isopropanol ",
+    "suffix": " (room  temperature),  and  mix ",
+    "start": 9814,
+    "end": 9826,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 9826,
+            "type": "TextPositionSelector",
+            "start": 9814
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "isopropanol ",
+            "prefix": "  tube,  add  0.85  volume  of  ",
+            "suffix": " (room  temperature),  and  mix "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "6McNMArtEeu359MCI3J6Eg",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:44:09",
+    "updated": "2020-10-10T11:44:09",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " of  supernatant  into  a  new  ",
+    "exact": "tube",
+    "suffix": ",  add  0.85  volume  of  isopro",
+    "start": 9784,
+    "end": 9788,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 9788,
+            "type": "TextPositionSelector",
+            "start": 9784
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tube",
+            "prefix": " of  supernatant  into  a  new  ",
+            "suffix": ",  add  0.85  volume  of  isopro"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "4QMypArtEeuxpPsypa_mTg",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:43:56",
+    "updated": "2020-10-10T11:43:56",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " pipetting the supernatant.4.   ",
+    "exact": "Precipitate:  Transfer  ca.  0.7  volume  of  supernatant  into  a  new  tube,  add  0.85  volume  of  isopropanol  (room  temperature),  and  mix  by  inversion  for  20  s.  Centrifuge  at  21,000  x  g  for 10 min.Note: Minimize transferring any debris while pipetting the supernatant.",
+    "suffix": "5.   Wash the pellet: Pour out t",
+    "start": 9711,
+    "end": 9999,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 9999,
+            "type": "TextPositionSelector",
+            "start": 9711
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Precipitate:  Transfer  ca.  0.7  volume  of  supernatant  into  a  new  tube,  add  0.85  volume  of  isopropanol  (room  temperature),  and  mix  by  inversion  for  20  s.  Centrifuge  at  21,000  x  g  for 10 min.Note: Minimize transferring any debris while pipetting the supernatant.",
+            "prefix": " pipetting the supernatant.4.   ",
+            "suffix": "5.   Wash the pellet: Pour out t"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "yHwjsgrtEeu1Y-te_5N06g",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:43:15",
+    "updated": "2020-10-10T11:43:15",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "s remain. Mix by inversion.2.   ",
+    "exact": "Lysis and debris elimination: Incubate the samples in extraction buffer at 65 °C for 15 min. Vortex once during incubation. Centrifuge at 6,000 x g for 10 min.",
+    "suffix": "Copyright © 2020 The Authors; ex",
+    "start": 9110,
+    "end": 9269,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 9269,
+            "type": "TextPositionSelector",
+            "start": 9110
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Lysis and debris elimination: Incubate the samples in extraction buffer at 65 °C for 15 min. Vortex once during incubation. Centrifuge at 6,000 x g for 10 min.",
+            "prefix": "s remain. Mix by inversion.2.   ",
+            "suffix": "Copyright © 2020 The Authors; ex"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "vmJnVgrtEeuPvYNgAA59wA",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:42:58",
+    "updated": "2020-10-10T11:42:58",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "nation: Incubate the samples in ",
+    "exact": "extraction buffer ",
+    "suffix": "at 65 °C for 15 min. Vortex once",
+    "start": 9164,
+    "end": 9182,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 9182,
+            "type": "TextPositionSelector",
+            "start": 9164
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "extraction buffer ",
+            "prefix": "nation: Incubate the samples in ",
+            "suffix": "at 65 °C for 15 min. Vortex once"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "tjsxFgrtEeu3tysf2cg6qA",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:42:44",
+    "updated": "2020-10-10T11:42:44",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ebris elimination: Incubate the ",
+    "exact": "samples",
+    "suffix": " in extraction buffer at 65 °C f",
+    "start": 9153,
+    "end": 9160,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 9160,
+            "type": "TextPositionSelector",
+            "start": 9153
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "samples",
+            "prefix": "ebris elimination: Incubate the ",
+            "suffix": " in extraction buffer at 65 °C f"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "mBC04ArtEeu0H69imYkgow",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:41:53",
+    "updated": "2020-10-10T11:41:53",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ample in mortar with pestle and ",
+    "exact": "liquid nitrogen",
+    "suffix": ".b.   Transfer 10-50 mg of homog",
+    "start": 8323,
+    "end": 8338,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 8338,
+            "type": "TextPositionSelector",
+            "start": 8323
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "liquid nitrogen",
+            "prefix": "ample in mortar with pestle and ",
+            "suffix": ".b.   Transfer 10-50 mg of homog"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "jQHEwgrtEeuQNavqcfZylw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:41:35",
+    "updated": "2020-10-10T11:41:35",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": ".   Grind sample in mortar with ",
+    "exact": "pestle",
+    "suffix": " and liquid nitrogen.b.   Transf",
+    "start": 8312,
+    "end": 8318,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 8318,
+            "type": "TextPositionSelector",
+            "start": 8312
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pestle",
+            "prefix": ".   Grind sample in mortar with ",
+            "suffix": " and liquid nitrogen.b.   Transf"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "g9SE1ArtEeuBuSOVmE0YIw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:41:19",
+    "updated": "2020-10-10T11:41:19",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "um ≥ 50 mg:a.   Grind sample in ",
+    "exact": "mortar",
+    "suffix": " with pestle and liquid nitrogen",
+    "start": 8300,
+    "end": 8306,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 8306,
+            "type": "TextPositionSelector",
+            "start": 8300
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "mortar",
+            "prefix": "um ≥ 50 mg:a.   Grind sample in ",
+            "suffix": " with pestle and liquid nitrogen"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "fTqNCArtEeuZv6urxGLTYQ",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "created": "2020-10-10T11:41:08",
+    "updated": "2020-10-10T11:41:08",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "and mycelium ≥ 50 mg:a.   Grind ",
+    "exact": "sample",
+    "suffix": " in mortar with pestle and liqui",
+    "start": 8290,
+    "end": 8296,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol3634.pdf",
+        "selector": [
+          {
+            "end": 8296,
+            "type": "TextPositionSelector",
+            "start": 8290
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "sample",
+            "prefix": "and mycelium ≥ 50 mg:a.   Grind ",
+            "suffix": " in mortar with pestle and liqui"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  }
+]

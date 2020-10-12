@@ -1,0 +1,35 @@
+@prefix this: <https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=10#RAjHUD3cgaA_so58viWEJ5Q63qnJcPHyjSZKrUBQF1GAU> .
+@prefix sub: <https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=10#RAjHUD3cgaA_so58viWEJ5Q63qnJcPHyjSZKrUBQF1GAU.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "The DNA pellet does not dry and dissolved immediately in 300 μl 1xTE, pH 8.0 at 55°C for 10-20 minutes." ;
+		sp:hasExperimentalInput "DNA pellet" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "DNA pellet" ;
+		bs:reagentUsed "1xTE" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:50:46"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:CBGV5gl-Eeu-jqO0wCuWkw , authority:ExkIXAl-EeuHFv8jSDDNgw , authority:Hza2egl-Eeu8FU8OUVWfsQ .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:50:46"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

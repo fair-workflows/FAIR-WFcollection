@@ -1,0 +1,36 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RAnv719g_r3UNWk1nY6ELPvRUH6ffK5sN5n_3VGYe707M> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RAnv719g_r3UNWk1nY6ELPvRUH6ffK5sN5n_3VGYe707M.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Add 100 μl of TE with 1% RNase to the tube containing the pellet. To resuspend, leave at 4 °Covernight, flick to resuspend and spin at 16,000 x g for 3 min before use. " ;
+		sp:hasExperimentalInput "pellet" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "pellet" ;
+		bs:labEquipmentUsed "tube" ;
+		bs:reagentUsed "1% RNase" , "TE" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T12:08:00"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:Pa7wsgrxEeu1z7v11wWL7Q , authority:RU3aDgrxEeu3xBOWsv-7Hw , authority:SjvThgrxEeu3xSM4JfUwzQ , authority:T0jwDArxEeuQrNvhdBqkEQ , authority:V5Vx_grxEeuxrZ8lUhED8A .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T12:08:00"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

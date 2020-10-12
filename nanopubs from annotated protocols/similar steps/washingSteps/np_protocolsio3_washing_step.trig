@@ -1,0 +1,35 @@
+@prefix this: <https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16#RAq522kEu-GHkC-JFazUuT9nSybEiBriMuSz-AZPQ5oRo> .
+@prefix sub: <https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=16#RAq522kEu-GHkC-JFazUuT9nSybEiBriMuSz-AZPQ5oRo.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Fashion a shepherd's crook from a glass pipette over a flame, fish out the clump of DNA in one piece and gently swirl it in a separate conical filled with 70% ethanol for 1 minute." ;
+		sp:hasExperimentalInput "DNA" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "DNA" ;
+		bs:reagentUsed "70% ethanol " .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:59:07"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:Mkeo9Al_Eeu99_f7Ow1cQA , authority:U0FZzgl_EeuG2_OhniH2qg , authority:XQajkgl_EeuSwHN61prq7w .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:59:07"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

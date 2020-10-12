@@ -1,0 +1,581 @@
+[
+  {
+    "id": "rxRnUAl6EeuSxCfvcyDcag",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+    "created": "2020-10-08T15:26:49",
+    "updated": "2020-10-08T15:26:49",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "+2In a 2 ml tube, add 800 uL of ",
+    "exact": "1,5x CTAB",
+    "suffix": " and 1 ul of Beta-mercaptoethano",
+    "start": 1237,
+    "end": 1246,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 39,
+            "startOffset": 30,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1246,
+            "type": "TextPositionSelector",
+            "start": 1237
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "1,5x CTAB",
+            "prefix": "+2In a 2 ml tube, add 800 uL of ",
+            "suffix": " and 1 ul of Beta-mercaptoethano"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "W3sEMgl6EeuG-RdyzrBgZw",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+    "created": "2020-10-08T15:24:28",
+    "updated": "2020-10-08T15:24:28",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "100mg) in liquid Nitrogen+2In a ",
+    "exact": "2 ml tube",
+    "suffix": ", add 800 uL of 1,5x CTAB and 1 ",
+    "start": 1212,
+    "end": 1221,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 14,
+            "startOffset": 5,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1221,
+            "type": "TextPositionSelector",
+            "start": 1212
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "2 ml tube",
+            "prefix": "100mg) in liquid Nitrogen+2In a ",
+            "suffix": ", add 800 uL of 1,5x CTAB and 1 "
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "WSR3_gl6EeuuVdMNurFrxQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+    "created": "2020-10-08T15:24:24",
+    "updated": "2020-10-08T15:24:24",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ial (100mg) in liquid Nitrogen+2",
+    "exact": "In a 2 ml tube, add 800 uL of 1,5x CTAB and 1 ul of Beta-mercaptoethanol to the ground leaf material",
+    "suffix": "Incubate 1 hour at 60-65 degrees",
+    "start": 1207,
+    "end": 1307,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 100,
+            "startOffset": 0,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 1307,
+            "type": "TextPositionSelector",
+            "start": 1207
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In a 2 ml tube, add 800 uL of 1,5x CTAB and 1 ul of Beta-mercaptoethanol to the ground leaf material",
+            "prefix": "ial (100mg) in liquid Nitrogen+2",
+            "suffix": "Incubate 1 hour at 60-65 degrees"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "V43Gogl6EeuyaKMm0F_kwg",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+    "created": "2020-10-08T15:24:22",
+    "updated": "2020-10-08T15:24:22",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "800 uL of 1,5x CTAB and 1 ul of ",
+    "exact": "Beta-mercaptoethanol",
+    "suffix": " to the ground leaf materialIncu",
+    "start": 1259,
+    "end": 1279,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 72,
+            "startOffset": 52,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[2]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1279,
+            "type": "TextPositionSelector",
+            "start": 1259
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Beta-mercaptoethanol",
+            "prefix": "800 uL of 1,5x CTAB and 1 ul of ",
+            "suffix": " to the ground leaf materialIncu"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "Vq_bYgl6EeuthaPX_P5eAA",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+    "created": "2020-10-08T15:24:20",
+    "updated": "2020-10-08T15:24:20",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " of Beta-mercaptoethanol to the ",
+    "exact": "ground leaf material",
+    "suffix": "Incubate 1 hour at 60-65 degrees",
+    "start": 1287,
+    "end": 1307,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=2",
+        "selector": [
+          {
+            "end": 1307,
+            "type": "TextPositionSelector",
+            "start": 1287
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "ground leaf material",
+            "prefix": " of Beta-mercaptoethanol to the ",
+            "suffix": "Incubate 1 hour at 60-65 degrees"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "ValpuAl6EeuzR-uk9eHK5g",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=10",
+    "created": "2020-10-08T15:24:19",
+    "updated": "2020-10-08T15:24:19",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " minutes in vacuum centrifuge+10",
+    "exact": "Dissolve pallet in 1x TE (10 mM Tris, pH8, 1 mM EDTA)",
+    "suffix": "+\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+    "start": 1959,
+    "end": 2012,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=10",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 53,
+            "startOffset": 0,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 2012,
+            "type": "TextPositionSelector",
+            "start": 1959
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Dissolve pallet in 1x TE (10 mM Tris, pH8, 1 mM EDTA)",
+            "prefix": " minutes in vacuum centrifuge+10",
+            "suffix": "+\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "VOTUcgl6Eeu7-tPff6yy3g",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=10",
+    "created": "2020-10-08T15:24:17",
+    "updated": "2020-10-08T15:24:17",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "centrifuge+10Dissolve pallet in ",
+    "exact": "1x TE",
+    "suffix": " (10 mM Tris, pH8, 1 mM EDTA)+\n\t",
+    "start": 1978,
+    "end": 1983,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=10",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 24,
+            "startOffset": 19,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 1983,
+            "type": "TextPositionSelector",
+            "start": 1978
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "1x TE",
+            "prefix": "centrifuge+10Dissolve pallet in ",
+            "suffix": " (10 mM Tris, pH8, 1 mM EDTA)+\n\t"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "Udkz9Al6Eeu7TTueGxp4RA",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=10",
+    "created": "2020-10-08T15:24:12",
+    "updated": "2020-10-08T15:24:12",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "in vacuum centrifuge+10Dissolve ",
+    "exact": "pallet",
+    "suffix": " in 1x TE (10 mM Tris, pH8, 1 mM",
+    "start": 1968,
+    "end": 1974,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=10",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 15,
+            "startOffset": 9,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[10]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 1974,
+            "type": "TextPositionSelector",
+            "start": 1968
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pallet",
+            "prefix": "in vacuum centrifuge+10Dissolve ",
+            "suffix": " in 1x TE (10 mM Tris, pH8, 1 mM"
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "U7mgbgl6EeuFKfMpFYUUzA",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=1",
+    "created": "2020-10-08T15:24:15",
+    "updated": "2020-10-08T15:24:15",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "rozen plant material (100mg) in ",
+    "exact": "liquid Nitrogen",
+    "suffix": "+2In a 2 ml tube, add 800 uL of ",
+    "start": 1190,
+    "end": 1205,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 54,
+            "startOffset": 39,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1205,
+            "type": "TextPositionSelector",
+            "start": 1190
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "liquid Nitrogen",
+            "prefix": "rozen plant material (100mg) in ",
+            "suffix": "+2In a 2 ml tube, add 800 uL of "
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "UuAxdgl6EeuISU_tHFr2Ng",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=1",
+    "created": "2020-10-08T15:24:14",
+    "updated": "2020-10-08T15:24:14",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "0 ml NaCl (5M) 290 ml H2O1Grind ",
+    "exact": "frozen plant material",
+    "suffix": " (100mg) in liquid Nitrogen+2In ",
+    "start": 1157,
+    "end": 1178,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 27,
+            "startOffset": 6,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]/hypothesis-highlight[1]"
+          },
+          {
+            "end": 1178,
+            "type": "TextPositionSelector",
+            "start": 1157
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "frozen plant material",
+            "prefix": "0 ml NaCl (5M) 290 ml H2O1Grind ",
+            "suffix": " (100mg) in liquid Nitrogen+2In "
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  },
+  {
+    "id": "CjAZOAl5Eeupmbu4XbL6XQ",
+    "authority": "hypothes.is",
+    "url": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=1",
+    "created": "2020-10-08T15:15:03",
+    "updated": "2020-10-08T15:15:03",
+    "title": "DNA extraction from plants",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "mM) 140 ml NaCl (5M) 290 ml H2O1",
+    "exact": "Grind frozen plant material (100mg) in liquid Nitrogen",
+    "suffix": "+2In a 2 ml tube, add 800 uL of ",
+    "start": 1151,
+    "end": 1205,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=1",
+        "selector": [
+          {
+            "type": "RangeSelector",
+            "endOffset": 54,
+            "startOffset": 0,
+            "endContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]",
+            "startContainer": "/main[1]/section[1]/section[2]/section[2]/section[3]/section[1]/div[1]/section[1]/section[1]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]"
+          },
+          {
+            "end": 1205,
+            "type": "TextPositionSelector",
+            "start": 1151
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Grind frozen plant material (100mg) in liquid Nitrogen",
+            "prefix": "mM) 140 ml NaCl (5M) 290 ml H2O1",
+            "suffix": "+2In a 2 ml tube, add 800 uL of "
+          }
+        ]
+      }
+    ],
+    "document": {
+      "title": [
+        "DNA extraction from plants"
+      ]
+    }
+  }
+]

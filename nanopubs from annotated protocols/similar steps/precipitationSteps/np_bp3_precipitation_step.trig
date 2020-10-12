@@ -1,0 +1,33 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RAshoF4XEtw6BtXGfUXueq9DhXL3qRK0fywYYNu3Il9Co> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RAshoF4XEtw6BtXGfUXueq9DhXL3qRK0fywYYNu3Il9Co.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Pipet 450 μl  of supernatant (doing your best to avoid any loose tissue) (Figure 3) to a new tube and add 350 μl of isopropanol. Mix by inverting." ;
+		a bpmn:manualTask ;
+		bs:labEquipmentUsed " tube" ;
+		bs:reagentUsed "isopropanol" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T12:01:05"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:Ro89AArwEeu3v1N9xZ1XgA , authority:Tw8o3ArwEeuPendCW1gW_Q , authority:VvwvfArwEeuOfBP7UAYewQ .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T12:01:05"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

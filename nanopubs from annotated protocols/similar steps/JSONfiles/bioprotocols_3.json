@@ -1,0 +1,930 @@
+[
+  {
+    "id": "V5Vx_grxEeuxrZ8lUhED8A",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:08:43",
+    "updated": "2020-10-10T12:08:43",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "Nase to the tube containing the ",
+    "exact": "pellet",
+    "suffix": ". To resuspend, leave at 4 °Cove",
+    "start": 5788,
+    "end": 5794,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5794,
+            "type": "TextPositionSelector",
+            "start": 5788
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pellet",
+            "prefix": "Nase to the tube containing the ",
+            "suffix": ". To resuspend, leave at 4 °Cove"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "T0jwDArxEeuQrNvhdBqkEQ",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:08:29",
+    "updated": "2020-10-10T12:08:29",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "0 μl of TE with 1% RNase to the ",
+    "exact": "tube",
+    "suffix": " containing the pellet. To resus",
+    "start": 5768,
+    "end": 5772,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5772,
+            "type": "TextPositionSelector",
+            "start": 5768
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tube",
+            "prefix": "0 μl of TE with 1% RNase to the ",
+            "suffix": " containing the pellet. To resus"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "SjvThgrxEeu3xSM4JfUwzQ",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:08:21",
+    "updated": "2020-10-10T12:08:21",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ight.11.  Add 100 μl of TE with ",
+    "exact": "1% RNase",
+    "suffix": " to the tube containing the pell",
+    "start": 5752,
+    "end": 5760,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5760,
+            "type": "TextPositionSelector",
+            "start": 5752
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "1% RNase",
+            "prefix": "ight.11.  Add 100 μl of TE with ",
+            "suffix": " to the tube containing the pell"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "RU3aDgrxEeu3xBOWsv-7Hw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:08:13",
+    "updated": "2020-10-10T12:08:13",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "ts overnight.11.  Add 100 μl of ",
+    "exact": "TE",
+    "suffix": " with 1% RNase to the tube conta",
+    "start": 5744,
+    "end": 5746,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5746,
+            "type": "TextPositionSelector",
+            "start": 5744
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "TE",
+            "prefix": "ts overnight.11.  Add 100 μl of ",
+            "suffix": " with 1% RNase to the tube conta"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "Pa7wsgrxEeu1z7v11wWL7Q",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:08:00",
+    "updated": "2020-10-10T12:08:00",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "eave the pellets overnight.11.  ",
+    "exact": "Add 100 μl of TE with 1% RNase to the tube containing the pellet. To resuspend, leave at 4 °Covernight, flick to resuspend and spin at 16,000 x g for 3 min before use. ",
+    "suffix": "Use 0.5-1 μl in a 20 μl Copyrigh",
+    "start": 5730,
+    "end": 5898,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5898,
+            "type": "TextPositionSelector",
+            "start": 5730
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Add 100 μl of TE with 1% RNase to the tube containing the pellet. To resuspend, leave at 4 °Covernight, flick to resuspend and spin at 16,000 x g for 3 min before use. ",
+            "prefix": "eave the pellets overnight.11.  ",
+            "suffix": "Use 0.5-1 μl in a 20 μl Copyrigh"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "GAp8HgrxEeuEL9McF-_dfQ",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:06:57",
+    "updated": "2020-10-10T12:06:57",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "o the bottom of the tube with a ",
+    "exact": "pipette tip",
+    "suffix": ". It is fine to leave the pellet",
+    "start": 5670,
+    "end": 5681,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5681,
+            "type": "TextPositionSelector",
+            "start": 5670
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pipette tip",
+            "prefix": "o the bottom of the tube with a ",
+            "suffix": ". It is fine to leave the pellet"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "Eri4wArxEeuUdu_i5qbpZg",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:06:48",
+    "updated": "2020-10-10T12:06:48",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "sh it back to the bottom of the ",
+    "exact": "tube",
+    "suffix": " with a pipette tip. It is fine ",
+    "start": 5658,
+    "end": 5662,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5662,
+            "type": "TextPositionSelector",
+            "start": 5658
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tube",
+            "prefix": "sh it back to the bottom of the ",
+            "suffix": " with a pipette tip. It is fine "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "CGOacArxEeua-ofKmBSEDg",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:06:30",
+    "updated": "2020-10-10T12:06:30",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " of ethanol are visible. If the ",
+    "exact": "pellet",
+    "suffix": " slides, push it back to the bot",
+    "start": 5609,
+    "end": 5615,
+    "tags": [
+      "sample",
+      "output"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5615,
+            "type": "TextPositionSelector",
+            "start": 5609
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "pellet",
+            "prefix": " of ethanol are visible. If the ",
+            "suffix": " slides, push it back to the bot"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "6RPp1grwEeuQPkszaQNYFQ",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:05:38",
+    "updated": "2020-10-10T12:05:38",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "or invisible.10.  Add 100 μl of ",
+    "exact": "70% EtOH",
+    "suffix": ", vortex briefly. Spin at 16,000",
+    "start": 5493,
+    "end": 5501,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5501,
+            "type": "TextPositionSelector",
+            "start": 5493
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "70% EtOH",
+            "prefix": "or invisible.10.  Add 100 μl of ",
+            "suffix": ", vortex briefly. Spin at 16,000"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "4lO9ugrwEeuZzb9s76iZCA",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:05:27",
+    "updated": "2020-10-10T12:05:27",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": ", black green or invisible.10.  ",
+    "exact": "Add 100 μl of 70% EtOH, vortex briefly. Spin at 16,000 x g for 5 min. Invert to dry until no drops of ethanol are visible. If the pellet slides, push it back to the bottom of the tube with a pipette tip. It is fine to leave the pellets overnight.",
+    "suffix": "11.  Add 100 μl of TE with 1% RN",
+    "start": 5479,
+    "end": 5725,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 5725,
+            "type": "TextPositionSelector",
+            "start": 5479
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Add 100 μl of 70% EtOH, vortex briefly. Spin at 16,000 x g for 5 min. Invert to dry until no drops of ethanol are visible. If the pellet slides, push it back to the bottom of the tube with a pipette tip. It is fine to leave the pellets overnight.",
+            "prefix": ", black green or invisible.10.  ",
+            "suffix": "11.  Add 100 μl of TE with 1% RN"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "VvwvfArwEeuOfBP7UAYewQ",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:01:33",
+    "updated": "2020-10-10T12:01:33",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "to a new tube and add 350 μl of ",
+    "exact": "isopropanol",
+    "suffix": ". Mix by inverting.Copyright © 2",
+    "start": 4881,
+    "end": 4892,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 4892,
+            "type": "TextPositionSelector",
+            "start": 4881
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "isopropanol",
+            "prefix": "to a new tube and add 350 μl of ",
+            "suffix": ". Mix by inverting.Copyright © 2"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "Tw8o3ArwEeuPendCW1gW_Q",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:01:19",
+    "updated": "2020-10-10T12:01:19",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "oose tissue) (Figure 3) to a new",
+    "exact": " tube",
+    "suffix": " and add 350 μl of isopropanol. ",
+    "start": 4857,
+    "end": 4862,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 4862,
+            "type": "TextPositionSelector",
+            "start": 4857
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": " tube",
+            "prefix": "oose tissue) (Figure 3) to a new",
+            "suffix": " and add 350 μl of isopropanol. "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "Ro89AArwEeu3v1N9xZ1XgA",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:01:05",
+    "updated": "2020-10-10T12:01:05",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "reak  the  microfuge tubes.8.   ",
+    "exact": "Pipet 450 μl  of supernatant (doing your best to avoid any loose tissue) (Figure 3) to a new tube and add 350 μl of isopropanol. Mix by inverting.",
+    "suffix": "Copyright © 2017 The Authors; ex",
+    "start": 4765,
+    "end": 4911,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 4911,
+            "type": "TextPositionSelector",
+            "start": 4765
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Pipet 450 μl  of supernatant (doing your best to avoid any loose tissue) (Figure 3) to a new tube and add 350 μl of isopropanol. Mix by inverting.",
+            "prefix": "reak  the  microfuge tubes.8.   ",
+            "suffix": "Copyright © 2017 The Authors; ex"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "JnCUVgrwEeuIaleCGmXzdg",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:00:11",
+    "updated": "2020-10-10T12:00:11",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "nto each tube and add 500 μl of ",
+    "exact": "extraction buffer",
+    "suffix": ". Less is more! The tissue will ",
+    "start": 2997,
+    "end": 3014,
+    "tags": [
+      "reagent"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 3014,
+            "type": "TextPositionSelector",
+            "start": 2997
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "extraction buffer",
+            "prefix": "nto each tube and add 500 μl of ",
+            "suffix": ". Less is more! The tissue will "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "ICZzuArwEeuPEfc3jRvIaw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T12:00:01",
+    "updated": "2020-10-10T12:00:01",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "cm of leaf tip tissue into each ",
+    "exact": "tube",
+    "suffix": " and add 500 μl of extraction bu",
+    "start": 2974,
+    "end": 2978,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 2978,
+            "type": "TextPositionSelector",
+            "start": 2974
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tube",
+            "prefix": "cm of leaf tip tissue into each ",
+            "suffix": " and add 500 μl of extraction bu"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "Gc1JGgrwEeu1af9R3KrZFw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T11:59:50",
+    "updated": "2020-10-10T11:59:50",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "repping.2.   Collect ~2.0 cm of ",
+    "exact": "leaf tip tissue",
+    "suffix": " into each tube and add 500 μl o",
+    "start": 2948,
+    "end": 2963,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 2963,
+            "type": "TextPositionSelector",
+            "start": 2948
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "leaf tip tissue",
+            "prefix": "repping.2.   Collect ~2.0 cm of ",
+            "suffix": " into each tube and add 500 μl o"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "_TPlAgrvEeuvQQfyO963jA",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T11:59:02",
+    "updated": "2020-10-10T11:59:02",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "t a year prior to prepping.2.   ",
+    "exact": "Collect ~2.0 cm of leaf tip tissue into each tube and add 500 μl of extraction buffer. Less is more! The tissue will grind better if the leaf is no longer than the length of the tube (Figure 1).  The maximum number of samples for one run is 48 samples.",
+    "suffix": "Figure 1. Tube containing approp",
+    "start": 2929,
+    "end": 3181,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 3181,
+            "type": "TextPositionSelector",
+            "start": 2929
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Collect ~2.0 cm of leaf tip tissue into each tube and add 500 μl of extraction buffer. Less is more! The tissue will grind better if the leaf is no longer than the length of the tube (Figure 1).  The maximum number of samples for one run is 48 samples.",
+            "prefix": "t a year prior to prepping.2.   ",
+            "suffix": "Figure 1. Tube containing approp"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "F6e5oArvEeuFmPeJtcl-2g",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T11:52:37",
+    "updated": "2020-10-10T11:52:37",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "of choice. Use 4 beads/tube for ",
+    "exact": "leaf tissue",
+    "suffix": " of grass seedlings less than 4 ",
+    "start": 2647,
+    "end": 2658,
+    "tags": [
+      "sample",
+      "input"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 2658,
+            "type": "TextPositionSelector",
+            "start": 2647
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "leaf tissue",
+            "prefix": "of choice. Use 4 beads/tube for ",
+            "suffix": " of grass seedlings less than 4 "
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "BpweTgrvEeuUizNDunZ5pw",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T11:52:08",
+    "updated": "2020-10-10T11:52:08",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "me beads to each tube using the ",
+    "exact": "small spoon",
+    "suffix": " provided with the beads or your",
+    "start": 2565,
+    "end": 2576,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 2576,
+            "type": "TextPositionSelector",
+            "start": 2565
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "small spoon",
+            "prefix": "me beads to each tube using the ",
+            "suffix": " provided with the beads or your"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "_y0tJAruEeu0JcPzk0sONQ",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T11:51:56",
+    "updated": "2020-10-10T11:51:56",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "oad 3.2 mm chrome beads to each ",
+    "exact": "tube ",
+    "suffix": "using the small spoon provided w",
+    "start": 2550,
+    "end": 2555,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 2555,
+            "type": "TextPositionSelector",
+            "start": 2550
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "tube ",
+            "prefix": "oad 3.2 mm chrome beads to each ",
+            "suffix": "using the small spoon provided w"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "-Of2TAruEeuY0TthznskJA",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T11:51:45",
+    "updated": "2020-10-10T11:51:45",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": " 749521-1500)Procedure1.   Load ",
+    "exact": "3.2 mm chrome beads ",
+    "suffix": "to each tube using the small spo",
+    "start": 2522,
+    "end": 2542,
+    "tags": [
+      "equipment"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 2542,
+            "type": "TextPositionSelector",
+            "start": 2522
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "3.2 mm chrome beads ",
+            "prefix": " 749521-1500)Procedure1.   Load ",
+            "suffix": "to each tube using the small spo"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  },
+  {
+    "id": "8Zjg6gruEeuBviu20ahRCQ",
+    "authority": "hypothes.is",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "created": "2020-10-10T11:51:33",
+    "updated": "2020-10-10T11:51:33",
+    "title": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+    "refs": [],
+    "isReply": false,
+    "isPagenote": false,
+    "user": "iannotate",
+    "displayName": null,
+    "text": "",
+    "prefix": "mber: 749521-1500)Procedure1.   ",
+    "exact": "Load 3.2 mm chrome beads to each tube using the small spoon provided with the beads or yourmethod of choice. Use 4 beads/tube for leaf tissue of grass seedlings less than 4 weeks after germination  and  5  beads  for  tissue  of  mature  leaves  of  any  age  as  long  as  they  are  not  senescent. Yo u may collect tissue in advance and store it at -20 °C or -80 °C for at least a year prior to prepping.",
+    "suffix": "2.   Collect ~2.0 cm of leaf tip",
+    "start": 2517,
+    "end": 2924,
+    "tags": [
+      "step"
+    ],
+    "group": "__world__",
+    "target": [
+      {
+        "source": "https://bio-protocol.org/pdf/Bio-protocol2782.pdf",
+        "selector": [
+          {
+            "end": 2924,
+            "type": "TextPositionSelector",
+            "start": 2517
+          },
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Load 3.2 mm chrome beads to each tube using the small spoon provided with the beads or yourmethod of choice. Use 4 beads/tube for leaf tissue of grass seedlings less than 4 weeks after germination  and  5  beads  for  tissue  of  mature  leaves  of  any  age  as  long  as  they  are  not  senescent. Yo u may collect tissue in advance and store it at -20 °C or -80 °C for at least a year prior to prepping.",
+            "prefix": "mber: 749521-1500)Procedure1.   ",
+            "suffix": "2.   Collect ~2.0 cm of leaf tip"
+          }
+        ]
+      }
+    ],
+    "document": {}
+  }
+]

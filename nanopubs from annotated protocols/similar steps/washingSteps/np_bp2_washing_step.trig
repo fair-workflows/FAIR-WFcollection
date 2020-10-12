@@ -1,0 +1,33 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol3634.pdf#RAaoqtorgF_6jIYyxh_uzArlZ1XcftbtJS3DDGq6K18JE> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol3634.pdf#RAaoqtorgF_6jIYyxh_uzArlZ1XcftbtJS3DDGq6K18JE.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Wash the pellet: Pour out the supernatant, and remove remaining supernatant by tapping the tubes upside down on a paper towel. Add 200 μl of 70% ethanol, and centrifuge at 21,000 x gfor 5 min.Note: Consider local regulations for correct handling of isopropanol waste." ;
+		a bpmn:manualTask ;
+		bs:labEquipmentUsed "paper towel" , "tubes" ;
+		bs:reagentUsed "70% ethanol" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T11:45:13"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:DuAwUAruEeu36G-VPuxu0w , authority:GaB9VgruEeuPvqvQ44xc2A , authority:IU2YmgruEeuFci-ZpT8PFw , authority:Ji6l8gruEeuT_RvkgdbKyQ .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T11:45:13"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

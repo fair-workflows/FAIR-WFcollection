@@ -1,0 +1,36 @@
+@prefix this: <https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1#RAShvSpC_BfV2eOOCcfzAqAErkRLYJlxk985v_F1r51Aw> .
+@prefix sub: <https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=1#RAShvSpC_BfV2eOOCcfzAqAErkRLYJlxk985v_F1r51Aw.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Eppendorf Safe-Lock microcentrifuge tube with tissue sample and glass ball (6 mm) freeze at -80°C, grind in the MM300 Mixer Mill for 2 min at 30 Hz. Alternatively, grind the sample in lysis solution." ;
+		sp:hasExperimentalInput "tissue sample" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "tissue sample" ;
+		bs:labEquipmentUsed "Eppendorf Safe-Lock microcentrifuge tube" , "MM300 Mixer Mill" , "glass ball" ;
+		bs:reagentUsed "lysis solution" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:34:39"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:1my-qgl7Eeuz3fex5g5RkQ , authority:5UUh4gl7Eeuuu0-OuwR-DQ , authority:8nQjBAl7EeutmJcyuKd3Sg , authority:AdG0EAl8EeuCEduDHzhh9Q , authority:aE1Vrgl9Eeuf7zNAsvuTfA , authority:x33c0Al7Eeuzxxtf-Arvtg .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:34:39"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}
