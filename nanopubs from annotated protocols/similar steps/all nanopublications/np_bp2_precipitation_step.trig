@@ -1,0 +1,33 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol3634.pdf#RAJZnLC1qV398OHU9srmTpsK_Gq_WrUd8o02Md-wC00zI> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol3634.pdf#RAJZnLC1qV398OHU9srmTpsK_Gq_WrUd8o02Md-wC00zI.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Precipitate:  Transfer  ca.  0.7  volume  of  supernatant  into  a  new  tube,  add  0.85  volume  of  isopropanol  (room  temperature),  and  mix  by  inversion  for  20  s.  Centrifuge  at  21,000  x  g  for 10 min.Note: Minimize transferring any debris while pipetting the supernatant." ;
+		a bpmn:manualTask ;
+		bs:labEquipmentUsed "tube" ;
+		bs:reagentUsed "isopropanol " .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T11:43:56"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:4QMypArtEeuxpPsypa_mTg , authority:6McNMArtEeu359MCI3J6Eg , authority:74LqSgrtEeuUh3sLMcU07w .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T11:43:56"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

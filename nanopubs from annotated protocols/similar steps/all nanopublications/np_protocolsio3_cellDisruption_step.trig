@@ -1,0 +1,32 @@
+@prefix this: <https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2#RAetOdhH45PnnwNwYsc73reX06X28YY5sOpHdWx0X9j0c> .
+@prefix sub: <https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=2#RAetOdhH45PnnwNwYsc73reX06X28YY5sOpHdWx0X9j0c.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Add 15 ul of CTAB buffer, plus 30 ul of beta-mercaptoethanol (BME), plus 200ul NEB Proteinase K (800 U / ml)" ;
+		a bpmn:manualTask ;
+		bs:reagentUsed "CTAB buffer" , "NEB Proteinase K" , "beta-mercaptoethanol (BME)" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:57:02"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:59N4rAl-EeumYcsjFQoUIA , authority:704rwgl-Eeu9I09D4KjpzA , authority:9v4J0gl-EeuS3DPAxqh7LQ , authority:B3O2wgl_EeuUW2_8Brgktw .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:57:02"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

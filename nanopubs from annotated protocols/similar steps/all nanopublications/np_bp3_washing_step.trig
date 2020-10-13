@@ -1,0 +1,36 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RAiTIcpkrZ2Tg5lW0TmzrF8f9r3Qb34INFs0zigfqr0aU> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol2782.pdf#RAiTIcpkrZ2Tg5lW0TmzrF8f9r3Qb34INFs0zigfqr0aU.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Add 100 μl of 70% EtOH, vortex briefly. Spin at 16,000 x g for 5 min. Invert to dry until no drops of ethanol are visible. If the pellet slides, push it back to the bottom of the tube with a pipette tip. It is fine to leave the pellets overnight." ;
+		sp:hasExperimentalOutput "pellet" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "pellet" ;
+		bs:labEquipmentUsed "pipette tip" , "tube" ;
+		bs:reagentUsed "70% EtOH" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T12:05:27"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:4lO9ugrwEeuZzb9s76iZCA , authority:6RPp1grwEeuQPkszaQNYFQ , authority:CGOacArxEeua-ofKmBSEDg , authority:Eri4wArxEeuUdu_i5qbpZg , authority:GAp8HgrxEeuEL9McF-_dfQ .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T12:05:27"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

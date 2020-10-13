@@ -1,0 +1,36 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol2906.pdf#RAOAV4Xvirjws1K7v-IQbc-OdPeedNUijaoWJRRBuFkCA> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol2906.pdf#RAOAV4Xvirjws1K7v-IQbc-OdPeedNUijaoWJRRBuFkCA.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Add 30 μl ultrapure water or TE to  the  tube  and  let  it  stand  for  10  min  to  dissolve  the  gDNA  sample.Note: Dissolve the sample in ultrapure water for subsequent DNA sequencing. For long long-term storage, dissolvethe sample in 30 μl TE." ;
+		sp:hasExperimentalOutput "gDNA  sample" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "gDNA  sample" ;
+		bs:labEquipmentUsed "tube" ;
+		bs:reagentUsed "TE" , "ultrapure water" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T11:28:25"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:FM8l9ArsEeuYzn8hIqEO4w , authority:SvD1kArsEeulrBNRzg2wWw , authority:tfzuMArrEeuVxm-RDBKtPw , authority:vL_GZgrrEeuPtW-TPR_z2Q , authority:wrkpSgrrEeuYza8AO8381w .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T11:28:25"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

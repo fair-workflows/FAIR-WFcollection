@@ -1,0 +1,35 @@
+@prefix this: <https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=10#RAsJsgwQEn7TE7QBvABDHXxIkQaaqNHoy78v6cdk1y-E8> .
+@prefix sub: <https://www.protocols.io/view/DNA-extraction-from-plants-eusbewe?step=10#RAsJsgwQEn7TE7QBvABDHXxIkQaaqNHoy78v6cdk1y-E8.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Dissolve pallet in 1x TE (10 mM Tris, pH8, 1 mM EDTA)" ;
+		sp:hasExperimentalInput "pallet" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "pallet" ;
+		bs:reagentUsed "1x TE" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:24:19"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:Udkz9Al6Eeu7TTueGxp4RA , authority:VOTUcgl6Eeu7-tPff6yy3g , authority:ValpuAl6EeuzR-uk9eHK5g .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:24:19"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

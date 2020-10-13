@@ -1,0 +1,36 @@
+@prefix this: <https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1#RANnp_iBgiu8afB8MSOvSrGKmQgraP6IPmUgu8E2odwmc> .
+@prefix sub: <https://www.protocols.io/view/modified-samberg-phenol-chloforom-hmw-dna-prep-for-kpwcvpe?step=1#RANnp_iBgiu8afB8MSOvSrGKmQgraP6IPmUgu8E2odwmc.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Grind 3.5 g of young tissue in liquid nitrogen with a mortar and pestle" ;
+		sp:hasExperimentalInput "young tissue" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "young tissue" ;
+		bs:labEquipmentUsed "mortar " , "pestle" ;
+		bs:reagentUsed "liquid nitrogen" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:54:43"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:lV769gl-EeuX_KOGLT09HQ , authority:n5ZA7Al-EeuhBFND_7AJGw , authority:p6KLsAl-EeuwB49csxC1vQ , authority:sKqyeAl-Eeu-lS-eI6I1sQ , authority:toQp1gl-EeuyiPee67a45g .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:54:43"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

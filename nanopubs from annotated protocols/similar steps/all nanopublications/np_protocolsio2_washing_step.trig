@@ -1,0 +1,35 @@
+@prefix this: <https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=8#RAXdGwzRqJDRcidtsBTuBwGNtFXE6eTZIRP-cR8tUepc4> .
+@prefix sub: <https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=8#RAXdGwzRqJDRcidtsBTuBwGNtFXE6eTZIRP-cR8tUepc4.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Discard supernatant and wash the pellet by adding 1.8 ml 70% ethanol, vortex thoroughly." ;
+		sp:hasExperimentalInput "pellet" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "pellet" ;
+		bs:reagentUsed "70% ethanol" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:49:21"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:1S0GEAl9EeuBaEf2cXJV_A , authority:4kiCrAl9Eeu-jaOYYFLsqQ , authority:8GyYeAl9EeuDM-dBKcGogw .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:49:21"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

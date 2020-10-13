@@ -1,0 +1,36 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol2906.pdf#RABdhmQKXOc9jQMb6-pmf0Wj73aJpCHCvnQCLGYwvx8tM> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol2906.pdf#RABdhmQKXOc9jQMb6-pmf0Wj73aJpCHCvnQCLGYwvx8tM.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Harvest 2-3 freshly picked pinnae (total wet mass: 10-20 mg) and grind in liquid nitrogen to fine powder using the thoroughly cooled mortar and pestle. And then transfer the powder into a tube.Note: All equipment should be fully cooled in liquid nitrogen during this procedure. Be careful not to let the liquid nitrogen dry while grinding, and the grinded tissue must remain frozen prior to  extraction with CTAB solution. Accidental thawing may result in DNA degradation." ;
+		sp:hasExperimentalInput "pinnae" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "pinnae" ;
+		bs:labEquipmentUsed "mortar" , "pestle" , "tube" ;
+		bs:reagentUsed "liquid nitrogen" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T11:17:38"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:NI5J0ArqEeu3h4ueU_amFw , authority:QLX9DArqEeuqrespSDQClg , authority:SmdKpArqEeufTGcef147Tg , authority:UmttogrqEeuT8lv3_FrYvw , authority:V_H5igrqEeulqbN959Ouew , authority:Xz8beArqEeua51vXukMGuw .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T11:17:38"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

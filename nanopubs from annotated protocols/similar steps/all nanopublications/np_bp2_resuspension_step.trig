@@ -1,0 +1,37 @@
+@prefix this: <https://bio-protocol.org/pdf/Bio-protocol3634.pdf#RAxkq8gkpbSVLHC04YR18cTfPK3xnHh2DdcjoVSIb6i8Y> .
+@prefix sub: <https://bio-protocol.org/pdf/Bio-protocol3634.pdf#RAxkq8gkpbSVLHC04YR18cTfPK3xnHh2DdcjoVSIb6i8Y.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sp: <http://purl.org/net/SMARTprotocol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Resuspension:  Dissolve  the  pellet  in  20-50  μl  of  TE  buffer  or  nuclease  free  water.  Vortex  to  dissolve if needed, and centrifuge briefly to collect any droplets to the bottom of the tube. Store DNA samples at -20 °C or -80 °C until used.Note: If  the  DNA  pellet  is  not  colorless  or  white  post  70%  ethanol  wash,  add  20-50 μl  of  TE  buffer or nuclease-free water to resuspend the DNA without disturbing the pellet. Gently pipet the liquid a few times in the tube and collect the supernatant as DNA for downstream processes. Keep the pellet until DNA is quantified. Use the DNA for PCR-based detection, or store in freezer until used." ;
+		sp:hasExperimentalInput "ellet  " ;
+		sp:hasExperimentalOutput "DNA samples" ;
+		a bpmn:manualTask ;
+		bs:bioSampleUsed "DNA samples" , "ellet  " ;
+		bs:labEquipmentUsed "tube" ;
+		bs:reagentUsed "TE  buffer " , "nuclease  free  water." .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-10T11:46:28"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:O7EJagruEeu0JCMMyUBKTA , authority:RJUz-AruEeuIYT9sE2ZPVg , authority:S60_3AruEeu3kbeUugb_VA , authority:UUzpBgruEeuFlkNPi47ITg , authority:XGj2GAruEeuvPuNBf4a2SA , authority:ZPtpUAruEeuUccNOKXH8Iw .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-10T11:46:28"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}

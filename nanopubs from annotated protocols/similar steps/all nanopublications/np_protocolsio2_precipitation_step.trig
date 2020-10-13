@@ -1,0 +1,33 @@
+@prefix this: <https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=6#RAn8ssZLTGHzi0zvYEBm5gH1aSIf_7W2OmNr1ktPs7A-k> .
+@prefix sub: <https://www.protocols.io/view/universal-dna-isolation-protocol-z2jf8cn?step=6#RAn8ssZLTGHzi0zvYEBm5gH1aSIf_7W2OmNr1ktPs7A-k.> .
+@prefix authority: <https://hypothes.is/a/> .
+@prefix bpmn: <https://www.omg.org/spec/BPMN/> .
+@prefix bs: <https://bioschemas.org/profiles/LabProtocol/0.4-DRAFT-2020_07_23/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubInfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+	sub:step dc:description "Transfer the entire clarified upper aqueous layer to a new 2 ml microcentrifuge tube which contains an equal or half volume of 2-propanol and vortex thoroughly." ;
+		a bpmn:manualTask ;
+		bs:labEquipmentUsed "2 ml microcentrifuge tube" ;
+		bs:reagentUsed "2-propanol" .
+}
+
+sub:provenance {
+	sub:assertion prov:generatedAtTime "2020-10-08T15:47:30"^^xsd:dateTime ;
+		prov:wasDerivedFrom authority:ktXSsAl9EeutFEsoNQyOgw , authority:n6pJxgl9EeuGyyN9kxjq7A , authority:qXwPFgl9EeuZol841cJ1mw .
+}
+
+sub:pubInfo {
+	this: prov:generatedAtTime "2020-10-08T15:47:30"^^xsd:dateTime ;
+		prov:wasAttributedTo authority:iannotate .
+}
